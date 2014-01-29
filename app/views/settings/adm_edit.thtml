@@ -1,0 +1,25 @@
+<form action="<?= $html->url('/adm/settings/edit') ?>" method="post" class="editdata">
+	<p> 
+		<span class="label">Contact Email</span>
+		<span class="item"><?= $html->input('Setting/email') ?></span>
+		<?= $html->tagErrorMsg('Setting/email', 'This field is required') ?>
+	</p> 
+	<p> 
+		<span class="label">Password</span>
+		<span class="item"><?= $html->password('Setting/password') ?></span>
+		<?= $html->tagErrorMsg('Setting/password', 'This field is required') ?>
+	</p> 
+	<p>
+		<span class="label">Home Image</span>
+		<span class="item">
+			<?= $html->selectTag('Setting/pattern_id', $patterns, null, array(), null, false, false) ?>
+		</span>
+	</p>
+	<p>
+		<?= $html->hidden('Setting/id') ?>
+		<span class="item"><?= $html->submit('Save Changes') ?></span>
+	</p>
+</form>
+
+
+

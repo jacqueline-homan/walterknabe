@@ -1,0 +1,17 @@
+<h2 class="pagetitle">Custom Pattern: <?= $custompattern['Custompattern']['name'] ?></h2>
+
+<p class="adminlink">
+	<?= $html->link('add color','/adm/custompatterncolors/add/'.$custompattern_id) ?>
+</p>
+
+<div class="thumbs adminlink">
+	<? foreach($page as $pattern) { ?>
+		<div class="interior">
+		<img src="<?= $html->url('/'.$pattern['Custompatterncolor']['thumbpath']) ?>" /><br />
+		<?= $pattern['Custompatterncolor']['name'] ?><br />
+		<?= $html->link('edit','/adm/custompatterncolors/edit/'.$custompattern_id.'/'.$pattern['Custompatterncolor']['id']) ?> |
+		<?= $html->link('delete','/adm/custompatterncolors/delete/'.$custompattern_id.'/'.$pattern['Custompatterncolor']['id']) ?>
+		</div>
+	<? } ?>
+</div>
+

@@ -1,0 +1,26 @@
+<p class="filter">
+	1.) Select Background &nbsp;
+	2.) Select Pattern &nbsp;
+	<strong>3.) Select Color</strong>
+</p>
+
+
+<div class="thumbs">
+	<? foreach($page as $pattern) { ?>
+		<div class="interior">
+		<a href="<?= $html->url('/custompatterncolors/pick/'.$pattern['Custompatterncolor']['id']) ?>"><img src="<?= $html->url('/'.$pattern['Custompatterncolor']['thumbpath']) ?>" /></a>
+		</div>
+	<? } ?>
+</div>
+
+
+<div id="custompreview">
+	<em>Preview</em>
+	<div id="base">
+		<img src="<?= $html->url('/'.$prevbackground['Custombase']['filepath']) ?>" />
+	</div>
+	<div id="overlay">
+		<img src="<?= $html->url('/'.$prevpattern['Custompattern']['filepath']) ?>" />
+	</div>
+</div>
+

@@ -1,0 +1,31 @@
+<h2 class="pagetitle">Reorder</h2>
+
+<form action="<?= $html->url($formaction) ?>" method="post" class="editdata">
+	<table>
+		<? foreach($links as $each) { ?>
+			<tr>
+				<td>
+					<select name="displayorder_<?= $each['Custombase']['id'] ?>">
+						<? for($i=1; $i<=count($links); $i++) { ?>
+							<option value="<?= $i ?>"
+							<? if($i == $each['Custombase']['displayorder']) { echo "selected"; } ?>
+							><?= $i ?></option>
+						<? } ?>
+					</select>
+				</td>
+				<td><?= $each['Custombase']['name'] ?></td>
+			</tr>
+		<? } ?>
+		<tr>
+			<td></td>
+			<td>
+				<?= $html->submit('Save Changes') ?>
+			</td>
+		</tr>
+	</table>
+</form>
+
+
+<? //pr($links) ?>
+
+

@@ -1,0 +1,232 @@
+/*
+Theme Name: Walter Knabe Custom
+Theme URI: n/a
+Description: This is a custom WordPress theme designed exclusively for Walter Knabe
+Version: 1.0
+Author: Clay Mabbitt
+Author URI: http://www.silversquareinc.com
+Tags: custom, fixed width
+
+	The CSS, XHTML and design is created for Walter Knabe and is not available for use by any other parties.
+
+*/
+
+
+#wpmain {
+	background-color: #fff;
+	color: #000;
+	margin-top: 40px;
+	padding: 25px;
+}
+#wpmain a {
+	color: #b22e33;
+}
+#wpmain h2 a { color: #000; }
+#wpmain #content {
+	width: 560px;
+	float: left;
+}
+#sidebar {
+	width: 200px;
+	float: right;
+}
+
+
+
+h1, h2 { font-size: 2.2em; }
+h3 { font-size: 1.6em; }
+h4 { font-size: 1.4em; }
+
+#wpmain p {
+	margin: 5px 0 20px 0;
+	line-height: 140%;
+}
+#wpmain ol, #wpmain ul { margin: 5px 0 20px 25px; }
+#wpmain ol li, #wpmain ul li { margin-bottom: 5px; }
+#wpmain li li, #wpmain li p, #wpmain td p { font-size: 1.0em; }
+
+
+blockquote {
+	margin-left: 50px; margin-right: 25px;
+	border-left: 1px solid #e2dfd6;
+	padding-left: 15px;
+}
+
+
+
+/* SIDEBAR *******************************************************/
+#wpmain #sidebar ul, #wpmain #sidebar li {
+	list-style: none;
+	margin-left: 0;
+}
+#wpmain #sidebar ul ul li {
+	margin: 8px 0;
+}
+#wpmain #sidebar h4 {
+	font-weight: bold;
+	color: #7f8082;
+	font-size: 12pt;
+}
+#sidebar .widget {
+	margin-bottom: 40px;
+}
+
+
+
+.widget h4 { margin-top: 0; }
+.widget_categories h4 { display: none; }
+#sidebar .widget_categories .cat-item { font-size: 1.2em; }
+
+
+
+.post {
+	margin-bottom: 60px;
+}
+.poststamp {
+	font-size: 1.1em;
+	margin-bottom: 6px;
+	color: #777;
+}
+.postmetadata {
+	padding: 4px;
+	border: 1px solid #e2dfd6;
+	background-color: #eae8e1;
+	font-size: 1.1em;
+	margin-bottom: 40px;
+}
+#wpmain p.read-more { margin-top: 42px; }
+
+
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left;
+	}
+/* End Images */
+
+
+
+/* COMMENTS *******************************************************/
+h3#respond {
+	clear: both;
+	padding-top: 25px;
+}
+.commentlist {
+	list-style: none;
+}
+.commentlist li {
+	padding: 0 40px;
+	margin: 40px 0;
+}
+.commentlist li img {
+	float: left;
+	margin: 0 8px 4px 0;
+}
+.commentlist li .commentmetadata { 
+	margin-bottom: 12px;
+}
+
+#comment { 
+	width: 560px; height: 180px;
+}
+
+
+
+/* Captions */
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+/* End captions */
+
+
+
+
+/* PAGINATE ****************************************************/
+ol.wp-paginate { margin: 25px 0; text-align: left; }
+.wp-paginate li { list-style: none; display: inline; margin-left: 0; }
+#wpmain .wp-paginate a {
+	border: 1px solid #E2DFD6;
+	background-color: #EAE8E1;
+	color: #B22E33;
+	margin-right:4px; padding:3px 6px; text-align:center; text-decoration:none; }
+.wp-paginate a:hover, .wp-paginate a:active {background:#bbbbc6; color:#888; text-decoration:none;}
+.wp-paginate .title {color:#555; margin-right:4px;}
+.wp-paginate .gap {color:#999; margin-right:4px;}
+#wpmain .wp-paginate .current {color:#000; border: 1px solid #E2DFD6;
+	background-color: #EAE8E1; margin-right:4px; padding:3px 6px;}
+.search .wp-paginate .page { padding: 3px 6px; border:1px solid #aaa; }	
+
+
+
+
+#content h4.archivetitle {
+	margin: 30px 0 3px 0;
+	padding: 5px 0;
+	font-weight: bold;
+}
+
+
+#searchform label { display: none; }
+#searchform #s {  }
+
+#wpmain div.mr_social_sharing_wrapper { margin: 5px 0 20px 0; }

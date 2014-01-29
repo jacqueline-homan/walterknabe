@@ -1,0 +1,40 @@
+<div class="leftcol">
+
+	<h2 class="pagetitle"><?= $page['Dpage']['pagetitle'] ?></h2>
+	<? if($checksession) { ?>
+		<p class="adminlink">
+			[ <?= $html->link('Edit Page','/adm/dpages/edit/'.$page['Dpage']['id']) ?> |
+			<?= $html->link('Delete Page','/adm/dpages/delete/'.$page['Dpage']['id'],null,'Are you sure?') ?> ]
+		</p>
+	<? } ?>
+
+
+	<?= $page['Dpage']['content'] ?>
+
+	<? if(is_numeric($page['Parent']['id'])) { ?>
+		<p><?= $html->link('<< back to '.$page['Parent']['linktext'],'/dpages/v/'.$page['Parent']['id']) ?></p>
+	<? } ?>
+</div>
+
+
+<div class="rightcol">
+	<p class="thumbs">
+	<? foreach($page['Child'] as $child) { ?>
+		<? if($child['thumbpath'] != '' && file_exists($child['thumbpath'])) { ?>
+			<a href="<?= $html->url('/dpages/v/'.$child['id']) ?>"><img src="<?= $html->url('/'.$child['thumbpath']) ?>" alt="<?= $child['linktext'] ?>" /></a>
+		<? } else { ?>
+			<a href="<?= $html->url('/dpages/v/'.$child['id']) ?>"><?= $child['linktext'] ?></a><br />
+		<? } ?>
+	<? } ?>
+	</p>
+	<? if($checksession) { ?>
+		<p class="adminlink center">
+			[
+			<?= $html->link('Add Product','/adm/dpages/addproduct/'.$page['Dpage']['id']) ?> |
+			<?= $html->link('Reorder Products','/adm/dpages/reorderproducts/'.$page['Dpage']['id']) ?>
+			]
+		</p>
+	<? } ?>
+</div>
+
+<? //pr($page) ?>

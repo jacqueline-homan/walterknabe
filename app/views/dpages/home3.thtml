@@ -1,0 +1,13 @@
+<style>
+#logo { display: none; }
+#main { width: 927px; margin: 10px 0; padding-top: 0; }
+#home1 { height: 600px; }
+#headlines { background-color: #000; }
+</style>
+
+<div id="home1">
+	<img src="/img/mime-attachment-large.jpg<? //= $html->url('/'.$pattern['Pattern']['filepath']) ?>" width="450" height="600" alt="Walter's custom art" border="0" />
+</div>
+<div id="homeb"></div>
+<div id="headlines"></div>
+<div class="clear"></div>

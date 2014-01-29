@@ -1,0 +1,27 @@
+<h2 class="pagetitle">Reorder</h2>
+
+<form action="<?= $html->url($formaction) ?>" method="post" class="editdata">
+	<table>
+		<? foreach($links as $page) { ?>
+		<tr>
+			<td>
+				<select name="displayorder_<?= $page['Photo']['id'] ?>">
+					<? for($i=1; $i<=count($links); $i++) { ?>
+						<option value="<?= $i ?>"
+						<? if($i == $page['Photo']['displayorder']) { echo "selected"; } ?>
+						><?= $i ?></option>
+					<? } ?>
+				</select>
+			</td>
+			<td><img src="<?= $html->url('/'.$page['Photo']['thumbpath']) ?>" /></td>
+		</tr>
+		<? } ?>
+		<tr>
+			<td></td>
+			<td><?= $html->submit('Save Changes') ?></td>
+		</tr>
+	</table>
+</form>
+
+
+

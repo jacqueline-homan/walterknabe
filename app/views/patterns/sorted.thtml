@@ -1,0 +1,95 @@
+<p class="filter">
+
+	<a href="<?= $html->url('/patterns/g/'.$material) ?>" style="margin-left: 0;"><?= $material ?>:</a>
+
+	<? 
+
+	if($material == 'wallcovering') { $aSkips = array('1','4'); }
+
+	if($material == 'fabric') { $aSkips = array('5'); }
+
+	?>
+
+	<? foreach($tagtypes as $type) { ?>
+
+		<? if(!in_array($type['Tagtype']['id'],$aSkips)) { ?>
+
+			<a href="<?= $html->url('/patterns/sorted/'.$material.'/'.$type['Tagtype']['id']) ?>"><?= $type['Tagtype']['type'] ?></a> |
+
+		<? } ?>
+
+	<? } ?>
+
+	<a href="<?= $html->url('/custombases/g') ?>">custom options</a> |
+
+	<a href="<?= $html->url('/photos/d/'.$material) ?>">photo gallery</a>
+
+</p>
+
+
+
+
+
+<div id="sortedpatternwrapper">
+
+<? foreach($page[0]['Tag'] as $tag) { ?>
+
+	<? if(count($tag['Pattern']) > 0) { ?>
+
+		<h4><?= ucwords($tag['tag']) ?></h4>
+
+		<div class="thumbs">
+
+			<? foreach($tag['Pattern'] as $pattern) { ?>
+
+				<? if($pattern['material'] == $material) { ?>
+
+					<div class="interior">
+
+					<a href="<?= $html->url('/patterns/d/'.$pattern['id']) ?>"><img src="<?= $html->url('/'.$pattern['thumbpath']) ?>" /></a>
+
+					</div>
+
+				<? } ?>
+
+			<? } ?>
+
+		</div>
+
+	<? } ?>
+
+<? } ?>
+
+</div>
+
+
+
+<div id="custompreview" class="extendedpreview">
+
+	<? if($material == "wallcovering") { ?>
+
+	<img src="../../../img/Wallcovering-on-rack.jpg" border="0" alt="Wall covering tests on rack." width="250" height="333" /><br />
+
+	<p>Wall covering tests on rack.</p>
+	
+	<br/>
+	<img src="../../../img/Custom-brocade-in-store-for-web.jpg" border="0" alt="Custom brocade in store" width="250" height="333" /><br />
+
+	<p>Custom brocade in store.</p>
+
+	<? } ?>
+
+	<? if($material == "fabric") { ?>
+
+	<img src="../../../img/Silk-velvet-scarves.jpg" border="0" alt="Silk and velvet scarves." width="250" height="195" /><br />
+
+	<p>Silk and velvet scarves.</p>
+
+<br />
+	<img src="../../../img/knabe-fabric-furniture.jpg" border="0" alt="" width="250" />
+
+<p>Owen Chair, Rae Ottoman, & Dylan Chair</p>
+
+	<? } ?>
+
+</div>

@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+	
+   RewriteRule    ^blog$ - [L] 
+   RewriteRule    ^blog/.*$ - [L] 
+   RewriteRule    ^walterknabefineart.com$ - [L] 
+   RewriteRule    ^walterknabefineart.com/.*$ - [L]
+   
+   RewriteRule    ^$ app/webroot/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+</IfModule>
+
+RedirectMatch 301 /blog/(.*) /

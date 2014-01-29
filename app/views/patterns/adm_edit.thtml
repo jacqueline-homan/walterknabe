@@ -1,0 +1,38 @@
+<form action="<?= $html->url($formaction) ?>" method="post" class="editdata" enctype="multipart/form-data">
+	<? if(file_exists($this->data['Pattern']['thumbpath'])) { ?>
+	<p>
+		<span class="item">
+			<img src="<?= $html->url('/'.$this->data['Pattern']['thumbpath']) ?>" />
+		</span>
+	</p>
+	<? } ?>
+	<p> 
+		<span class="label">Name</span>
+		<span class="item"><?= $html->input('Pattern/name') ?></span>
+	</p> 
+	<p> 
+		<span class="label">Description</span>
+		<span class="item"><?= $html->textarea('Pattern/description') ?></span>
+	</p> 
+	<p> 
+		<span class="label">Image</span>
+		<span class="item"><input type="file" name="imagesource" /><br /><em>leave blank to keep current</em></span>
+	</p> 
+	<p>
+		<span class="label">Material</span>
+		<span class="item">
+			<?= $html->selectTag('Pattern/material', array('fabric'=>'Fabric','wallcovering'=>'Wallcovering'), null, array(), null, false, false) ?>
+			<?= $html->tagErrorMsg('Pattern/material', 'This field is required') ?>
+		</span>
+	</p>
+	<p>
+		<span class="label">Categories<br /><em>hold ctrl to select multiple</em></span>
+		<span class="item">
+			<?= $html->selectTag('Tag/Tag', $tags, $selectedTags, array('multiple' => 'multiple', 'class' => 'selectMultiple', 'size' => '12'), array(), false) ?>
+		</span>
+	</p>
+	<p>
+		<?= $html->hidden('Pattern/id') ?>
+		<span class="item"><?= $html->submit('Save Changes') ?></span>
+	</p>
+</form>

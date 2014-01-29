@@ -1,0 +1,71 @@
+<h2 class="pagetitle"><?= $page['Dpage']['pagetitle'] ?></h2>
+<? if($checksession) { ?>
+	<p class="adminlink">
+		<?= $html->link('Edit Page','/adm/dpages/edit/'.$page['Dpage']['id']) ?>  |
+		<?= $html->link('Delete Page','/adm/dpages/delete/'.$page['Dpage']['id'],null,'Are you sure?') ?> 
+	</p>
+<? } ?>
+
+<? if($page['Dpage']['pagetitle'] == 'About Us') { ?>
+<div id="dpagecontent" style="display:realtive">
+	<div class="content-inner"><?= contactForm($page['Dpage']['content'],$this) ?></div>
+	<div id="content-sub">
+		
+		<h4>FABRIC AND WALL COVERING SHOWROOMS</h4>
+		<br/>
+		<p>NEW YORK<br/><br/>
+		Arnitex, <br/>
+		979 Third Ave. #1207<br/>
+		New York, NY 10022<br/>
+		866-794-9777<br/>
+		<a href="bgarros@arnitex.com">bgarros@arnitex.com</a>
+		</p>
+		<p>CHICAGO<br/><br/>
+		Hughes<br/>
+		222 Merchandise Mart  #6-157<br/>
+		Chicago, IL. 60654<br/>
+		312-624-9997<br/>
+		<a href="kaylan@hughes.com">kaylan@hughes.com</a>
+		</p>
+		<p>
+			LOS ANGELES<br/><br/>
+			Design Alliance LA<br/>
+			2680 Nina St.<br/>
+			Pasadena, CA. 91107<br/>
+			626-229-9799<br/>
+			<a href="mailto:cs2@designalliancela.com">cs2@designalliancela.com</a>
+		</p>
+		<br/>
+		<h4>ARTWORK INQUIRIES</h4>
+		<br/>
+		<p>
+			
+			Modern Masters<br/>
+			11405 Sturgen Bay Ln.<br/>
+			Indianapolis, IN 46236<br/>
+			866-370-1601<br/>
+			<a href="info@modernmastersfab.com">info@modernmastersfab.com</a>
+		</p>
+		<br/>
+		<h4>FOR LICENSING INQUIRIES</h4>
+		<br/>
+		<p>
+			Hap Consulting<br/>
+			180 Riverside Dr. suite 10D<br/>
+			New York, NY 10024<br/>
+			917-415-0963<br/>
+			<a href="heidi@hapllp.com">heidi@hapllp.com</a>
+		</p>
+		<br/><br/>
+		<p>
+		<img style="" src="../../../img/studio-2.jpg" alt="" width="191" height="127" />
+		</p>
+		
+		<p>
+		<img style="" src="../../../img/studio-3.jpg" alt="" width="191" height="127" />
+		</p>
+	</div>
+</div>
+<? } else { ?>
+<div id="dpagecontent"><?= contactForm($page['Dpage']['content'],$this) ?></div>
+<? } ?>

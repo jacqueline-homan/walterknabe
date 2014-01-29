@@ -1,0 +1,19 @@
+<h2 class="pagetitle">Categories</h2>
+
+<table class="datatable">
+	<? foreach($tagtypes as $record) { ?>
+	<tr>
+		<td><?= $record['Tagtype']['type'] ?></td>
+		<td class="adminlink">
+			<?= $html->link('edit','/adm/tagtypes/edit/'.$record['Tagtype']['id']) ?> &nbsp;
+			<?= $html->link('delete','/adm/tagtypes/delete/'.$record['Tagtype']['id'],null,'Are you sure?') ?>
+		</td>
+	</tr>
+	<? } ?>	
+</table>
+
+<p class="adminlink">
+	<?= $html->link('add category','/adm/tagtypes/add') ?> |
+	<?= $html->link('reorder','/adm/tagtypes/reorder') ?>
+</p>
+

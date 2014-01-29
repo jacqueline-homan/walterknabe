@@ -1,0 +1,114 @@
+body {
+	background-image:url('images/bg/bg01.jpg');
+	font-family: 'Droid Sans', sans-serif;
+	font-size:62.5%;
+	margin:0;
+}
+
+/*================= HEADINGS =============================*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:bold;
+	font-family:'Open Sans Condensed',Helvetica, Arial, sans-serif;
+	color:#902F3C;
+
+}
+
+#cart_widget, #header-categories {
+	font-family: 'Open Sans Condensed',Helvetica, Arial, sans-serif; 
+	font-style: normal;
+	font-weight:bold;
+}
+
+.feat_item_name a,
+.feat_item_name_tablets a,
+.feat_item_name span.price,
+.feat_item_name_2 a,
+.feat_item_name_2 span.price,
+.latest_item_name a,
+#home-menu ul li a,
+#menu-pages  ul li a,
+.home-add-to-cart a,
+#header-categories #product-categories li a ,
+#content nav,
+.image-post-format p
+{ 
+	font-family: 'Open Sans Condensed',Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	
+}
+
+.s-mybutton span, .m-mybutton span, .l-mybutton span {
+	font-family:'Open Sans Condensed',Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.default_product_display  .price,
+.latest_item_name .price ,
+.single_product_display .wpsc_product_price .price
+{
+	font-family:'Open Sans Condensed',Helvetica, Arial, sans-serif;
+}
+
+input[type="file"]::-webkit-file-upload-button,
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"],
+.home-add-to-cart:hover
+{ 
+	font-family: 'Open Sans Condensed',Helvetica, Arial, sans-serif;
+}
+
+
+/*================= LINKS =============================*/
+	
+a {
+	color: #902F3C; 
+}
+
+
+#home-menu ul li:hover,
+#home-menu ul li a:hover,
+#menu-pages ul li:hover,
+#menu-pages ul li a:hover,
+#home-menu .sub-menu li,
+#menu-pages .sub-menu li,
+#header-categories ul li:hover,
+#cart_widget ul li:hover,
+#header-categories #product-categories li,
+#header-categories #product-categories li a
+{
+	background:#902F3C; 
+}
+
+/*================= BODY FONT OVERRIDES =============================*/
+
+#home-menu ul li a span, #menu-pages  ul li a span{ 
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+}
+
+#cart_widget ul.shoppingcart{
+	font-family:'Droid Sans', Helvetica, Arial, sans-serif; 
+}
+		
+
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"]
+{ 
+	font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+}

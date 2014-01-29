@@ -1,0 +1,29 @@
+<h2 class="pagetitle">Media</h2>
+
+<? if($checksession) { ?>	
+	<p class="adminlink">
+		<?= $html->link('Add New Press Cover','/adm/presscovers/add/') ?> |
+		<?= $html->link('Reorder Press Cover','/adm/presscovers/reorder/') ?>
+	</p>
+<? } ?>
+
+
+<table class="adminlink">
+	<? $counter = 1; ?>
+	<? foreach($page as $pattern) { ?>
+		<? if($counter % 6 == 1) { ?><tr><? } ?>
+		<td>
+		<a href="<?= $html->url('/presspages/d/'.$pattern['Presscover']['id']) ?>"><img src="<?= $html->url('/'.$pattern['Presscover']['thumbpath']) ?>" border="0" /></a><br />
+		<?= $pattern['Presscover']['label'] ?><br />
+		<? if($checksession) { ?>
+			<?= $html->link('edit','/adm/presscovers/edit/'.$pattern['Presscover']['id']) ?> |
+			<?= $html->link('delete','/adm/presscovers/delete/'.$pattern['Presscover']['id']) ?>
+		<? } ?>
+		</td>
+		<? if($counter % 6 == 0) { ?></tr><? } ?>
+		<? $counter++; ?>
+	<? } ?>
+	<? if($counter != 1) { ?></tr><? } ?>
+</table>
+
+

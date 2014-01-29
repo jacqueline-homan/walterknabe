@@ -1,0 +1,10 @@
+<form action="<?= $html->url('/settings/login') ?>" method="post" class="editdata">
+	<p> 
+		<span class="label">Password</span>
+		<span class="item"><?= $html->input('Setting/password') ?></span>
+		<?= $html->tagErrorMsg('Setting/password', 'Please enter a password') ?>
+	</p> 
+	<p>
+		<span class="item"><?= $html->submit('Login') ?></span>
+	</p>
+</form>

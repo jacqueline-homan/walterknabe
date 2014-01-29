@@ -1,0 +1,31 @@
+<h2>Edit Pattern</h2>
+<form action="<?php echo $html->url('/patterns/edit/'.$html->tagValue('Pattern/id')); ?>" method="post">
+<div class="optional"> 
+	<?php echo $form->labelTag('Pattern/filepath', 'Filepath');?>
+ 	<?php echo $html->input('Pattern/filepath', array('size' => '60'));?>
+	<?php echo $html->tagErrorMsg('Pattern/filepath', 'Please enter the Filepath.');?>
+</div>
+<div class="optional"> 
+	<?php echo $form->labelTag('Pattern/thumbpath', 'Thumbpath');?>
+ 	<?php echo $html->input('Pattern/thumbpath', array('size' => '60'));?>
+	<?php echo $html->tagErrorMsg('Pattern/thumbpath', 'Please enter the Thumbpath.');?>
+</div>
+<div class="required"> 
+	<?php echo $form->labelTag('Pattern/material', 'Material');?>
+ 	<?php echo $html->input('Pattern/material', array('size' => '60'));?>
+	<?php echo $html->tagErrorMsg('Pattern/material', 'Please enter the Material.');?>
+</div>
+<div class="optional"> 
+	<?php echo $form->labelTag('Tag/Tag', 'Related Tags');?>
+ 	<?php echo $html->selectTag('Tag/Tag', $tags, $selectedTags, array('multiple' => 'multiple', 'class' => 'selectMultiple'), array(), true);?>
+	<?php echo $html->tagErrorMsg('Tag/Tag', 'Please select the Related Tags.');?>
+</div>
+<?php echo $html->hidden('Pattern/id')?>
+<div class="submit">
+	<?php echo $html->submit('Save');?>
+</div>
+</form>
+<ul class="actions">
+<li><?php echo $html->link('Delete','/patterns/delete/' . $html->tagValue('Pattern/id'), null, 'Are you sure you want to delete: id ' . $html->tagValue('Pattern/id'));?>
+<li><?php echo $html->link('List Patterns', '/patterns/index')?></li>
+</ul>

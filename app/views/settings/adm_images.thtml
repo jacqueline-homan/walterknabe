@@ -1,0 +1,28 @@
+<h2 class="pagetitle">Image Library</h2>
+
+<p>These are images can be inserted on any of your pages.</p>
+<ol>
+<li>Upload the image into the image library.</li>
+<li>When editing a page, click on the <img src="<?= $html->url('/img/image_tinymce.gif') ?>"  /> icon.</li>
+<li>Enter the Image URL shown next to your image in the library.</li>
+<li>Click Insert.</li>
+</ol>
+
+<p><strong><?= $html->link('Upload New Image','/adm/settings/images_add') ?></strong></p>
+
+<table id="imagelist">
+	<tr>
+		<th></th>
+		<th>Image</th>
+		<th>Image URL</th>
+	</tr>
+	<? foreach($images as $image) { ?>
+	<tr>
+		<td><?= $html->link('delete','/adm/settings/images_delete/'.$image) ?></td>
+		<td><img src="<?= $html->url('/img/user/'.$image) ?>" width="150" /></td>
+		<td><?= $html->url('/img/user/'.$image) ?></td>
+	</tr>
+	<? } ?>
+</table>
+
+

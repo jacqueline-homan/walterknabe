@@ -1,0 +1,29 @@
+<h2>New Pattern</h2>
+<form action="<?php echo $html->url('/patterns/add'); ?>" method="post">
+<div class="optional"> 
+	<?php echo $form->labelTag('Pattern/filepath', 'Filepath');?>
+ 	<?php echo $html->input('Pattern/filepath', array('size' => '60'));?>
+	<?php echo $html->tagErrorMsg('Pattern/filepath', 'Please enter the Filepath.');?>
+</div>
+<div class="optional"> 
+	<?php echo $form->labelTag('Pattern/thumbpath', 'Thumbpath');?>
+ 	<?php echo $html->input('Pattern/thumbpath', array('size' => '60'));?>
+	<?php echo $html->tagErrorMsg('Pattern/thumbpath', 'Please enter the Thumbpath.');?>
+</div>
+<div class="required"> 
+	<?php echo $form->labelTag('Pattern/material', 'Material');?>
+ 	<?php echo $html->input('Pattern/material', array('size' => '60'));?>
+	<?php echo $html->tagErrorMsg('Pattern/material', 'Please enter the Material.');?>
+</div>
+<div class="optional"> 
+	<?php echo $form->labelTag('Tag/Tag', 'Related Tags');?>
+ 	<?php echo $html->selectTag('Tag/Tag', $tags, $selectedTags, array('multiple' => 'multiple', 'class' => 'selectMultiple'), array(), true);?>
+	<?php echo $html->tagErrorMsg('Tag/Tag', 'Please select the Related Tags.');?>
+</div>
+<div class="submit">
+	<?php echo $html->submit('Add');?>
+</div>
+</form>
+<ul class="actions">
+<li><?php echo $html->link('List Patterns', '/patterns/index')?></li>
+</ul>

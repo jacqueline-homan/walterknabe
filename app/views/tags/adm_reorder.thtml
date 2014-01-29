@@ -1,0 +1,34 @@
+<h2 class="pagetitle">Reorder</h2>
+
+<form action="<?= $html->url($formaction) ?>" method="post" class="editdata">
+	<table>
+		<? foreach($links as $page) { ?>
+		<tr>
+			<th colspan=2><?= ucwords($page['Tagtype']['type']) ?></th>
+		</tr>
+		<? foreach($page['Tag'] as $tag) { ?>
+			<tr>
+				<td>
+					<select name="displayorder_<?= $tag['id'] ?>">
+						<? for($i=1; $i<=count($page['Tag']); $i++) { ?>
+							<option value="<?= $i ?>"
+							<? if($i == $tag['displayorder']) { echo "selected"; } ?>
+							><?= $i ?></option>
+						<? } ?>
+					</select>
+				</td>
+				<td><?= $tag['tag'] ?></td>
+			</tr>
+		<? } ?>
+		<? } ?>
+		<tr>
+			<td></td>
+			<td><?= $html->submit('Save Changes') ?></td>
+		</tr>
+	</table>
+</form>
+
+
+<? //pr($links) ?>
+
+

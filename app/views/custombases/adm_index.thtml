@@ -1,0 +1,15 @@
+<p class="adminlink">
+	<?= $html->link('add base','/adm/custombases/add/') ?> |
+	<?= $html->link('reorder bases','/adm/custombases/reorder/') ?>
+</p>
+
+<div class="thumbs adminlink">
+	<? foreach($page as $pattern) { ?>
+		<div class="interior">
+		<img src="<?= $html->url('/'.$pattern['Custombase']['thumbpath']) ?>" /><br />
+		<?= $pattern['Custombase']['name'] ?><br />
+		<?= $html->link('edit','/adm/custombases/edit/'.$pattern['Custombase']['id']) ?> |
+		<?= $html->link('delete','/adm/custombases/delete/'.$pattern['Custombase']['id']) ?>
+		</div>
+	<? } ?>
+</div>
