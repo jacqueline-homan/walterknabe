@@ -1,0 +1,16 @@
+<style>
+#logo { display: none; }
+#main { width: 927px; margin: 10px 0; }
+</style>
+
+<p id="homelinks">
+	<a href="<?= $html->url('/patterns/g/wallcovering') ?>" id="wallcoverings"><span>Wallcoverings</span></a>
+	<a href="<?= $html->url('/patterns/g/fabric') ?>" id="fabrics"><span>Fabrics</span></a>
+	<a href="<?= $html->url('/custombases/g') ?>" id="design"><span>Design Your Own</span></a>
+</p>
+
+<div id="home1">
+	<img src="<?= $html->url('/'.$pattern['Pattern']['filepath']) ?>" />
+</div>
+<div id="home1tag">custom colored brocade</div>
+<div id="home2"></div>

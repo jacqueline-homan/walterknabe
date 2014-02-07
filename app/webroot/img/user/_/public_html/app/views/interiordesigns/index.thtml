@@ -1,0 +1,29 @@
+<h2 class="pagetitle">Media</h2>
+
+<? if($checksession) { ?>	
+	<p class="adminlink">
+		<?= $html->link('Add New Interior Design','/adm/interiordesigns/add/') ?> |
+		<?= $html->link('Reorder Interior Design','/adm/interiordesigns/reorder/') ?>
+	</p>
+<? } ?>
+
+
+<table class="adminlink">
+	<? $counter = 1; ?>
+	<? foreach($page as $pattern) { ?>
+		<? if($counter % 6 == 1) { ?><tr><? } ?>
+		<td>
+		<a href="<?= $html->url('/interiordesigns/d/'.$pattern['InteriorDesign']['id']) ?>"><img src="<?= $html->url('/'.$pattern['InteriorDesign']['thumbpath']) ?>" border="0" /></a><br />
+		<?= $pattern['Presscover']['label'] ?><br />
+		<? if($checksession) { ?>
+			<?= $html->link('edit','/adm/interiordesigns/edit/'.$pattern['InteriorDesign']['id']) ?> |
+			<?= $html->link('delete','/adm/interiordesigns/delete/'.$pattern['InteriorDesigns']['id']) ?>
+		<? } ?>
+		</td>
+		<? if($counter % 6 == 0) { ?></tr><? } ?>
+		<? $counter++; ?>
+	<? } ?>
+	<? if($counter != 1) { ?></tr><? } ?>
+</table>
+
+

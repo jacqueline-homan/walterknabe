@@ -1,0 +1,24 @@
+Can't open socket: Connection timed out at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 28.
+Can't open socket: Connection refused at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 28.
+Can't open socket: Invalid argument at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 28.
+Can't open socket: Connection refused at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 28.
+Use of uninitialized value in pattern match (m//) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 44.
+Use of uninitialized value in numeric eq (==) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 45.
+Use of uninitialized value in pattern match (m//) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 44.
+Use of uninitialized value in numeric eq (==) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 45.
+Use of uninitialized value in pattern match (m//) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 44.
+Use of uninitialized value in numeric eq (==) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 45.
+Use of uninitialized value in pattern match (m//) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 44.
+Use of uninitialized value in numeric eq (==) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 45.
+Use of uninitialized value in pattern match (m//) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 44.
+Use of uninitialized value in numeric eq (==) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 45.
+Use of uninitialized value in pattern match (m//) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 44.
+Use of uninitialized value in numeric eq (==) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 45.
+Use of uninitialized value in pattern match (m//) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 44.
+Use of uninitialized value in numeric eq (==) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 45.
+Use of uninitialized value in pattern match (m//) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 44.
+Use of uninitialized value in numeric eq (==) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 45.
+Use of uninitialized value in pattern match (m//) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 44.
+Use of uninitialized value in numeric eq (==) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 45.
+Use of uninitialized value in pattern match (m//) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 44.
+Use of uninitialized value in numeric eq (==) at /usr/local/cpanel/Cpanel/QuickInstall/HTTP.pm line 45.

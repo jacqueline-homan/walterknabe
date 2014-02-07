@@ -1,0 +1,805 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kauri theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-20 18:26+0100\n"
+"PO-Revision-Date: 2012-06-20 18:28+0100\n"
+"Last-Translator: Alen Širola <asirola@inet.hr>\n"
+"Language-Team: Aligator Studio <hello@aligator-studio.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:31
+msgid "Well this is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: ../404.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr ""
+
+#: ../404.php:38
+msgid "Perhaps you are interested in latest products ? :"
+msgstr ""
+
+#: ../404.php:42
+msgid "Or, perhaps you would like to read latest blog posts ? :"
+msgstr ""
+
+#: ../404.php:46
+msgid "Recent posts"
+msgstr ""
+
+#: ../archive.php:38
+#: ../archive.php:93
+msgid "Archives"
+msgstr ""
+
+#: ../archive.php:105
+#: ../category.php:87
+msgid "Nothing Found ..."
+msgstr ""
+
+#: ../archive.php:107
+#: ../category.php:91
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../author.php:87
+msgid "No posts from this author"
+msgstr ""
+
+#: ../author.php:94
+msgid "Nothing Found"
+msgstr ""
+
+#: ../author.php:98
+msgid "It seems like this author is still not inspired for writing. Perhaps searching can help."
+msgstr ""
+
+#: ../comments.php:19
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../comments.php:47
+#: ../comments.php:68
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:48
+#: ../comments.php:69
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:49
+#: ../comments.php:70
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:80
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-aside.php:26
+#: ../content-aside.php:37
+#: ../content.php:204
+msgid "Read more"
+msgstr ""
+
+#: ../content-aside.php:33
+#: ../content.php:107
+msgid "<div class=\"read-more\">Continue reading <span class=\"meta-nav\">&rarr;</span></div>"
+msgstr ""
+
+#: ../content-aside.php:41
+#: ../content-gallery.php:103
+#: ../content-image.php:39
+#: ../content-page.php:64
+#: ../content-single.php:118
+#: ../content.php:109
+#: ../content.php:256
+msgid "Pages:"
+msgstr ""
+
+#: ../content-aside.php:49
+#: ../content-gallery.php:138
+#: ../content.php:142
+#: ../content.php:246
+msgid "Leave a comment"
+msgstr ""
+
+#: ../content-aside.php:49
+#: ../content-gallery.php:138
+#: ../content.php:142
+#: ../content.php:246
+msgid "1 Comment"
+msgstr ""
+
+#: ../content-aside.php:49
+#: ../content-gallery.php:138
+#: ../content.php:142
+#: ../content.php:246
+msgid "% Comments"
+msgstr ""
+
+#: ../content-gallery.php:20
+msgid "Gallery post"
+msgstr ""
+
+#: ../content-gallery.php:71
+#: ../content-gallery.php:99
+msgid "View Gallery"
+msgstr ""
+
+#: ../content-gallery.php:111
+#: ../content-gallery.php:123
+#: ../content-single.php:128
+#: ../content.php:116
+#: ../content.php:127
+#: ../content.php:219
+#: ../content.php:231
+msgid ", "
+msgstr ""
+
+#: ../content-gallery.php:116
+#: ../content.php:121
+#: ../content.php:224
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: ../content-gallery.php:127
+#: ../content.php:132
+#: ../content.php:235
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: ../content-gallery.php:142
+#: ../content-single.php:158
+#: ../content.php:147
+#: ../content.php:250
+msgid "Edit"
+msgstr ""
+
+#: ../content-image.php:16
+msgid "Image post"
+msgstr ""
+
+#: ../content-single.php:69
+msgid "Zoom image"
+msgstr ""
+
+#: ../content-single.php:134
+#, php-format
+msgid "<span class=\"tag-links\">Tagged %2$s.</span><span class=\"bookmark\"> Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>.</span>"
+msgstr ""
+
+#: ../content-single.php:136
+#, php-format
+msgid "<span class=\"bookmark\">Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>.</span>"
+msgstr ""
+
+#: ../content-single.php:142
+#, php-format
+msgid "<span class=\"cat-links\">Posted in %1$s </span><span class=\"tag-links\"> Tagged %2$s.</span><span class=\"bookmark\"> Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>.</span>"
+msgstr ""
+
+#: ../content-single.php:144
+#, php-format
+msgid "<span class=\"cat-links\">Posted in %1$s.</span> <span class=\"bookmark\">Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>.</span>"
+msgstr ""
+
+#: ../content.php:59
+msgid "zoom image"
+msgstr ""
+
+#: ../content.php:63
+msgid "view & buy"
+msgstr ""
+
+#: ../content.php:157
+msgid "Blog post"
+msgstr ""
+
+#: ../featured.php:93
+#: ../featured_2.php:88
+msgid "Details and buying"
+msgstr ""
+
+#: ../featured.php:150
+#: ../featured_2.php:135
+msgid "View Details"
+msgstr "Vedi i detagli"
+
+#: ../functions - Copy.php:20
+#: ../functions.php:20
+msgid "<h2>Thanks for purchasing Kauri theme. </h2><a href=\"themes.php?page=optionsframework\">Kauri theme options</a> | <a href=\""
+msgstr ""
+
+#: ../functions - Copy.php:318
+#: ../functions.php:319
+msgid "Sidebar Right"
+msgstr ""
+
+#: ../functions - Copy.php:327
+#: ../functions.php:328
+msgid "Bottombar 1"
+msgstr ""
+
+#: ../functions - Copy.php:329
+#: ../functions.php:330
+msgid "An optional first bottombar area"
+msgstr ""
+
+#: ../functions - Copy.php:337
+#: ../functions.php:338
+msgid "Bottombar 2"
+msgstr ""
+
+#: ../functions - Copy.php:339
+#: ../functions.php:340
+msgid "An optional second bottombar area"
+msgstr ""
+
+#: ../functions - Copy.php:347
+#: ../functions.php:348
+msgid "Bottombar 3"
+msgstr ""
+
+#: ../functions - Copy.php:349
+#: ../functions.php:350
+msgid "An optional third bottombar area"
+msgstr ""
+
+#: ../functions - Copy.php:357
+#: ../functions.php:358
+msgid "Home widgets 1"
+msgstr ""
+
+#: ../functions - Copy.php:359
+#: Copy.php:369
+#: ../functions.php:360
+#: ../functions.php:370
+msgid "A box to add more widgets to home page"
+msgstr ""
+
+#: ../functions - Copy.php:367
+#: ../functions.php:368
+msgid "Home widgets 2"
+msgstr ""
+
+#: ../functions - Copy.php:392
+#: ../functions.php:397
+msgid "Older posts"
+msgstr ""
+
+#: ../functions - Copy.php:395
+#: ../functions.php:401
+msgid "Newer posts"
+msgstr ""
+
+#: ../functions - Copy.php:413
+#: ../functions.php:421
+msgid "Pingback:"
+msgstr ""
+
+#: ../functions - Copy.php:413
+#: Copy.php:442
+#: ../functions.php:421
+#: ../functions.php:460
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions - Copy.php:428
+#: ../functions.php:443
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../functions - Copy.php:432
+#: ../functions.php:448
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions - Copy.php:440
+#: ../functions.php:456
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../functions - Copy.php:466
+#: ../functions.php:486
+#, php-format
+msgid ""
+"<span class=\"date\">Posted on </span>\n"
+"\t<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a>\n"
+"\t<span class=\"byline\"> <span class=\"sep\" style=\"margin-right:4px;\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr ""
+
+#: ../functions - Copy.php:474
+#: ../functions.php:494
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../functions - Copy.php:692
+#: ../functions.php:715
+msgid "Search results for \""
+msgstr ""
+
+#: ../functions - Copy.php:695
+#: ../functions.php:718
+msgid "Posts tagged \""
+msgstr ""
+
+#: ../functions - Copy.php:700
+#: ../functions.php:723
+msgid "Articles posted by "
+msgstr ""
+
+#: ../functions - Copy.php:703
+#: ../functions.php:726
+msgid "Error 404"
+msgstr ""
+
+#: ../functions - Copy.php:708
+#: ../functions.php:731
+msgid "Page"
+msgstr ""
+
+#: ../header.php:44
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../homeblock-featured.php:47
+msgid "Featured Products"
+msgstr ""
+
+#: ../homeblock-latest.php:45
+msgid "Latest Products"
+msgstr ""
+
+#: ../image.php:24
+#, php-format
+msgid "Published <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: ../image.php:38
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../image.php:39
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../image.php:92
+#, php-format
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:94
+#, php-format
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:96
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: ../image.php:98
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: ../latest.php:39
+msgid "Sale!"
+msgstr ""
+
+#: ../latest_posts.php:76
+#: ../latest_posts.php:94
+msgid "read more"
+msgstr ""
+
+#: ../search.php:30
+#: ../search.php:60
+msgid "Search Results for:"
+msgstr ""
+
+#: ../search.php:77
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../sidebar.php:20
+msgid "Meta"
+msgstr ""
+
+#: ../site-map.php:39
+msgid "No product categories exist."
+msgstr ""
+
+#: ../site-map.php:45
+msgid "Product categories"
+msgstr ""
+
+#: ../site-map.php:56
+msgid "Site categories:"
+msgstr ""
+
+#: ../site-map.php:61
+msgid "Site pages:"
+msgstr ""
+
+#: ../widget_featured_thumbs.php:28
+msgid "A widget displaying featured product with small thumbnail images."
+msgstr ""
+
+#: ../widget_featured_thumbs.php:34
+msgid "Kauri Featured products"
+msgstr ""
+
+#: ../widget_featured_thumbs.php:155
+msgid "Featured products"
+msgstr ""
+
+#: ../widget_featured_thumbs.php:159
+#: ../widget_latest_images.php:144
+#: ../widget_social.php:150
+msgid "Title:"
+msgstr ""
+
+#: ../widget_featured_thumbs.php:164
+#: ../widget_latest_images.php:149
+msgid "Number of images:"
+msgstr ""
+
+#: ../widget_latest_images.php:27
+msgid "A widget displaying latest product with small thumbnail images."
+msgstr ""
+
+#: ../widget_latest_images.php:33
+msgid "Kauri latest products"
+msgstr ""
+
+#: ../widget_latest_images.php:140
+msgid "Latest products"
+msgstr ""
+
+#: ../widget_social.php:21
+msgid "Display social icons on your site."
+msgstr ""
+
+#: ../widget_social.php:27
+msgid "Kauri Social Widget"
+msgstr ""
+
+#: ../widget_social.php:156
+msgid "RSS link:"
+msgstr ""
+
+#: ../widget_social.php:158
+msgid "Yes"
+msgstr ""
+
+#: ../widget_social.php:160
+msgid "No"
+msgstr ""
+
+#: ../widget_social.php:164
+msgid "Twitter profile link:"
+msgstr ""
+
+#: ../widget_social.php:170
+msgid "Facebook profile/page/group link:"
+msgstr ""
+
+#: ../widget_social.php:176
+msgid "Flickr profile link:"
+msgstr ""
+
+#: ../widget_social.php:182
+msgid "Google Plus profile/page link:"
+msgstr ""
+
+#: ../widget_social.php:188
+msgid "Youtube profile/page link:"
+msgstr ""
+
+#: ../woocommerce-cart.php:14
+msgid "Shopping cart"
+msgstr ""
+
+#: ../woocommerce-cart.php:43
+msgid "No products in the cart."
+msgstr ""
+
+#: ../woocommerce-cart.php:48
+msgid "Subtotal"
+msgstr ""
+
+#: ../woocommerce-cart.php:52
+msgid "View Cart &rarr;"
+msgstr ""
+
+#: ../woocommerce-cart.php:53
+msgid "Checkout &rarr;"
+msgstr ""
+
+#: ../woocommerce-product_categories.php:17
+msgid "Products Categories"
+msgstr ""
+
+#: ../woocommerce-product_categories.php:79
+msgid "<p class=\"no_prod_cats\">No product categories exist.</p>"
+msgstr ""
+
+#: ../woocommerce-template.php:34
+msgid "Search Results:"
+msgstr ""
+
+#: ../woocommerce-template.php:184
+msgid "This is a demo store for testing purposes &mdash; no orders shall be fulfilled."
+msgstr ""
+
+#: ../woocommerce-template.php:229
+#: ../woocommerce-template.php:244
+msgid "Read More"
+msgstr ""
+
+#: ../woocommerce-template.php:236
+msgid "Select options"
+msgstr ""
+
+#: ../woocommerce-template.php:240
+msgid "View options"
+msgstr ""
+
+#: ../woocommerce-template.php:248
+msgid "Add to cart"
+msgstr ""
+
+#: ../woocommerce-template.php:438
+msgid "SKU:"
+msgstr ""
+
+#: ../woocommerce-template.php:464
+msgid "Buy product"
+msgstr ""
+
+#: ../woocommerce-template.php:777
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: ../woocommerce-template.php:806
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: ../woocommerce-template.php:876
+msgid "Search for:"
+msgstr ""
+
+#: ../woocommerce-template.php:877
+msgid "Search for products"
+msgstr ""
+
+#: ../admin/admin-interface.php:105
+#: ../admin/admin-interface.php:123
+msgid "Save All Changes"
+msgstr ""
+
+#: ../admin/admin-interface.php:124
+msgid "Options Reset"
+msgstr ""
+
+#: ../admin/admin-interface.php:584
+msgid "Click OK to backup your current saved options."
+msgstr ""
+
+#: ../admin/admin-interface.php:631
+msgid "Warning: All of your current options will be replaced with the data from your last backup! Proceed?"
+msgstr ""
+
+#: ../admin/admin-interface.php:720
+msgid "Click OK to reset. All settings will be lost!"
+msgstr ""
+
+#: ../admin/admin-interface.php:1458
+msgid "Last Backup : "
+msgstr ""
+
+#: ../admin/admin-interface.php:1515
+msgid "Upload"
+msgstr ""
+
+#: ../admin/medialibrary-uploader.php:18
+msgid "Options"
+msgstr ""
+
+#: ../admin/medialibrary-uploader.php:210
+msgid "Gallery"
+msgstr ""
+
+#: ../admin/medialibrary-uploader.php:210
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../home-variations/home-var-1_header.php:200
+msgid "Products categories"
+msgstr ""
+
+#: ../woocommerce/loop-shop.php:66
+msgid "No products found which match your selection."
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:28
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:28
+msgid "out of 5"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:36
+msgid "Reviews"
+msgstr "Riviste"
+
+#: ../woocommerce/single-product-reviews.php:52
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:53
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:57
+msgid "Add Review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:59
+msgid "Add a review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:63
+msgid "Be the first to review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:65
+msgid "There are no reviews yet, would you like to <a href=\"#review_form\" class=\"inline show_review_form\">submit yours</a>?"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:78
+msgid "Name"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:80
+msgid "Email"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:83
+msgid "Submit Review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:90
+msgid "Rating"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:91
+msgid "Rate..."
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:92
+msgid "Perfect"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:93
+msgid "Good"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:94
+msgid "Average"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:95
+msgid "Not that bad"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:96
+msgid "Very Poor"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:101
+msgid "Your Review"
+msgstr "Tua rivista"
+
+#: ../woocommerce/cart/cart.php:18
+msgid "Product Name"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:19
+msgid "Unit Price"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:20
+msgid "Quantity"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:21
+msgid "Unit total"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:34
+msgid "Remove this item"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:49
+msgid "Available on backorder."
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:92
+msgid "Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:92
+msgid "Apply Coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:97
+msgid "Update Cart"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:97
+msgid "Proceed to Checkout &rarr;"
+msgstr ""
+
+#: ../woocommerce/loop/pagination.php:12
+msgid "Next"
+msgstr ""
+
+#: ../woocommerce/loop/pagination.php:13
+msgid "Previous"
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:62
+msgid "Products tagged &ldquo;"
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:85
+#: ../woocommerce/shop/breadcrumb.php:169
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:173
+msgid "Posts tagged &ldquo;"
+msgstr ""
+
+#: ../woocommerce/shop/breadcrumb.php:178
+msgid "Author:"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:21
+msgid "Choose an option"
+msgstr ""
+
+#: ../woocommerce/single-product/add-to-cart/variable.php:52
+msgid "Clear selection"
+msgstr ""
+
+#: ../woocommerce/single-product/tabs/attributes.php:14
+#: ../woocommerce/single-product/tabs/tab-attributes.php:7
+msgid "Additional Information"
+msgstr "Inofmazioni addizionali"
+
+#: ../woocommerce/single-product/tabs/description.php:11
+msgid "Product Description"
+msgstr "Opis proizvoda"
+
+#: ../woocommerce/single-product/tabs/tab-description.php:4
+msgid "Description"
+msgstr "Descrizione"
+

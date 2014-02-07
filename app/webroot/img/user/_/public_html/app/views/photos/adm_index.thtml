@@ -1,0 +1,21 @@
+<h2 class="pagetitle"><?= ucwords($category) ?> Images</h2>
+
+<p class="adminlink">
+	<?= $html->link('add','/adm/photos/add/'.$category) ?> |
+	<?= $html->link('reorder','/adm/photos/reorder/'.$category) ?>
+</p>
+
+<table class="adminlink">
+	<? $counter = 1; ?>
+	<? foreach($page as $pattern) { ?>
+		<? if($counter % 4 == 1) { ?><tr><? } ?>
+		<td>
+		<img src="<?= $html->url('/'.$pattern['Photo']['thumbpath']) ?>" /><br />
+		<?= $html->link('edit','/adm/photos/edit/'.$pattern['Photo']['id']) ?> |
+		<?= $html->link('delete','/adm/photos/delete/'.$pattern['Photo']['id']) ?>
+		</td>
+		<? if($counter % 4 == 0) { ?></tr><? } ?>
+		<? $counter++; ?>
+	<? } ?>
+	<? if($counter != 1) { ?></tr><? } ?>
+</table>

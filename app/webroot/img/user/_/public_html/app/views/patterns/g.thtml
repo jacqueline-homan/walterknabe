@@ -1,0 +1,116 @@
+<p class="filter">
+
+	<a href="<?= $html->url('/patterns/g/'.$material) ?>" style="margin-left: 0;"><?= $material ?>:</a>
+
+	<? 
+
+	if($material == 'wallcovering') { $aSkips = array('1','4'); }
+
+	if($material == 'fabric') { $aSkips = array('5'); }
+
+	?>
+
+	<? foreach($tagtypes as $type) { ?>
+
+		<? if(!in_array($type['Tagtype']['id'],$aSkips)) { ?>
+
+			<a href="<?= $html->url('/patterns/sorted/'.$material.'/'.$type['Tagtype']['id']) ?>"><?= $type['Tagtype']['type'] ?></a> |
+
+		<? } ?>
+
+	<? } ?>
+
+	<a href="<?= $html->url('/custombases/g') ?>">custom options</a> |
+
+	<a href="<?= $html->url('/photos/d/'.$material) ?>">photo gallery</a>
+
+</p>
+
+
+
+<? if($checksession) { ?>
+
+	<p class="adminlink"><?= $html->link('Reorder these patterns','/adm/patterns/reorder/'.$material) ?></p>
+
+<? } ?>
+
+
+
+
+
+<div class="thumbs">
+
+	<? foreach($page as $pattern) { ?>
+
+		<div class="interior">
+
+		<a href="<?= $html->url('/patterns/d/'.$pattern['Pattern']['id']) ?>"><img src="<?= $html->url('/'.$pattern['Pattern']['thumbpath']) ?>" /></a>
+
+		</div>
+
+	<? } ?>
+
+</div>
+
+
+
+<div id="custompreview" class="extendedpreview">
+
+	<? if($material == "wallcovering") { ?>
+	
+	
+	<img src="../../../img/Wallcovering-on-rack.jpg" border="0" alt="Wall covering tests on rack." width="250" height="333" /><br />
+
+	<p>Wall covering tests on rack.</p>
+	
+	<br/>
+	<img src="../../../img/Custom-brocade-in-store-for-web.jpg" border="0" alt="Custom brocade in store" width="250" height="333" /><br />
+
+	<p>Custom brocade in store.</p>
+	
+	<br/><br/>
+	
+	<h3>FABRIC AND WALL COVERING SHOWROOMS</h3>
+	<br/><br/>
+	<p>NEW YORK<br/><br/>
+	Arnitex, <br/>
+	979 Third Ave. #1207<br/>
+	New York, NY 10022<br/>
+	866-794-9777<br/>
+	<a href="bgarros@arnitex.com">bgarros@arnitex.com</a>
+	</p>
+	<p>CHICAGO<br/><br/>
+	Hughes<br/>
+	222 Merchandise Mart  #6-157<br/>
+	Chicago, IL. 60654<br/>
+	312-624-9997<br/>
+	<a href="kaylan@hughes.com">kaylan@hughes.com</a>
+	</p>
+	<p>
+	LOS ANGELES<br/><br/>
+	Design Alliancve LA<br/>
+	2680 Nina St.<br/>
+	Pasadena, CA. 91107<br/>
+	626-229-9799<br/>
+	<a href="mailto:cs2@designalliancela.com">cs2@designalliancela.com</a>
+	</p>
+
+
+	<? } ?>
+
+	<? if($material == "fabric") { ?>
+
+	<img src="../../../img/illinois-chair.png" border="0" alt="Rusted Gateway paper and chair" width="250" height="301" /><br />
+
+	<p>Rusted Gateway Paper and Chair</p>
+<br />
+	<img src="../../../img/knabe-fabric-furniture-2.jpg" border="0" alt="" width="250" />
+
+<p>Owen Chair, Rae Ottoman, & Dylan Chair</p>
+
+	<? } ?>
+	
+	
+
+</div>
+

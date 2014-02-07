@@ -1,0 +1,57 @@
+<? /*<p class="filter">
+	The design you created:
+	<?= $color['Custompatterncolor']['name'] ?> on 
+	<?= $background['Custombase']['name'] ?>
+	<?= $pattern['Custompattern']['name'] ?>
+</p>*/ ?>
+
+
+
+<div id="blanknotes"><div id="blanknotesinnertube">
+PATTERN AND COLORS
+base color: <?= $background['Custombase']['name'] ?> 
+pattern: <?= $pattern['Custompattern']['name'] ?> 
+pattern color: <?= $color['Custompatterncolor']['name'] ?> 
+________________________________________________ 
+
+
+REPEAT WIDTH
+
+________________________________________________ 
+
+
+ROOM
+
+________________________________________________ 
+ 
+
+OTHER ROOM COLORS
+
+________________________________________________ 
+ 
+
+KEY ELEMENTS
+
+________________________________________________ 
+ 
+
+NOTES
+
+
+
+
+________________________________________________ 
+	
+</div></div>
+
+
+<div id="customfinal">
+	<div id="basefinal">
+		<img src="<?= $html->url('/'.$background['Custombase']['filepath']) ?>" />
+	</div>
+	<div id="colorfinal">
+		<img src="<?= $html->url('/'.$color['Custompatterncolor']['filepath']) ?>" />
+	</div>
+</div>
+
+<p><?= $pattern['Custompattern']['blurb'] ?></p>

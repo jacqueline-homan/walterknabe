@@ -1,0 +1,17 @@
+<form action="<?= $html->url($formaction) ?>" method="post" class="editdata" enctype="multipart/form-data">
+	<p> 
+		<span class="label">Image (JPEG)</span>
+		<span class="item">
+			<input type="file" name="imagesource" />
+			<em>leave blank to keep current</em>
+		</span>
+	</p> 
+	<p>
+		<?= $html->hidden('Presspage/id') ?>
+		<?= $html->hidden('Presspage/presscover_id') ?>
+		<span class="item"><?= $html->submit('Upload Image') ?></span>
+	</p>
+</form>
+
+
+

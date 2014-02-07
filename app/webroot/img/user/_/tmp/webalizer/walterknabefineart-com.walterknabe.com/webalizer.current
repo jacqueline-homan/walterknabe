@@ -1,0 +1,478 @@
+# Webalizer V2.23-05 Incremental Data - 02/06/2014 19:42:08
+2014 2 6 19 42 8
+536 517 49 38 26 34 4248659 58 27 0
+7 1 100 1 6
+13 10 53992 11 5 5
+15 11 75144 9 6 3
+78 71 705069 13 12 4
+113 109 706330 10 10 5
+309 308 2639897 10 22 7
+8 8 68227 7 3 3
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+1 1 81 0
+2 2 81 0
+53 52 381702 5
+0 0 0 0
+6 5 28865 2
+4 2 23384 2
+3 2 22984 2
+1 1 81 0
+1 1 22668 1
+5 5 7617 1
+50 50 332801 4
+104 103 894473 8
+1 1 22668 1
+161 161 1510234 13
+4 2 6422 1
+4 3 2442 1
+50 48 279403 2
+9 9 486 0
+8 5 35038 4
+6 4 23543 2
+1 1 81 0
+0 0 0 0
+58 58 652566 7
+4 1 1039 2
+0
+0
+0
+517
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+1
+0
+12
+0
+0
+0
+0
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/wp-content/themes/thematic/library/styles/plugins.css
+0 9 3330747491010754353 5859 0 0
+/here-lies-my-heart/
+0 1 8392008404737156193 7560 0 0
+/wp-content/themes/thematic/library/scripts/hoverIntent.js
+0 9 29401140363996788 11448 0 0
+/hero-and-leander/
+0 3 3257568373788455213 22667 0 0
+/wp-content/themes/thematic/library/styles/reset.css
+0 9 3257003224778222903 11475 0 0
+/evocation/
+0 2 3545512881127894581 13279 0 0
+/barricades-of-heaven/
+0 1 7094064889789115504 7669 0 0
+/wp-content/themes/gallery/js/jquery.lazyload.pack.js
+0 9 87281899274547 14634 0 0
+/the-sea-and-the-sky/
+0 2 27093264 15369 0 0
+/liberation/
+0 2 0 14576 1 0
+/favicon.ico
+0 6 0 3234 0 0
+/wp-content/themes/thematic/library/scripts/superfish.js
+0 9 0 23094 0 0
+/wp-content/themes/gallery/style.css
+0 9 0 180054 0 0
+/wp-includes/js/comment-reply.js
+0 8 0 6288 0 0
+/sincerity-illuminates/
+0 2 0 15293 0 0
+/wp-content/themes/thematic/library/scripts/supersubs.js
+0 9 0 8037 0 0
+/wp-content/themes/gallery/images/body-background.jpg
+0 9 0 147789 0 0
+/flag-ii/
+0 1 0 7439 0 0
+/wp-content/themes/gallery/images/ico-home-trans.png
+0 3 0 1986 0 0
+/wp-login.php
+0 1 0 2045 0 0
+/wp-content/themes/thematic/library/styles/images.css
+0 9 0 9675 0 0
+/wp-includes/js/jquery/jquery.js
+0 10 0 515484 0 0
+/spiritual-awakening-ii-morgan/
+0 1 0 7695 0 0
+/wp-content/themes/gallery/images/ico-rss-trans.png
+0 9 0 2466 0 0
+/wp-content/themes/gallery/images/side-fade-trans.png
+0 9 0 2763 0 0
+/sending-faith/
+0 2 0 15123 0 0
+/
+0 19 0 430548 22 1
+/dreams-from-a-castle/
+0 1 0 7640 0 0
+/wp-content/themes/thematic/scripts/timthumb.php
+0 274 0 2629765 0 0
+/wp-content/themes/thematic/library/layouts/2c-l-fixed.css
+0 9 0 9189 0 0
+/comments/feed/
+0 2 0 2548 2 1
+/ambre/
+0 2 0 14897 0 0
+/wp-content/themes/gallery/js/gallery.js
+0 9 0 11610 0 0
+/wp-content/themes/thematic/library/scripts/thematic-dropdowns.js
+0 9 3330471508538556416 8847 0 0
+/confluence-ethereal/
+0 2 3904674947099144564 15132 0 0
+/robots.txt
+0 30 4121407410712686132 2430 0 0
+/spring-enchantment/
+0 2 3615886023419232256 15104 0 0
+/wp-cron.php
+0 15 8393155414370181993 0 0 0
+# End Of Table - urls
+# -sites- (monthly)
+pool-100-2-153-2.nycmny.fios.verizon.net
+0 54 54 539615 1 1391598547
+/sincerity-illuminates/
+msnbot-157-56-229-188.search.msn.com
+0 1 1 81 0 0
+-
+msnbot-157-55-33-83.search.msn.com
+0 3 3 243 0 0
+-
+99-8-201-69.lightspeed.iplsin.sbcglobal.net
+0 47 47 353721 1 1391605834
+/hero-and-leander/
+crawl-66-249-73-39.googlebot.com
+0 3 3 243 0 0
+-
+107-220-21-39.lightspeed.iplsin.sbcglobal.net
+0 52 52 484665 1 1391605730
+/hero-and-leander/
+msnbot-157-55-34-26.search.msn.com
+0 1 1 81 0 0
+-
+crawl03.exabot.com
+0 1 1 81 0 0
+-
+msnbot-65-55-52-111.search.msn.com
+0 1 1 81 0 0
+-
+msnbot-131-253-24-14.search.msn.com
+0 1 1 81 0 0
+-
+ec2-23-20-5-110.compute-1.amazonaws.com
+0 1 1 7293 1 1391246583
+/liberation/
+spider-95-108-240-252.yandex.com
+0 4 4 324 0 0
+-
+sol-fttb.141.117.118.46.sovam.net.ua
+0 3 0 12056 1 1391537285
+-
+69.58.178.56
+0 4 1 1039 1 1391471426
+/
+ec2-54-224-152-44.compute-1.amazonaws.com
+0 1 1 22668 1 1391243540
+/
+79-114-119-129.rdsnet.ro
+0 1 1 22668 1 1391661300
+/
+101.226.166.211
+0 1 1 81 0 0
+-
+host-176-36-103-188.la.net.ua
+0 1 0 6025 0 0
+-
+ns6481.hostgator.com
+0 15 15 0 0 0
+-
+schmspsrvz1ts416-dmz.mycingular.net
+0 47 47 330253 1 1391597079
+/barricades-of-heaven/
+hn.kd.ny.adsl
+0 1 1 81 0 0
+-
+38.100.21.68
+0 1 0 316 1 1391612418
+/
+66.249.16.211
+0 2 1 22984 1 1391407585
+/
+fetcher4-4.p.mail.ru
+0 2 1 397 1 1391281777
+/
+205-178-126-22.c3-0.snb-ubr2.chi-snb.il.cable.rcn.com
+0 57 57 652485 1 1391638726
+/the-sea-and-the-sky/
+msnbot-157-55-35-53.search.msn.com
+0 1 1 81 0 0
+-
+msnbot-157-56-92-163.search.msn.com
+0 1 1 81 0 0
+-
+www.whois.sc
+0 5 3 25851 3 1391508618
+/comments/feed/
+31.202.222.17.format-tv.net
+0 1 1 22668 1 1391256212
+/
+fetcher4-3.p.mail.ru
+0 1 0 316 1 1391443663
+/
+76-238-170-175.lightspeed.iplsin.sbcglobal.net
+0 46 46 278680 1 1391618878
+/
+msnbot-157-55-36-38.search.msn.com
+0 2 2 162 0 0
+-
+91.208.16.239
+0 1 0 316 1 1391266717
+/
+5-248-208-87-broadband.kyivstar.net
+0 1 1 22658 1 1391710699
+/
+ec2-54-211-174-91.compute-1.amazonaws.com
+0 1 0 6035 1 1391315813
+-
+37.9.53.129
+0 1 1 2045 0 0
+-
+msnbot-65-55-55-230.search.msn.com
+0 1 1 81 0 0
+-
+fetcher4-6.p.mail.ru
+0 2 1 407 0 0
+-
+173.226.40.59
+0 58 58 671767 1 1391435141
+/spiritual-awakening-ii-morgan/
+74-92-213-85-colorado.hfc.comcastbusiness.net
+0 50 49 354858 1 1391512624
+/evocation/
+46.5.207.91.unknown.steephost.net
+0 1 1 22658 1 1391715728
+/
+250.5.207.91.unknown.steephost.net
+0 3 2 45320 1 1391308719
+/
+101.226.169.225
+0 1 1 81 0 0
+-
+msnbot-157-55-33-33.search.msn.com
+0 1 1 81 0 0
+-
+fetcher4-2.p.mail.ru
+0 1 0 326 0 0
+-
+msnbot-157-55-35-115.search.msn.com
+0 1 1 81 0 0
+-
+rrcs-24-123-28-51.central.biz.rr.com
+0 49 49 336382 1 1391479855
+/sincerity-illuminates/
+180.76.6.52
+0 1 1 81 0 0
+-
+msnbot-157-55-32-141.search.msn.com
+0 1 1 81 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+spider-95-108-240-252.yandex.com
+0 1 1 81 0 0
+-
+79-114-119-129.rdsnet.ro
+0 1 1 22668 1 1391661300
+/
+ns6481.hostgator.com
+0 2 2 0 0 0
+-
+msnbot-157-56-92-163.search.msn.com
+0 1 1 81 0 0
+-
+5-248-208-87-broadband.kyivstar.net
+0 1 1 22658 1 1391710699
+/
+46.5.207.91.unknown.steephost.net
+0 1 1 22658 1 1391715728
+/
+msnbot-157-55-32-141.search.msn.com
+0 1 1 81 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+http://walterknabefineart.com/liberation/
+0 2
+WALTERKNABEFINEART.COM/administrator/index.php
+0 1
+http://walterknabefineart.com/ambre/
+0 2
+http://walterknabefineart.com/flag-ii/
+0 4
+http://walterknabefineart.com/
+0 404
+http://walterknabefineart.com/administrator/
+0 1
+http://walterknabefineart.com/dreams-from-a-castle/
+0 2
+http://walterknabefineart.com/wp-content/plugins/xcloner-backup-and-restore/readme.txt
+0 1
+WALTERKNABEFINEART.COM/index.php
+0 1
+http://walterknabefineart.com/hero-and-leander/
+0 5
+http://walterknabefineart.com/robots.txt
+0 3
+http://walterknabefineart.com/confluence-ethereal/
+0 3
+- (Direct Request)
+0 65
+http://whois.domaintools.com/walterknabefineart.com
+0 4
+http://walterknabefineart.com/spiritual-awakening-ii-morgan/
+0 1
+http://walterknabefineart.com/wp-content/themes/gallery/style.css
+0 7
+http://walterknabefineart.com/evocation/
+0 1
+http://www.walterknabe.com/dpages/v/1
+0 10
+http://walterknabefineart.com/here-lies-my-heart/
+0 2
+http://walterknabefineart.com/sincerity-illuminates/
+0 3
+WALTERKNABEFINEART.COM/
+0 1
+http://walterknabefineart.com/spring-enchantment/
+0 2
+http://walterknabefineart.com/barricades-of-heaven/
+0 2
+http://walterknabefineart.com/the-sea-and-the-sky/
+0 2
+http://walterknabefineart.com/sending-faith/
+0 4
+WALTERKNABEFINEART.COM/administrator/
+0 1
+# End Of Table - referrers
+# -agents- 
+GoogleBot 1.0
+0 1
+Pinterest/0.1 +http://pinterest.com/
+0 3
+Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; )  Firefox/1.5.0.11; 360Spider
+0 1
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.5 (KHTML, like Gecko) YaBrowser/1.1.1084.5409 Chrome/19.1.1084.5409 Safari/536.5
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.0.19) Gecko/2010031422 Firefox/3.0.19 YB/3.5.1 (.NET CLR 3.5.30729)
+0 1
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+0 3
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)
+0 1
+Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2
+0 1
+msnbot-media/1.1 (+http://search.msn.com/msnbot.htm)
+0 1
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 5
+Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+0 14
+Mozilla/5.0 (Windows; U; Windows NT 5.1; en; rv:1.9.0.13) Gecko/2009073022 Firefox/3.5.2 (.NET CLR 3.5.30729) SurveyBot/2.3 (
+0 3
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/536.29.13 (KHTML, like Gecko) Version/6.0.4 Safari/536.29.13
+0 54
+Mozilla/5.0 (Windows NT 5.1; rv:22.0) Gecko/20100101 Firefox/22.0 Paros/3.2.13
+0 1
+Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot)
+0 1
+BlackBerry9000/4.6.0.167 Profile/MIDP-2.0 Configuration/CLDC-1.1 VendorID/102 ips-agent
+0 1
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2)
+0 1
+WordPress/2.9.2; http://walterknabefineart.com
+0 15
+Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:14.0; ips-agent) Gecko/20100101 Firefox/14.0.1
+0 3
+Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_3 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10B329 Safa
+0 47
+Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+0 1
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.46 Safari/536.5 Nichrome/self/19
+0 1
+Mozilla/5.0 (iPad; CPU OS 7_0_4 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B554a Safari/953
+0 47
+Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
+0 57
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 4
+Opera/9.80 (Windows NT 6.1; WOW64; U; ru) Presto/2.10.289 Version/12.00
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/32.0.1700.107 Safari/537.36
+0 101
+Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0)
+0 46
+Mozilla/5.0 (compatible; Linux x86_64; Mail.RU_Bot/2.0; +http://go.mail.ru/help/robots)
+0 6
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.3
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11
+0 1
+Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0
+0 1
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; WOW64; Trident/6.0)
+0 58
+Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0
+0 50
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

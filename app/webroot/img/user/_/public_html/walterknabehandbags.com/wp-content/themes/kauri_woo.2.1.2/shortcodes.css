@@ -1,0 +1,394 @@
+blockquote.alignleft {
+    margin: 10px 20px 10px 0;
+    width: 30%;
+}
+blockquote.alignright {
+    margin: 10px 0 0 20px;
+    width: 30%;
+}
+blockquote {
+    background: url("images/bquot.png") no-repeat scroll 0 4px transparent;
+    padding: 5px 10px 5px 35px;
+    font-style: italic;
+	quotes: none; 
+}
+
+.dropcap_light {
+	color: #999;
+	display: block;
+	float: left;
+	font-family: Georgia;
+	font-size: 4em;
+	margin: 5px 8px 0 0;
+	padding: 0 15px 15px 15px;
+	text-shadow: 1px 1px 2px #fff;
+	line-height: 1em !important;
+}
+
+.dropcap_dark {
+	background-color: #666;
+	color: white;
+	display: block;
+	float: left;
+	font-family: Georgia;
+	font-size: 4em;
+	margin: 5px 8px 0 0;
+	padding: 15px;
+	text-shadow: 1px 1px 2px #333;
+	line-height: 1em !important;
+}
+
+.one_fourth, .one_third, .one_half, .two_third, .three_fourth {
+    float:left;
+    position:relative;
+}
+.one_fourth { width:25%; }
+.one_third { width:33.33%; }
+.one_half { width:50%; }
+.two_third { width:66%; }
+.three_fourth { width:75%; }
+
+
+.one_fourth span, .one_third span, .one_half span, .two_third span, .three_fourth span{
+    display: block;
+    padding: 10px 20px 10px 0;
+}
+
+.s-mybutton,  a.s-mybutton, .s-mybutton:visited{
+	text-shadow: none;
+	display: inline-block;
+    position: relative;
+
+}
+
+.s-mybutton span, a.s-mybutton span,.s-mybutton:visited span{
+    text-shadow: none;
+    padding: 5px 10px;
+	background: url("images/butt_grad.png") repeat-x scroll 0 0 #222222;
+	text-decoration: none;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+	border-radius: 4px 4px 4px 4px;
+	font-size:1em;
+	margin:10px 5px;
+	display: block;
+}
+
+a.s-mybutton:hover span{
+    text-shadow: none;
+    background: url("images/butt_grad2.png") repeat-x scroll 0 0 #222222;
+}
+
+.m-mybutton{
+	text-shadow: none;
+	display: inline-block;
+    position: relative;
+}
+
+.m-mybutton span, a.m-mybutton span,.m-mybutton:visited span{
+    text-shadow: none;
+    padding: 10px 15px;
+	background: url("images/butt_grad.png") repeat-x scroll 0 0 #222222;
+	text-decoration: none;
+    box-shadow:1px 0 1px #C0CAD0, 1px 1px 0 #FFFFFF inset;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+	border-radius: 4px 4px 4px 4px;
+	font-size:1.3em;
+	margin:10px 10px;
+	display: block;
+}
+
+a.m-mybutton:hover span{
+	text-shadow: none;
+    background: url("images/butt_grad2.png") repeat-x scroll 0 0 #222222;
+}
+
+.l-mybutton{
+	text-shadow: none;
+	display: inline-block;
+    position: relative;
+	}
+
+.l-mybutton span, a.l-mybutton span,.l-mybutton:visited span{
+    text-shadow: none;
+    padding: 15px 20px;
+	background: url("images/butt_grad.png") repeat-x scroll 0 0 #222222;
+	text-decoration: none;
+    box-shadow:1px 0 1px #C0CAD0, 1px 1px 0 #FFFFFF inset;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+	border-radius: 4px 4px 4px 4px;
+	font-size:1.8em;
+	margin:10px ;
+	display:block;
+}
+
+a.l-mybutton:hover span{
+    
+    text-shadow: none;
+    background: url("images/butt_grad.png2") repeat-x scroll 0 0 #222222;
+}
+
+.butt_holder{
+	display:block;
+    padding: 15px;
+}
+
+
+
+/*======================= ACCORDION ===============================*/
+.accordion {
+	margin-bottom:20px;
+}
+.accordion_item {
+	padding: 10px;
+	margin: 0 0 5px 0;
+	display: block;
+	background: url(images/products_back.png);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 1px 0 1px #C0CAD0, 1px 1px 0 #fff inset;
+	-moz-box-shadow: 1px 0 1px #C0CAD0, 1px 1px 0 #fff inset;
+	box-shadow: 1px 0 1px #C0CAD0, 1px 1px 0 #fff inset;
+	
+}
+.accordion_item h3{
+	background:none;
+	font-size: 1.45em;
+	text-transform: uppercase;
+	color:#333;
+	margin: 0;
+	padding: 7px 0;
+}
+
+.accordion_item h3.inactive {
+	background: url(images/icon_plus_small.png);
+}
+.accordion_item h3.active {
+	background: url(images/icon_minus_small.png);
+}
+
+.accordion_item h3.active, .accordion_item h3.inactive{
+	background-repeat:no-repeat;
+	background-position: right center;
+
+}
+
+.accordion_item h3:hover {
+	color:#999;
+	cursor:pointer;
+}
+.accordion_content {
+	margin-top:10px;
+	background:url(images/border_raster_02.png) repeat-x right top;
+	padding:20px;
+	
+}
+
+/*======================= CUSTOM MESSAGE BOX ===============================*/
+.messageb {
+	float:left;
+	width:100%;
+	margin: 0 -1px 20px -1px;
+}
+
+.messageb_title h4 {
+	margin:20px;
+	padding: 0 0 15px;
+}
+.messageb .icon {
+	display: inline-block;
+	float: left;
+}
+.messageb .icon img {
+	margin:20px
+}
+.messageb .inner{
+	
+}
+.messageb .inner span{
+	float: left;
+	margin:30px 20px
+}
+/*======================= end CUSTOM MESSAGE BOX ===============================*/
+
+
+/*======================= TOGGLER ===============================*/
+.toggler {
+	padding: 10px;
+	margin: 0 0 5px 0;
+	display: block;
+	background: url(images/products_back.png);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: 1px 0 1px #C0CAD0, 1px 1px 0 #fff inset;
+	-moz-box-shadow: 1px 0 1px #C0CAD0, 1px 1px 0 #fff inset;
+	box-shadow: 1px 0 1px #C0CAD0, 1px 1px 0 #fff inset;
+	
+}
+.toggler h3{
+	background:none;
+	font-size: 1.45em;
+	text-transform: uppercase;
+	color:#333;
+	margin: 0;
+	padding: 7px 0;
+}
+.toggler h3:hover {
+	color:#999;
+	cursor:pointer;
+}
+
+.toggler h3.inactive {
+	background: url(images/icon_plus_small.png);
+}
+.toggler h3.active {
+	background: url(images/icon_minus_small.png);
+}
+.toggler h3.active, .toggler h3.inactive{
+	background-repeat:no-repeat;
+	background-position: right center;
+}
+.toggle_content {
+	margin-top:10px;
+	background:url(images/border_raster_02.png) repeat-x right top;
+	padding:20px;
+	
+}
+/*======================= end TOGGLER ===============================*/
+/*======================= PRICETABLE ===============================*/
+
+.pricetable_holder {
+	float:left;
+}
+.pricetable {
+	margin:20px 10px 20px 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 1px 0 1px #C0CAD0, 1px 1px 0 #fff inset;
+	-moz-box-shadow: 1px 0 1px #C0CAD0, 1px 1px 0 #fff inset;
+	box-shadow: 1px 0 1px #C0CAD0, 1px 1px 0 #fff inset;
+}
+.pricetable_featured {
+	margin: 10px 10px 10px 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(10,10,10,0.8);
+	outline: 1px solid #E5E5E5;
+}
+.pricetable_holder h4,.pricetable_holder h6 {
+	text-align:center;
+	padding: 15px;
+	margin: 0;
+	background-image: none;
+}
+.pricetable_holder p {
+	display:none;
+}
+.pricetable_holder h4 {
+	background:url('images/transp_black_3.png');
+	margin-bottom:1px;
+}
+.pricetable_holder h4.title_featured {
+	padding:20px;
+}
+.pricetable_holder h6 {
+	text-transform:lowercase;
+	border-bottom: none;
+}
+.pricetable_holder ul {
+	background:url(images/white_transparent.png);
+	margin: 0;
+	padding: 0 20px;
+	list-style:none;
+}
+.pricetable_holder ul li {
+	text-align:center;
+	border-bottom:1px dotted #ccc;
+	padding:15px 10px;
+}
+.pricetable_holder ul li:last-child {
+	border-bottom:none;
+}
+.pricetable_holder .button_holder {
+	text-align:center;
+	padding:20px;
+}
+.pricetable_holder .button_holder_featured {
+	text-align:center;
+	padding: 25px
+}
+.pricetable_holder .m-mybutton span,
+.pricetable_holder a.m-mybutton span,
+.pricetable_holder .m-mybutton:visited span {
+	text-shadow: none;
+	padding: 10px 15px;
+	background: url("images/butt_grad3.png") repeat-x scroll left bottom;
+	text-decoration: none;
+	box-shadow: 1px 0 1px #C0CAD0, 1px 1px 0 #FFFFFF inset;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+	border-radius: 4px 4px 4px 4px;
+	font-size: 1.3em;
+	margin: 10px 10px;
+	display: block;
+}
+.button_holder_featured .m-mybutton span,
+.button_holder_featured a.m-mybutton span,
+.button_holder_featured .m-mybutton:visited span {
+	background-position:left 50%;
+}
+.pricetable_holder .m-mybutton span:hover, 
+.pricetable_holder a.m-mybutton span:hover,
+.pricetable_holder .m-mybutton:visited span:hover 
+{
+	background-position:left top;
+}
+.pricetable_holder .m-mybutton span:active, 
+.pricetable_holder a.m-mybutton span:active,
+.pricetable_holder .m-mybutton:visited span:active {
+	box-shadow: 1px 0 1px #C0CAD0 inset, 1px 1px 0 #FFFFFF;
+} 
+/*======================= endPRICETABLE ===============================*/
+
+/*======================= LIST STYLE =========================*/
+.liststyler ul{
+	list-style:none;
+	padding: 0;
+	}
+.liststyler ul li{
+	padding:5px 0 5px 25px;
+	}
+.arrow1 ul li{
+	background:url('tinymce_shortcode/images/liststyles/arrow1.png') no-repeat left center;
+}
+.arrow2 ul li{
+	background:url('tinymce_shortcode/images/liststyles/arrow2.png') no-repeat left center;
+}
+.check1 ul li{
+	background:url('tinymce_shortcode/images/liststyles/check1.png') no-repeat left center;
+}
+.check2 ul li{
+	background:url('tinymce_shortcode/images/liststyles/check2.png') no-repeat left center;
+}
+.dot_dark ul li{
+	background:url('tinymce_shortcode/images/liststyles/dot_dark.png') no-repeat left center;
+}
+.dot_light ul li{
+	background:url('tinymce_shortcode/images/liststyles/dot_light.png') no-repeat left center;
+}
+.error1 ul li{
+	background:url('tinymce_shortcode/images/liststyles/error1.png') no-repeat left center;
+}
+.error2 ul li{
+	background:url('tinymce_shortcode/images/liststyles/error2.png') no-repeat left center;
+}
+.square_dark ul li{
+	background:url('tinymce_shortcode/images/liststyles/square_dark.png') no-repeat left center;
+}
+.square_light ul li{
+	background:url('tinymce_shortcode/images/liststyles/square_light.png') no-repeat left center;
+}
+
+/*======================= END LIST STYLE =========================*/

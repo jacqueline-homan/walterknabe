@@ -1,0 +1,6 @@
+[18-Jan-2012 10:04:53] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/walter/public_html/dreamfed.net/test.php on line 11
+[18-Jan-2012 10:04:53] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: Access denied for user 'walter'@'localhost' (using password: NO) in /home/walter/public_html/dreamfed.net/test.php on line 12
+[18-Jan-2012 10:04:53] PHP Warning:  mysql_select_db() [<a href='function.mysql-select-db'>function.mysql-select-db</a>]: A link to the server could not be established in /home/walter/public_html/dreamfed.net/test.php on line 12
+[18-Jan-2012 10:04:53] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'walter'@'localhost' (using password: NO) in /home/walter/public_html/dreamfed.net/test.php on line 32
+[18-Jan-2012 10:04:53] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/walter/public_html/dreamfed.net/test.php on line 32
+[18-Jan-2012 10:04:53] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/walter/public_html/dreamfed.net/test.php on line 34

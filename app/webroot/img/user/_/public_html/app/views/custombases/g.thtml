@@ -1,0 +1,23 @@
+<p>Custom options include color changes to our existing patterns, base textures, and completely customized patterns. </p>
+
+ 
+<p>Enjoy the ease of creating customized Walter Knabe wallcoverings by utilizing our Custom Color Selector below, which will enable you to create a digital strike-off using some of our favorite colors and our Classics Collection patterns.  </p>
+
+
+
+<p class="filter">
+	<strong>1.) Select Background</strong> &nbsp;
+	2.) Select Pattern &nbsp;
+	3.) Select Color
+</p>
+
+
+<div class="thumbs">
+	<? foreach($page as $pattern) { ?>
+		<div class="interior">
+		<a href="<?= $html->url('/custombases/pick/'.$pattern['Custombase']['id']) ?>"><img src="<?= $html->url('/'.$pattern['Custombase']['thumbpath']) ?>" /></a><br />
+		<?= $pattern['Custombase']['name'] ?>
+		</div>
+	<? } ?>
+</div>
+

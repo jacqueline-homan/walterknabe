@@ -1,0 +1,363 @@
+ul.tabs {
+	margin:0;
+	padding:0;
+}
+
+ul.tabs li.active {
+	background-position: left -18px;
+	height: 18px;;
+}
+ul.tabs li.active span{
+	background-position: right -54px;
+	height: 18px;
+}
+
+.tab_container {
+	float:left;
+	width: 100%;
+	padding: 10px 0 20px;
+	background:#fff;
+	border: 1px solid #91A7B4;
+	border-top: none;
+}
+.tab_content { 
+}
+.tab_content div{
+	padding: 10px;
+	position: relative;
+	float: left;
+	height: auto;
+	width: 96%;
+	}
+.tab_content div.insert {
+	float:left;
+	text-align:right;
+}
+div.colorSelector {
+	position: absolute;
+	width: 27px;
+}
+.tab_content label {
+	display: block;
+	float: left;
+	margin: 0 8px 0 0;
+	width: 150px;
+}
+.tab_content select, .tab_content input, .tab_content textarea { 
+	display: block; 
+	float: right; 
+	width: 150px;
+	padding: 5px;
+}
+
+.tab_content select { 
+	width: 112px; }
+.tab_content #insert { 
+	display: block;
+	line-height: 24px;
+	text-align: center;
+	margin: 10px 0 0 0;
+	float: right;
+	}
+
+.tabs {
+	width:auto;
+}
+
+.clear {
+	clear:both;
+	float:none;
+}
+/* CUSTOM MESSAGE */
+
+#custom-mess-dialog textarea {
+	width:200px;
+	height:80px;
+
+}
+
+
+
+/* ACCORDION */
+#accordion_holder {
+	float:left;
+	height:auto;
+}
+.accordion_item {
+	clear:both;
+	position:relative;
+}
+.accordion_item h4{
+	padding: 8px 0;
+	border-top: 1px dotted #999;
+}
+
+.accordion_item label {
+	width: auto;
+	float: left;
+	padding: 5px 0;
+
+}
+.accordion_item input {
+	width: 120px;
+	float: left;
+	margin-right: 10px;
+}
+.accordion_item textarea {
+	width: 150px;
+	height: 60px;
+	float: left;
+	padding: 5px;
+}
+#add_accordion_item, #add_toggle_item, #add_tab, #columns-dialog .add_columns  { 
+	display: block;
+	float: left;
+	width: auto;
+	border: 1px solid #BBB;
+	margin: 0;
+	padding: 5px 10px;
+	font-weight: normal;
+	font-size: 10px;
+	height: 30px;
+	color: black;
+	cursor: pointer;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #EEE;
+	background-image: -ms-linear-gradient(bottom, #DDD, white);
+	background-image: -moz-linear-gradient(bottom, #DDD, white);
+	background-image: -o-linear-gradient(bottom, #DDD, white);
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#DDD), to(white));
+	background-image: -webkit-linear-gradient(bottom, #DDD, white);
+	background-image: linear-gradient(bottom, #DDD, white);
+}
+#add_accordion_item:hover , #add_toggle_item:hover, #add_tab:hover, #columns-dialog .add_columns:hover {
+	background:#e5e5e5;
+}
+.accordion_item .remove_accordion_item {
+	background: url(../images/remove.gif) no-repeat top left;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	line-height: 0.1em;
+	cursor: pointer;
+	padding:0;
+}
+
+
+/* TOGGLE */
+#toggle_holder {
+	float:left;
+	height:auto;
+}
+.toggle_item {
+	clear:both;
+	position:relative;
+}
+.toggle_item h4{
+	padding: 8px 0;
+	border-top: 1px dotted #999;
+}
+
+.toggle_item label {
+	width: auto;
+	float: left;
+	padding: 5px 0;
+
+}
+.toggle_item input {
+	width: 120px;
+	float: left;
+	margin-right: 10px;
+}
+.toggle_item textarea {
+	width: 150px;
+	height: 60px;
+	float: left;
+	padding: 5px;
+}
+
+/* 
+#add_toggle_item { 
+	
+	see #add_accordion_item, #add_toggle_item, #add_tab, #columns-dialog .add_columns ---- line 98 
+	
+}
+*/
+
+.toggle_item .remove_toggle_item {
+	background: url(../images/remove.gif) no-repeat top left;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	line-height: 0.1em;
+	cursor: pointer;
+	padding:0;
+}
+
+
+
+/* TABBER  */
+#tabber_holder {
+	float:left;
+	height:auto;
+}
+.tab_item {
+	clear:both;
+	position:relative;
+}
+.tab_item h4{
+	padding: 8px 0;
+	border-top: 1px dotted #999;
+}
+
+.tab_item label {
+	width: auto;
+	float: left;
+	padding: 5px 0;
+}
+.tab_item input {
+	width: 120px;
+	float: left;
+	margin-right: 10px;
+}
+.tab_item textarea {
+	width: 150px;
+	height: 60px;
+	float: left;
+	padding: 5px;
+}
+/*
+#add_tab { 
+	see #add_accordion_item, #add_toggle_item, #add_tab , #columns-dialog .add_columns ---- line 98 
+}
+*/
+.tab_item .remove_tab_item {
+	background: url(../images/remove.gif) no-repeat top left;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	line-height: 0.1em;
+	cursor: pointer;
+	padding:0;
+}
+
+/* COLUMNS  */
+/*
+#columns-dialog .select_holder {
+	float: left;
+	width: 96%;
+	padding: 10px 2% 20px;
+}
+.select_holder select {
+	float:left;
+	width:auto;
+}
+#columns_holder {
+	position:relative;
+	float:left;
+	width:90%;
+	height:auto;
+}
+#columns_holder #two_halfs {
+	float: left;
+	width:100%;
+	height: auto;
+	padding: 0;
+}
+#columns_holder textarea {
+	float: left;
+	margin-right: 20px;
+	height: 80px;
+	width: 42%;
+}
+*/
+#columns-dialog .button_holder {
+	float:left;
+	padding: 5px;
+}
+/*
+#columns-dialog .add_columns {
+	see #add_accordion_item, #add_toggle_item, #add_tab, #columns-dialog .add_columns ---- line 98 
+}
+
+#columns-dialog .add_columns:hover {
+	background:#e5e5e5;
+}
+*/
+#columns_holder {
+	position: relative;
+	float: left;
+	width: 90%;
+	height: auto;
+	padding: 0 2.5%;
+	background: #f3f3f3;
+	margin: 20px 0;
+}
+#columns-dialog .remove_column {
+	background: url(../images/remove.gif) no-repeat top left;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 10px;
+	height: 10px;
+	line-height: 0.1em;
+	cursor: pointer;
+	padding: 0;
+}
+
+
+#columns-dialog .half {
+	width: 50%;
+	padding: 15px 0;
+	height: auto;
+	float: left;
+	margin: 0;
+}
+#columns-dialog textarea {
+	width: 90%;
+	height: 180px;
+	padding: 5px 5%;
+}
+
+#columns-dialog .third {
+	width: 33.3%;
+	padding: 15px 0;
+	height: auto;
+	float: left;
+	margin: 0;
+}
+#columns-dialog .two_third {
+	width: 66.6%;
+	padding: 15px 0;
+	height: auto;
+	float: left;
+	margin: 0;
+}
+
+
+
+#columns-dialog .fourth {
+	width: 25%;
+	padding: 15px 0;
+	height: auto;
+	float: left;
+	margin: 0;
+}
+#columns-dialog .three_fourth {
+	width: 75%;
+	padding: 15px 0;
+	height: auto;
+	float: left;
+	margin: 0;
+}
+
+hr {
+	clear:both;
+}

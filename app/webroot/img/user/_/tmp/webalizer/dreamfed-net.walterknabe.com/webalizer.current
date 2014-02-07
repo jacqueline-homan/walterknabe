@@ -1,0 +1,206 @@
+# Webalizer V2.01-10 Incremental Data - 01/18/2012 05:05:23
+2012 1 18 5 5 23
+38 35 7 25 3 6 28450 34 9 0
+1 28 28 13 18
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+5 4 1789 2 4 2
+3 3 1755 3 3 3
+2 2 1166 2 2 2
+2 2 581 1 2 1
+0 0 0 0 0 0
+26 24 23159 1 23 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 1 581 1
+28 26 23740 25
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 1 585 1
+4 3 1248 3
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+1 1 585 1
+0 0 0 0
+0 0 0 0
+2 2 1170 2
+1 1 541 1
+0
+0
+0
+35
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 11 1835099506 5518 9 2
+/cake/libs/controller/
+0 1 0 678 0 0
+/cake/libs/model/datasources/
+0 1 0 598 0 0
+/cake/libs/model/dbo/
+0 1 0 834 0 0
+/cake/
+0 1 0 846 0 0
+/cake/libs/
+0 1 0 1427 0 0
+/cake/scripts/
+0 1 0 515 0 0
+/cake/libs/controller/components/dbacl/
+0 1 0 550 0 0
+/cake/scripts/templates/skel/
+0 1 0 971 0 0
+/vendors/
+0 1 0 372 0 0
+/app/
+0 1 0 3860 0 0
+/test/
+0 1 0 408 0 0
+/cake/scripts/templates/views/
+0 1 0 483 0 0
+/cake/libs/view/templates/elements/
+0 1 0 495 0 0
+/cake/libs/view/
+0 1 0 572 0 0
+/favicon.ico
+0 1 0 0 0 0
+/cake/libs/view/helpers/
+0 1 0 819 0 0
+/cake/VERSION.txt
+0 1 0 618 0 0
+/cake/libs/model/
+0 1 0 704 0 0
+/cake/config/
+0 1 0 475 0 0
+/cake/libs/view/templates/
+0 1 0 631 0 0
+/cake/libs/controller/components/iniacl/
+0 1 0 514 0 0
+/cake/libs/controller/components/
+0 1 0 771 0 0
+/cake/scripts/templates/
+0 1 0 489 0 0
+/cake/LICENSE.txt
+0 1 0 1236 0 0
+# End Of Table - urls
+# -sites- (monthly)
+ofdp-3.phishmongers.com
+0 3 3 1711 3 1326666035
+/
+149-166-150-236.dhcp-in.iupui.edu
+0 4 3 1248 1 1326455263
+-
+38.229.70.44
+0 1 1 585 1 1326569719
+/
+184-106-154-60.static.cloud-ips.com
+0 2 2 581 1 1326692345
+/
+66.249.17.173
+0 1 1 581 1 1326602971
+/
+copilot.thunderstone.com
+0 26 24 23159 1 1326863123
+/cake/libs/view/templates/elements/
+66.249.16.212
+0 1 1 585 1 1326535344
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+copilot.thunderstone.com
+0 26 24 23159 1 1326863123
+/cake/libs/view/templates/elements/
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 36
+http://dreamfed.net/
+0 1
+http://whois.domaintools.com/dreamfed.net
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/4.0 (compatible; http://search.thunderstone.com/texis
+0 26
+Chrome/1.0.154.53 Safari/525.19
+0 2
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.co
+0 1
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; en-US; rv:1.9
+0 1
+Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.25) 
+0 4
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US; rv:1.9.0.6) G
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

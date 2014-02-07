@@ -1,0 +1,131 @@
+<style>
+
+#main { width: 927px; margin: 10px 0; padding-top: 0; }
+
+</style>
+
+
+
+<div id="home1">
+
+	<?php /* <img src="/img/mime-attachment-large.jpg<? //= $html->url('/'.$pattern['Pattern']['filepath']) ?>" width="450" height="600" alt="Walter's custom art" border="0" /> */?>
+	<img src="/img/wknabe-30-yr.jpg" width="400" height="600" alt="Walter Knabe Studios is Celebrating 30 Years of Art & Design (1984 - 2014)" border="0" />
+</div>
+
+<div id="homeb"></div>
+
+<?php /* 
+<div id="headlines">
+<h3>Recent Posts</h3>
+<div id="posts">
+		<? 
+
+			$sql = "SELECT p . * 
+
+					FROM `wkp_posts` p
+
+					WHERE p.post_type = 'post'
+
+					AND p.post_status = 'publish'
+
+					AND p.post_date < DATE_ADD(NOW(), INTERVAL 2 HOUR) 
+
+					ORDER BY p.post_date DESC 
+
+					LIMIT 0 , 2 "; 
+
+			mysql_query("SET NAMES 'utf8'");
+
+			$qry_NewsFromBlog = mysql_query($sql);
+
+		?>
+
+		<? 
+
+			$counter = 0;
+
+			while($row = mysql_fetch_array($qry_NewsFromBlog)) { ?>
+
+			<?
+
+			$buildslug = "http://www.walterknabe.com/blog/";
+
+			//$aDate = explode('-',$row['post_date']);
+
+			//$buildslug .= $aDate[0].'/'.$aDate[1].'/'.$row['post_name'];
+
+			$buildslug .= $row['post_name'];
+
+			
+
+			$cleancontent = preg_replace("#\[caption[^\]]*\](.*?)\[/caption\]#m", "$1", $row['post_content']);
+
+			$cleancontent = str_replace('[gallery]','',$cleancontent);
+
+			$excerpt = strip_tags($cleancontent);
+
+			$the_image = '';
+
+			if(strlen($cleancontent)) 
+			{
+				preg_match("/<img src\=('|\")(.*)('|\") .*( |)\/>/", $cleancontent, $matches);
+				if(!$matches) {
+					preg_match("/<img class\=\".*\" title\=\".*\" src\=('|\")(.*)('|\") .*( |)\/>/U", $cleancontent, $matches);
+				}
+				if($matches)
+				{
+				$the_image_src = $matches[2];
+				$frags = preg_split("/(\"|')/", $the_image_src);
+				if(count($frags)) {
+					$the_image_src = $frags[0];
+				}
+				if(strlen($the_image_src)) {
+					$img_script = 'http://www.walterknabe.com/scripts/timthumb.php?zc=1&amp;w=75&amp;h=75&amp;src=';
+					$the_image = '<img class="thumbnail" src="' . $img_script . $the_image_src . '" />';
+				}
+				}
+			}
+
+			$words = explode(' ', $excerpt, 41);
+
+			if (count($words) > 40) {
+
+				array_pop($words);
+
+				array_push($words, '<a href="'.$buildslug.'" class="morelink">(Read the full post...)</a>');
+
+				$excerpt = implode(' ', $words);
+
+			}
+
+			
+
+			?>
+
+			<!--
+<div class="post<? if($counter == 0) echo " first-post"; ?>">
+				<h3><a href="<?= $buildslug ?>"><?= $row['post_title'] ?></a></h3>
+				<div class="postdate"><?= date('F j, Y', strtotime($row['post_date'])) ?></div>
+				<?
+					if(strlen($the_image))
+					{
+						?><div class="visual"><?= $the_image; ?></div><?
+					}
+				?>
+				<div class="post-content">
+				<p><?= $excerpt ?></p>
+				</div>
+			</div>
+-->
+
+
+		<? $counter++; } ?>
+
+<!--
+	
+</div>
+</div>
+-->
+<?php */ ?>
+
+<div class="clear"></div>

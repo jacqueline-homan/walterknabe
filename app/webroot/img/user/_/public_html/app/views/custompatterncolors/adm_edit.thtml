@@ -1,0 +1,21 @@
+<form action="<?= $html->url($formaction) ?>" method="post" class="editdata" enctype="multipart/form-data">
+	<? if(file_exists($this->data['Custompatterncolor']['thumbpath'])) { ?>
+	<p>
+		<span class="item">
+			<img src="<?= $html->url('/'.$this->data['Custompatterncolor']['thumbpath']) ?>" />
+		</span>
+	</p>
+	<? } ?>
+	<p> 
+		<span class="label">Name</span>
+		<span class="item"><?= $html->input('Custompatterncolor/name') ?></span>
+	</p> 
+	<p> 
+		<span class="label">Image</span>
+		<span class="item"><input type="file" name="imagesource" /><br /><em>leave blank to keep current</em></span>
+	</p> 
+	<p>
+		<?= $html->hidden('Custompatterncolor/id') ?>
+		<span class="item"><?= $html->submit('Save Changes') ?></span>
+	</p>
+</form>

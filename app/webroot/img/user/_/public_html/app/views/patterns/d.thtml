@@ -1,0 +1,32 @@
+<p class="filter">
+	<a href="<?= $html->url('/patterns/g/'.$material) ?>" style="margin-left: 0;"><?= $material ?>:</a>
+	<? 
+	if($material == 'wallcovering') { $aSkips = array('1','4'); }
+	if($material == 'fabric') { $aSkips = array('5'); }
+	?>
+	<? foreach($tagtypes as $type) { ?>
+		<? if(!in_array($type['Tagtype']['id'],$aSkips)) { ?>
+			<a href="<?= $html->url('/patterns/sorted/'.$material.'/'.$type['Tagtype']['id']) ?>"><?= $type['Tagtype']['type'] ?></a> |
+		<? } ?>
+	<? } ?>
+	<a href="<?= $html->url('/custombases/g') ?>">custom options</a> |
+	<a href="<?= $html->url('/photos/d/'.$material) ?>">photo gallery</a>
+</p>
+
+
+<img src="<?= $html->url('/'.$pattern['Pattern']['filepath']) ?>" id="patterndetail" />
+
+<div id="patterninfo">
+	<h3><?= $pattern['Pattern']['name'] ?></h3>
+
+	<? if($checksession) { ?>		
+		<p class="adminlink">
+			<?= $html->link('edit this pattern','/adm/patterns/edit/'.$pattern['Pattern']['id']) ?> &nbsp;|&nbsp;
+			<?= $html->link('delete','/adm/patterns/delete/'.$pattern['Pattern']['id'],null,'Are you sure?') ?>
+		</p>
+	<? } ?>
+
+	<?= text_format($pattern['Pattern']['description']) ?>
+</div>
+
+<? //pr($tagtypes) ?>

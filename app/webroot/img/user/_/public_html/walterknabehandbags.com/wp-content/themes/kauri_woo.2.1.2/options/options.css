@@ -1,0 +1,22 @@
+body { background:;}
+	@media screen and (max-width : 800px) {
+		#menu-pages-dropdown, #home-menu-dropdown {
+			display:block;
+		}
+		#menu-pages, #home-menu{
+			display:none;
+		}
+		#menu-pages-dropdown select,  #home-menu-dropdown select {
+			margin: 25px auto 30px;
+			font-size: 1.6em;
+			padding: 5px;
+			height: 35px;
+			width:300px;
+		}
+	}
+	@media screen and (max-width : 400px) {
+		#menu-pages-dropdown select, #home-menu-dropdown select {
+			width: 100%;
+		}
+	}
+	

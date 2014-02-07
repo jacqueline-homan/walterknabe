@@ -1,0 +1,13 @@
+<p class="center">
+	<? if($neighbours['prev'] != '') { ?>
+		<?= $html->link($html->image('prev.gif',array('border'=>0)),'/photos/all/'.$neighbours['prev']['Photo']['id'],null,null,false) ?>
+	<? } ?>
+	<? if($neighbours['next'] != '') { ?>
+		<?= $html->link($html->image('next.gif',array('border'=>0)),'/photos/all/'.$neighbours['next']['Photo']['id'],null,null,false) ?>
+	<? } ?>
+	<br />&nbsp;<br />
+	<?= $page['Photo']['description'] ?>
+	<br />&nbsp;<br />
+	<img src="<?= $html->url('/'.$page['Photo']['filepath']) ?>" />
+</p>
+

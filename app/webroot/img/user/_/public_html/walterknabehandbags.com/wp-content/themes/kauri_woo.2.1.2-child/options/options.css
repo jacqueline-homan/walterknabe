@@ -1,0 +1,140 @@
+body { background:#000000 url(http://www.walterknabehandbags.com/wp-content/uploads/2012/11/bg-darker.jpg);background-repeat: repeat;background-attachment:scroll;	
+		font-family:Droid Sans, Helvetica, Arial, sans-serif; 
+		font-style:normal;
+		color:#ffffff; 
+		}
+	h1, h2, h3, h4, h5, h6 {
+		font-family:Cuprum, Helvetica, Arial, sans-serif;
+		font-style:normal;
+		font-weight:bold;
+		color:#ffffff;
+	}
+	#cart_widget, #header-categories {
+		font-family:Cuprum, Helvetica, Arial, sans-serif; 
+		font-style:normal;
+	}
+	.feat_item_name a,
+	.feat_item_name_tablets a,
+	.feat_item_name span.price,
+	.feat_item_name_2 a,
+	.feat_item_name_2 span.price,
+	.latest_item_name a,
+	#home-menu ul li a,
+	#menu-pages  ul li a,
+	.home-add-to-cart a,
+	#header-categories #product-categories li a ,
+	#content nav,
+	.image-post-format p
+	{ 
+		font-style:normal;
+		font-weight:bold;
+		font-family: Cuprum, Helvetica, Arial, sans-serif;
+	}
+	#menu-pages-dropdown select, #home-menu-dropdown select,
+	.s-mybutton span, .m-mybutton span, .l-mybutton span {
+		font-family:Cuprum, Helvetica, Arial, sans-serif; 
+		font-weight:bold;
+	}
+	.default_product_display  .price,
+	.latest_item_name .price ,
+	.single_product_display .wpsc_product_price .price
+	{
+		font-family:Cuprum, Helvetica, Arial, sans-serif; 
+	}
+	.default_product_display span.pricedisplay,
+	.single_product_display span.pricedisplay, 
+	.single_product_display form.product_form fieldset label, 
+	.quantity-price label, 
+	.wpsc_product_price label 
+	{
+		color:#ffffff; 
+	}
+	input[type="file"]::-webkit-file-upload-button,
+	button,
+	input[type="reset"],
+	input[type="submit"],
+	input[type="button"]
+	{ 
+		font-family: Cuprum, Helvetica, Arial, sans-serif;
+	}
+	.home-add-to-cart:hover,
+	a.button, a.button:hover,
+	button.button, button.button:hover,
+	input.button, input.button:hover,
+	#review_form #submit, #review_form #submit:hover,
+	a.checkout-button
+	{ 
+		font-family: Cuprum, Helvetica, Arial, sans-serif;
+	}
+	.latest-product-item .sale, 
+	ul.products li .onsale
+	{ 
+	font-family:Cuprum,Helvetica, Arial, sans-serif;
+	}
+	a {
+		color:#D04557 ; 
+	}
+	#home-menu ul li:hover,
+	#home-menu ul li a:hover,
+	#menu-pages ul li:hover,
+	#menu-pages ul li a:hover,
+	#home-menu .sub-menu li,
+	#menu-pages .sub-menu li,
+	#header-categories ul li:hover,
+	#cart_widget ul li:hover,
+	#header-categories .product-categories li,
+	#header-categories .product-categories li a,
+	#menu-pages-dropdown select, #home-menu-dropdown select
+	{
+		background:#D04557 ; 
+	}
+	#home-menu ul li a span, #menu-pages  ul li a span{
+		font-family: Droid Sans, Helvetica, Arial, sans-serif;
+		color: #ffffff;
+	}
+	#cart_widget ul.shoppingcart{
+		font-family:Droid Sans, Helvetica, Arial, sans-serif;
+		color: #ffffff;
+	}
+	.entry-content, #home-annoucements ul li .annoucement {
+		color: #ffffff;
+	}
+	textarea,
+	select,
+	input[type="date"],
+	input[type="datetime"],
+	input[type="datetime-local"],
+	input[type="email"],
+	input[type="month"],
+	input[type="number"],
+	input[type="password"],
+	input[type="search"],
+	input[type="tel"],
+	input[type="text"],
+	input[type="time"],
+	input[type="url"],
+	input[type="week"]
+	{ 
+		font-family: Droid Sans, Helvetica, Arial, sans-serif;
+	}
+	@media screen and (max-width : 800px) {
+		#menu-pages-dropdown, #home-menu-dropdown {
+			display:block;
+		}
+		#menu-pages, #home-menu{
+			display:none;
+		}
+		#menu-pages-dropdown select,  #home-menu-dropdown select {
+			margin: 25px auto 30px;
+			font-size: 1.6em;
+			padding: 5px;
+			height: 35px;
+			width:300px;
+		}
+	}
+	@media screen and (max-width : 400px) {
+		#menu-pages-dropdown select, #home-menu-dropdown select {
+			width: 100%;
+		}
+	}
+	

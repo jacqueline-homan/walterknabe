@@ -1,0 +1,29 @@
+<h2 class="pagetitle">Search Results</h2>
+
+
+<? if(count($pagematches) == 0 && count($patternmatches) == 0) { ?>
+	<p>There were no matches to the search string <em><?= $clean ?></em></p>
+<? } ?>
+
+
+<? if(count($pagematches) > 0) { ?>
+<h4 style="margin: 20px 0 10px 0;">Pages matching <em><?= $clean ?></em></h4>
+
+	<ul>
+	<? foreach($pagematches as $each) { ?>
+		<li><?= $html->link($each['Dpage']['pagetitle'],'/dpages/v/'.$each['Dpage']['id']) ?></li>
+	<? } ?>
+	</ul>
+<? } ?>
+
+
+<? if(count($patternmatches) > 0) { ?>
+<h4 style="margin: 20px 0 10px 0;">Patterns matching <em><?= $clean ?></em></h4>
+
+	<ul>
+	<? foreach($patternmatches as $each) { ?>
+		<li><?= $html->link($each['Pattern']['name'],'/patterns/d/'.$each['Pattern']['id']) ?></li>
+	<? } ?>
+	</ul>
+<? } ?>
+

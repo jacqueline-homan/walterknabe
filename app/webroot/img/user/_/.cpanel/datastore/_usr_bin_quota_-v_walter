@@ -1,0 +1,4 @@
+Disk quotas for user walter (uid 820): 
+     Filesystem  blocks   quota   limit   grace   files   quota   limit   grace
+      /dev/sda3      24  1023998976 1023998976              18       0       0        
+      /dev/sdb1  256600  1023998976 1023998976           12627       0       0        

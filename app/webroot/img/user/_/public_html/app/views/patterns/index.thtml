@@ -1,0 +1,30 @@
+<div class="patterns">
+<h2>List Patterns</h2>
+
+<table cellpadding="0" cellspacing="0">
+<tr>
+	<th>Id</th>
+	<th>Filepath</th>
+	<th>Thumbpath</th>
+	<th>Material</th>
+	<th>Actions</th>
+</tr>
+<?php foreach ($patterns as $pattern): ?>
+<tr>
+	<td><?php echo $pattern['Pattern']['id']; ?></td>
+	<td><?php echo $pattern['Pattern']['filepath']; ?></td>
+	<td><?php echo $pattern['Pattern']['thumbpath']; ?></td>
+	<td><?php echo $pattern['Pattern']['material']; ?></td>
+	<td class="actions">
+		<?php echo $html->link('View','/patterns/view/' . $pattern['Pattern']['id'])?>
+		<?php echo $html->link('Edit','/patterns/edit/' . $pattern['Pattern']['id'])?>
+		<?php echo $html->link('Delete','/patterns/delete/' . $pattern['Pattern']['id'], null, 'Are you sure you want to delete id ' . $pattern['Pattern']['id'])?>
+	</td>
+</tr>
+<?php endforeach; ?>
+</table>
+
+<ul class="actions">
+	<li><?php echo $html->link('New Pattern', '/patterns/add'); ?></li>
+</ul>
+</div>

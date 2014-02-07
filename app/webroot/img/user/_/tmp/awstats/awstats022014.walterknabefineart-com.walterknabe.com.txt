@@ -1,0 +1,310 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /home2/walter/tmp/awstats/awstats.walterknabefineart-com.walterknabe.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2031                
+POS_TIME 2704                
+POS_VISITOR 6853                
+POS_DAY 7619                
+POS_DOMAIN 3295                
+POS_LOGIN 3563                
+POS_ROBOT 3718                
+POS_WORMS 4098                
+POS_EMAILSENDER 4229                
+POS_EMAILRECEIVER 4372                
+POS_SESSION 7814                
+POS_SIDER 7991                
+POS_FILETYPES 4507                
+POS_DOWNLOADS 4678                
+POS_OS 4748                
+POS_BROWSER 4860                
+POS_SCREENSIZE 5084                
+POS_UNKNOWNREFERER 5158                
+POS_UNKNOWNREFERERBROWSER 5359                
+POS_ORIGIN 5555                
+POS_SEREFERRALS 5691                
+POS_PAGEREFS 5835                
+POS_SEARCHWORDS 5983                
+POS_KEYWORDS 6135                
+POS_MISC 2368                
+POS_ERRORS 6194                
+POS_CLUSTER 3419                
+POS_SIDER_404 6301                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140206194208 8 986 6234823393320
+FirstTime 20140201044750
+LastTime 20140206194208
+LastUpdate 20140206225934 8 0 8 0 0
+TotalVisits 30                  
+TotalUnique 17                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 17                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 6 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 1 81
+1 1 1 0 0 1 81
+2 34 51 381163 1 2 539
+3 0 0 0 0 0 0
+4 2 2 0 2 4 28865
+5 0 0 0 2 4 23384
+6 1 1 0 2 2 22984
+7 0 0 0 0 1 81
+8 1 1 22668 0 0 0
+9 1 1 7293 0 4 324
+10 34 50 332801 0 0 0
+11 69 102 893395 0 2 1078
+12 0 0 0 1 1 22668
+13 110 159 1509614 0 2 620
+14 1 1 0 1 3 6422
+15 2 2 2045 1 2 397
+16 30 46 278141 1 4 1262
+17 3 3 0 0 6 486
+18 1 1 22658 3 7 12380
+19 1 1 22658 1 5 885
+20 0 0 0 0 1 81
+21 0 0 0 0 0 0
+22 40 56 651946 0 2 620
+23 0 0 0 2 4 1039
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+us 326 473 4031701
+ua 3 3 67978
+sa 1 1 22658
+ru 1 1 2045
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+bot[\s_+:,\.\;\/\\-] 19 24119 20140206185559 18
+googlebot 5 45579 20140204191127 3
+spider 3 243 20140203095202 3
+robot 3 243 20140204050043 3
+unknown 2 162 20140203235024 2
+no_user_agent 1 22668 20140206043500 0
+msnbot\-media 1 81 20140202091802 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 45 216252 0 0
+php 290 2631810 0 0
+png 21 7215 0 0
+html 41 521874 0 0
+js 72 599442 0 0
+jpg 9 147789 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 30 0 2430
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 147
+winlong 45
+winxp 61
+win2000 1
+Unknown 17
+winvista 58
+win7 149
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 12
+safari7.0 47
+msie6.0 4
+chrome19.1.1084.5409 1
+safari6.0.4 53
+firefox22.0 1
+firefox26.0 49
+msie10.0 58
+safari6.0 47
+msie9.0 45
+Unknown 17
+chrome32.0.1700.107 155
+opera9.80 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Pinterest/0.1__http://pinterest.com/ 20140201092303
+WordPress/2.9.2;_http://walterknabefineart.com 20140206170938
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Pinterest/0.1__http://pinterest.com/ 20140201092303
+WordPress/2.9.2;_http://walterknabefineart.com 20140206170938
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 20 20
+From1 3 3
+From2 0 0
+From3 0 0
+From4 308 455
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+307 12 3832
+301 2 0
+404 4 24116
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/wp-content/plugins/xcloner-backup-and-restore/readme.txt 1 http://walterknabefineart.com/wp-content/plugins/xcloner-backup-and-restore/readme.txt
+/administrator/ 2 http://walterknabefineart.com/administrator/
+/winged-victory-for-cynthia/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 17
+173.226.40.59 41 58 671767 20140203134542
+205.178.126.22 40 56 651946 20140205221847
+100.2.153.2 37 53 539076 20140205110908
+107.220.21.39 35 51 484126 20140205130852
+74.92.213.85 32 49 354319 20140204111704
+24.123.28.51 31 48 335843 20140204021056
+166.147.104.30 31 47 330253 20140205104440
+99.8.201.69 31 47 353721 20140205131036
+76.238.170.175 29 45 278141 20140205164803
+192.254.234.195 15 15 0 20140206170938
+64.246.161.30 2 2 2548 20140204101020
+91.207.5.250 2 2 45320 20140202023839
+54.224.152.44 1 1 22668 20140201083220
+23.20.5.110 1 1 7293 20140201092303
+5.248.208.87 1 1 22658 20140206181819
+37.9.53.129 1 1 2045 20140203150125
+91.207.5.46 1 1 22658 20140206194208 20140206194208 /
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20140201 4 4 29961 4
+20140202 4 4 45320 3
+20140203 45 62 673812 4
+20140204 68 102 692710 6
+20140205 206 302 2637263 9
+20140206 4 4 45316 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+2mn-5mn 1
+30s-2mn 3
+0s-30s 24
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/wp-content/themes/thematic/scripts/timthumb.php 274 2629765 0 8
+/ 15 339883 13 3
+/wp-cron.php 15 0 14 14
+/hero-and-leander/ 3 22667 0 0
+/the-sea-and-the-sky/ 2 15369 0 0
+/ambre/ 2 14897 0 0
+/sincerity-illuminates/ 2 15293 0 0
+/comments/feed/ 2 2548 1 1
+/evocation/ 2 13279 0 1
+/confluence-ethereal/ 2 15132 0 0
+/liberation/ 2 14576 1 1
+/sending-faith/ 2 15123 0 0
+/spring-enchantment/ 2 15104 0 0
+/barricades-of-heaven/ 1 7669 0 0
+/dreams-from-a-castle/ 1 7640 0 0
+/here-lies-my-heart/ 1 7560 0 0
+/flag-ii/ 1 7439 0 0
+/spiritual-awakening-ii-morgan/ 1 7695 0 0
+/wp-login.php 1 2045 1 1
+END_SIDER

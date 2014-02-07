@@ -1,0 +1,525 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201211 will be lost/reset.
+# Last config file used to build this data file was /home/walter/tmp/awstats/awstats.walterknabefineart-com.walterknabe.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2030                
+POS_TIME 2712                
+POS_VISITOR 8161                
+POS_DAY 11998               
+POS_DOMAIN 3488                
+POS_LOGIN 3980                
+POS_ROBOT 4135                
+POS_WORMS 4662                
+POS_EMAILSENDER 4793                
+POS_EMAILRECEIVER 4936                
+POS_SESSION 12804               
+POS_SIDER 13013               
+POS_FILETYPES 5071                
+POS_DOWNLOADS 5288                
+POS_OS 5360                
+POS_BROWSER 5505                
+POS_SCREENSIZE 5951                
+POS_UNKNOWNREFERER 6025                
+POS_UNKNOWNREFERERBROWSER 6395                
+POS_ORIGIN 6576                
+POS_SEREFERRALS 6716                
+POS_PAGEREFS 6871                
+POS_SEARCHWORDS 7180                
+POS_KEYWORDS 7357                
+POS_MISC 2375                
+POS_ERRORS 7441                
+POS_CLUSTER 3836                
+POS_SIDER_404 7585                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20121201032113 140 42666 9073559884667
+FirstTime 20121101003122
+LastTime 20121130140125
+LastUpdate 20121201070933 140 0 139 0 0
+TotalVisits 213                 
+TotalUnique 93                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 93                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 49 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 95 111 952288 5 17 6993
+1 5 5 2428 5 10 4475
+2 10 10 26973 3 9 1118
+3 2 2 20218 1 7 1047
+4 10 10 29226 5 16 23117
+5 5 5 16014 1 5 6268
+6 87 120 882964 0 9 1645
+7 139 189 2852651 2 13 10754
+8 86 134 1071485 5 13 23831
+9 97 141 902737 4 13 4901
+10 234 433 2837166 3 14 4209
+11 365 442 5298581 5 13 5696
+12 226 347 3931730 13 19 4621
+13 321 402 3007082 127 136 48881
+14 77 111 2452354 3 11 9950
+15 188 265 5008576 6 12 28702
+16 150 233 1997968 7 15 7182
+17 108 181 2068298 8 13 33151
+18 239 339 3875802 19 25 34693
+19 134 169 2953806 12 14 10388
+20 164 245 2009915 27 39 14381
+21 31 47 474061 4 13 25903
+22 30 45 287849 2 11 2357
+23 1 1 2252 1 7 486
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 20
+us 2493 3644 41299355
+ru 130 130 15561
+ro 61 61 548651
+de 33 48 352045
+au 26 43 276311
+il 17 17 161335
+nl 11 11 24772
+ua 7 7 38060
+lt 5 5 93655
+cn 4 4 10008
+eu 3 3 63208
+co 3 3 7506
+md 2 2 31723
+ec 2 2 5004
+id 2 2 5004
+lv 1 1 2502
+fr 1 1 20218
+ar 1 1 2502
+ng 1 1 2502
+iq 1 1 2502
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+bot[\s_+:,\.\;\/\\-] 48 66857 20121130111007 45
+robot 22 1782 20121127124435 22
+googlebot 20 1620 20121130000748 20
+msnbot 19 1539 20121130063442 19
+unknown 13 1053 20121129103040 13
+ia_archiver 4 324 20121114183418 4
+no_user_agent 2 22772 20121125151543 0
+[\s_+:,\.\;\/\\-]bot 2 162 20121123094119 2
+crawl 2 20308 20121123043351 1
+slurp 1 81 20121122133856 1
+netcraft 1 20227 20121106170231 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+css 342 1462635 0 0
+php 2240 25514094 0 0
+png 164 87448 0 0
+html 558 5241114 0 0
+jpg 102 6744390 0 0
+js 549 3800555 0 0
+gif 26 35466 0 0
+swf 6 76722 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 127 0 10287
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 10
+winlong 130
+winxp 728
+win2000 1
+winnt 2
+linux 19
+win7 604
+macosx 2375
+bsdfreebsd 1
+win2003 1
+Unknown 126
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 27
+msie6.0 4
+firefox5.0 1
+firefox3.5.6 1
+chrome21.0.1180.90 133
+chrome23.0.1271.64 250
+safari6.0 1014
+firefox10.0.1 2
+firefox4.0 1
+safari5.0.6 189
+lynx 5
+firefox12.0 41
+opera9.80 57
+safari5.1.7 401
+safari5.0.2 43
+msie8.0 442
+mozilla 18
+msie7.0 42
+firefox14.0.1 330
+firefox16.0 388
+firefox6.0 1
+safari5.1 86
+chrome22.0.1229.94 45
+safari6.0.2 85
+firefox3.6.9 1
+msie9.0 287
+Unknown 103
+firefox11.0 17
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Adobe_Flash_Player_11 20121123122155
+WordPress/2.9.2;_http://walterknabefineart.com 20121130140125
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20121125062631
+Mozilla/4.0_(compatible;_Synapse) 20121118182934
+Mozilla/3.0_(compatible;_Indy_Library) 20121120204649
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Adobe_Flash_Player_11 20121123122155
+WordPress/2.9.2;_http://walterknabefineart.com 20121130140125
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 295 316
+From1 3 3
+From2 6 6
+From3 4 4
+From4 2496 3658
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://evuln.com/tools/malware-scanner/walterknabefineart.com/ 2 2
+http://www.tumblr.com/tagged/+knabe 1 1
+http://pinterest.com/shari1221/living-room-ideas/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+walterknabefineart.com 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+walterknabefineart.com 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 1 340
+302 137 37392
+307 44 13876
+500 1 43
+404 84 99643
+301 4 319
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 6
+/wp-content/themes/media-master/style.css 1 http://walterknabefineart.com/
+/wp-content/themes/grunge-wall/style.css 2 http://walterknabefineart.com/
+/comments/feed/ 78 -
+/modules/user/user.css 1 -
+/crossdomain.xml 1 -
+/author/ 1 http://walterknabefineart.com/author/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 93
+173.226.40.19 470 611 8296169 20121127121642
+76.238.170.73 135 189 4313709 20121128190740
+206.53.239.210 133 284 1257079 20121106105332
+188.143.233.30 130 130 15561 20121123134905
+98.220.75.193 117 133 3301680 20121118110320
+108.206.166.29 115 146 2114372 20121111065050
+98.220.113.14 113 180 1449572 20121116142149
+50.116.99.163 90 98 0 20121130140125
+69.160.209.227 65 82 715117 20121130111815
+109.163.231.48 61 61 548651 20121127000935
+98.227.176.17 57 73 643629 20121121190149
+75.27.13.65 57 100 1543872 20121127170636
+207.250.178.222 56 73 1463023 20121128075551
+70.236.41.217 54 70 1249134 20121105150408
+74.93.77.217 51 67 491625 20121106183922
+68.58.42.82 42 59 728678 20121128204327
+98.220.168.64 41 67 1526723 20121107152135
+64.141.164.78 35 51 667027 20121120112824
+174.231.132.227 34 50 594775 20121104135918
+74.126.241.78 32 52 471497 20121115165312
+71.46.74.68 32 48 385207 20121129114502
+97.65.92.206 31 49 413814 20121127130442
+140.182.146.228 31 47 548876 20121106163337
+64.132.94.221 30 47 298903 20121130090853
+76.112.217.134 30 46 519381 20121120195320
+91.224.160.24 4 4 9008 20121122022030
+216.55.170.170 1 1 20220 20121114105340
+87.244.148.82 1 1 5795 20121120202906
+82.80.249.139 17 17 161335 20121109113931
+99.132.185.157 27 44 349551 20121107123722
+120.198.232.8 1 1 2502 20121120203243
+178.212.102.67 1 1 2502 20121120202930
+221.7.215.248 1 1 2502 20121120203717
+58.164.168.21 26 43 276311 20121106201310
+202.106.16.68 1 1 2502 20121120203115
+96.227.124.37 1 1 20217 20121113025836
+183.63.145.116 1 1 2502 20121120204649
+66.32.238.46 25 40 262213 20121106205521
+178.63.19.12 1 1 2252 20121124042916
+200.42.69.94 1 1 2502 20121120203402
+107.10.247.84 27 43 353915 20121104065213
+94.23.225.68 1 1 20218 20121116035755
+37.1.222.114 1 1 2252 20121117224723
+98.226.77.64 27 43 369539 20121112163416
+166.137.88.173 27 43 318160 20121106080523
+50.193.64.198 27 43 420090 20121118085208
+80.90.27.60 1 1 2502 20121120203522
+199.250.3.71 8 23 641292 20121128103531
+62.173.37.202 1 1 2502 20121120203209
+67.188.73.223 28 45 361671 20121116105326
+176.123.0.51 1 1 20213 20121120000645
+91.224.160.222 3 3 6756 20121113125500
+166.137.88.46 27 43 338451 20121114100005
+24.182.235.9 25 40 262216 20121122133853
+78.158.11.226 5 5 93655 20121125062631
+109.206.179.206 1 1 20223 20121115130105
+54.242.102.241 1 1 0 20121129114418
+71.204.116.75 27 44 320571 20121107061131
+184.17.91.155 29 45 474061 20121101211336
+31.202.231.5 1 1 20227 20121118182934
+50.116.27.104 2 2 40440 20121111160328
+12.197.75.194 30 47 424137 20121120122445
+79.225.27.180 28 43 281980 20121118162849
+68.52.242.186 29 44 285597 20121125222429
+109.206.183.94 1 1 22765 20121125165324
+99.110.188.92 26 42 275649 20121108084507
+5.9.140.207 1 1 22667 20121129075615
+173.161.73.9 25 40 262216 20121109115801
+5.8.242.10 1 1 2502 20121120203030
+61.94.204.242 1 1 2502 20121120203303
+50.90.44.116 25 40 262213 20121110115023
+209.132.166.71 29 45 434011 20121121203426
+188.138.142.130 1 1 11510 20121117053505
+190.14.232.126 1 1 2502 20121120204612
+94.100.17.134 4 4 9008 20121120020241
+68.178.34.244 9 9 11565 20121130065739
+63.153.131.30 27 43 380996 20121104004712
+5.9.189.180 1 1 20227 20121111072250
+5.9.140.208 1 1 22667 20121128192247
+38.119.129.17 25 41 262871 20121106163334
+46.4.114.111 1 1 2252 20121123043221
+109.206.182.59 1 1 20220 20121104124624
+99.6.2.129 29 44 284808 20121126131805
+199.30.228.155 25 41 262875 20121120200859
+103.247.16.2 1 1 2502 20121120203754
+190.85.133.162 1 1 2502 20121120202937
+69.58.178.59 1 1 20218 20121111040835
+31.202.231.7 3 3 7284 20121130140125
+8.28.16.254 1 1 20217 20121106081458
+186.42.172.130 2 2 5004 20121120203953
+98.220.107.241 27 43 303297 20121104143019
+190.255.50.91 1 1 2502 20121120203901
+64.184.44.84 25 40 262216 20121107173951
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20121101 33 49 474061 5
+20121102 2 2 0 2
+20121103 1 1 0 1
+20121104 121 185 1653203 10
+20121105 56 72 1249134 3
+20121106 386 649 5134234 11
+20121107 122 197 2459061 6
+20121108 32 48 318355 6
+20121109 45 60 423551 5
+20121110 53 83 526678 5
+20121111 33 33 240666 8
+20121112 118 186 1556901 5
+20121113 42 61 2169759 6
+20121114 32 48 363175 6
+20121115 36 56 491720 5
+20121116 82 114 801628 7
+20121117 30 42 261225 6
+20121118 177 224 4023977 9
+20121119 111 142 1061119 7
+20121120 193 258 2254694 28
+20121121 156 187 1317332 8
+20121122 58 90 1806034 6
+20121123 303 392 3390562 9
+20121124 70 89 1690942 7
+20121125 37 52 373128 7
+20121126 35 50 290979 7
+20121127 154 215 2508394 8
+20121128 151 217 4697590 8
+20121129 36 52 407874 5
+20121130 99 133 1016448 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 5
+30s-2mn 12
+15mn-30mn 2
+2mn-5mn 11
+0s-30s 180
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 76
+/wp-content/themes/thematic/scripts/timthumb.php 2042 23564264 0 50
+/ 147 3019294 86 27
+/cgi-sys/ 123 0 0 1
+/wp-cron.php 82 0 74 74
+/wp-login.php 48 110880 38 37
+/wp-admin/admin-ajax.php 20 5010 0 0
+/tori-diamond-dust/ 18 136731 0 0
+/about/ 16 202392 0 5
+/feed/ 12 46150 10 10
+/wp-admin/media-upload.php 12 82855 0 0
+/dreams-from-a-castle/ 11 82379 0 0
+/wp-admin/load-scripts.php 11 831645 0 0
+/spiritual-awakening-ii-morgan/ 11 82257 0 1
+/sanctuaire/ 11 80928 0 0
+/deity/ 11 83574 0 0
+/spirituel-declaration/ 10 74571 0 0
+/wp-admin/async-upload.php 10 33891 0 0
+/sending-faith/ 10 75603 0 0
+/sincerity-illuminates/ 9 68803 0 0
+/flag-i/ 9 64314 0 1
+/hero-and-leander/ 9 67991 0 0
+/alex-in-cyberspace/ 9 66208 0 0
+/shelter-from-the-storm-2/ 8 59680 0 0
+/amanda/ 8 59524 0 0
+/heartfelt-valentine/ 8 61105 0 0
+/wp-admin/post-new.php 4 153021 0 0
+/wp-admin/load-styles.php 3 175891 0 0
+/wp-admin/categories.php 1 20388 0 0
+/barricades-of-heaven/barricades-of-heaven/ 3 8453 1 0
+/fete-ou-penurie/ 7 53362 0 0
+/wp-admin/ 1 27314 0 0
+/here-lies-my-heart/ 6 45729 0 0
+/wp-admin/post.php 5 213199 0 0
+/author/walter/ 1 17544 0 0
+/happy-family/happy-family/ 1 8240 0 0
+/tori-diamond-dust/tori-i-diamond-dust/ 1 8408 0 0
+/here-lies-my-heart/knabe_here_lies_my_heart/ 1 8450 0 0
+/deity/dietyscreenprint27/ 1 8252 0 0
+/flag-ii/flag-2/ 3 8101 0 1
+/indy-500-2010/indy500mainart-3/ 1 8294 0 0
+/sanctuaire/sanctuaire/ 1 8301 0 0
+/wp-includes/js/tinymce/wp-tinymce.php 1 264182 0 0
+/victory-in-scofield/ 4 28111 0 0
+/little-red/little_red/ 1 8188 0 0
+/flag-ii/ 4 28943 0 0
+/heartfelt-valentine/heartfelt-valentine/ 1 8424 0 0
+/victory-in-scofield/victoryinscofieldred/ 1 8441 0 0
+/a-very-overt-petition/averyovertpetition54/ 1 8462 0 0
+/shelter-from-the-storm-2/shelter-from-the-storm-3/ 1 8533 0 0
+/fete-ou-penurie/feteoupenurie64/ 1 8321 0 0
+/winged-victory-for-cynthia/ 5 39134 1 0
+/confluence-ethereal/cap-3/ 1 8320 0 0
+/indy-500-2010/ 8 57706 0 0
+/the-sea-and-the-sky/ 6 46111 0 0
+/flag-i/knabe_american_flag/ 1 8283 0 0
+/spiritual-awakening-ii-morgan/spiritual_awakening_ii/ 1 8603 0 0
+/author/silversquare/ 2 11585 1 1
+/ambre/ 7 42852 2 2
+/barricades-of-heaven/ 5 38337 0 0
+/happy-family/ 5 37958 0 0
+/c/uncategorized/ 2 39379 0 0
+/the-sea-and-the-sky/the-sea-and-the-sky-screenprint/ 3 8608 0 0
+/dreams-from-a-castle/dreams-from-a-castle/ 1 8452 0 0
+/confluence-ethereal/ 5 37819 0 1
+/sending-faith/cap-6/ 1 8218 0 0
+/the-red-cape/ 5 37615 0 0
+/wp-includes/js/swfupload/swfupload.swf 6 76722 0 0
+/amanda/amanda/ 1 8090 0 0
+/author/rachel/ 1 30466 0 1
+/ambre/ambre-aphrodite/ 1 8212 0 0
+/a-very-overt-petition/ 5 36073 0 1
+/hero-and-leander/cap-5/ 1 8269 0 0
+/spirituel-declaration/cap-8/ 1 8397 0 0
+/the-red-cape/the-red-cape/ 3 8246 0 0
+/wp-admin/edit.php 1 58868 0 0
+/little-red/ 6 45006 0 0
+END_SIDER

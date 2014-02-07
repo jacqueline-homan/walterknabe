@@ -1,0 +1,13 @@
+<style>
+#logo { display: none; }
+#main { width: 927px; margin: 10px 0; }
+</style>
+
+<p id="homelinks">
+	<a href="" id="fabrics"><span>Fabrics</span></a>
+	<a href="" id="wallcoverings"><span>Wallcoverings</span></a>
+	<a href="" id="design"><span>Design Your Own</span></a>
+</p>
+
+<div id="home1"></div>
+<div id="home2"></div>

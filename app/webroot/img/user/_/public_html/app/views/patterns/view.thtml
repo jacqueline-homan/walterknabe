@@ -1,0 +1,50 @@
+<div class="pattern">
+<h2>View Pattern</h2>
+
+<dl>
+	<dt>Id</dt>
+	<dd>&nbsp;<?php echo $pattern['Pattern']['id']?></dd>
+	<dt>Filepath</dt>
+	<dd>&nbsp;<?php echo $pattern['Pattern']['filepath']?></dd>
+	<dt>Thumbpath</dt>
+	<dd>&nbsp;<?php echo $pattern['Pattern']['thumbpath']?></dd>
+	<dt>Material</dt>
+	<dd>&nbsp;<?php echo $pattern['Pattern']['material']?></dd>
+</dl>
+<ul class="actions">
+	<li><?php echo $html->link('Edit Pattern',   '/patterns/edit/' . $pattern['Pattern']['id']) ?> </li>
+	<li><?php echo $html->link('Delete Pattern', '/patterns/delete/' . $pattern['Pattern']['id'], null, 'Are you sure you want to delete: id ' . $pattern['Pattern']['id'] . '?') ?> </li>
+	<li><?php echo $html->link('List Patterns',   '/patterns/index') ?> </li>
+	<li><?php echo $html->link('New Pattern',	'/patterns/add') ?> </li>
+</ul>
+
+</div>
+<div class="related">
+<h3>Related Tags</h3>
+<?php if (!empty($pattern['Tag'])):?>
+<table cellpadding="0" cellspacing="0">
+<tr>
+<?php foreach ($pattern['Tag']['0'] as $column => $value): ?>
+<th><?php echo $column?></th>
+<?php endforeach; ?>
+<th>Actions</th>
+</tr>
+<?php foreach ($pattern['Tag'] as $tag):?>
+<tr>
+	<?php foreach ($tag as $column => $value):?>
+		<td><?php echo $value;?></td>
+	<?php endforeach;?>
+	<td class="actions">
+		<?php echo $html->link('View', '/tags/view/' . $tag['id']);?>
+		<?php echo $html->link('Edit', '/tags/edit/' . $tag['id']);?>
+		<?php echo $html->link('Delete', '/tags/delete/' . $tag['id'], null, 'Are you sure you want to delete: id ' . $tag['id'] . '?');?>
+	</td>
+</tr>
+<?php endforeach; ?>
+</table>
+<?php endif; ?>
+
+<ul class="actions">
+	<li><?php echo $html->link('New Tag', '/tags/add/');?> </li>
+</ul>
+</div>

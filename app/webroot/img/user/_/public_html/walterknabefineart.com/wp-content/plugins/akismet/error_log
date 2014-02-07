@@ -1,0 +1,1 @@
+[29-Dec-2013 18:32:30] PHP Fatal error:  Call to undefined function  add_action() in /home2/walter/public_html/walterknabefineart.com/wp-content/plugins/akismet/akismet.php on line 32

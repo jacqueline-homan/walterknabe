@@ -1,0 +1,486 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201204 will be lost/reset.
+# Last config file used to build this data file was /home/walter/tmp/awstats/awstats.walterknabefineart-com.walterknabe.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2030                
+POS_TIME 2702                
+POS_VISITOR 7880                
+POS_DAY 12052               
+POS_DOMAIN 3457                
+POS_LOGIN 3878                
+POS_ROBOT 4033                
+POS_WORMS 4512                
+POS_EMAILSENDER 4643                
+POS_EMAILRECEIVER 4786                
+POS_SESSION 12857               
+POS_SIDER 13059               
+POS_FILETYPES 4921                
+POS_DOWNLOADS 5136                
+POS_OS 5206                
+POS_BROWSER 5348                
+POS_SCREENSIZE 5867                
+POS_UNKNOWNREFERER 5941                
+POS_UNKNOWNREFERERBROWSER 6183                
+POS_ORIGIN 6379                
+POS_SEREFERRALS 6521                
+POS_PAGEREFS 6676                
+POS_SEARCHWORDS 7085                
+POS_KEYWORDS 7252                
+POS_MISC 2365                
+POS_ERRORS 7328                
+POS_CLUSTER 3734                
+POS_SIDER_404 7447                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20120501072418 1 0 8178800694496
+FirstTime 20120401023758
+LastTime 20120430235058
+LastUpdate 20120502085845 1 0 0 0 0
+TotalVisits 178                 
+TotalUnique 100                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 100                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 62 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 34 50 861714 0 4 782
+1 2 2 166536 2 8 19311
+2 65 95 538337 0 7 1025
+3 6 6 18264 24 31 142176
+4 52 84 711924 0 3 1617
+5 57 89 821617 5 13 5634
+6 50 82 550926 2 7 19908
+7 95 151 1340231 7 16 24760
+8 77 126 986510 5 14 6173
+9 264 362 4325271 23 34 6100
+10 168 252 4032611 1 6 8262
+11 2 2 90863 0 3 243
+12 77 127 1289914 2 7 20153
+13 200 319 3555076 3 16 23162
+14 1 1 0 0 1 81
+15 78 146 1231098 2 8 19769
+16 77 118 930288 1 7 2176
+17 132 210 2664471 1 8 20670
+18 67 99 1338180 2 4 36704
+19 80 130 1253471 2 4 19445
+20 126 192 2317937 4 14 22106
+21 276 449 5192592 0 11 5013
+22 124 172 3242375 4 13 39064
+23 61 78 1903511 1 8 1799
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+us 1719 2691 31372758
+de 96 131 2107897
+jp 91 112 1316779
+gb 68 116 978730
+ph 66 111 742239
+au 59 76 1885250
+co 25 42 352390
+be 22 38 248071
+ru 15 15 32532
+lt 5 5 40745
+cn 2 2 166536
+nl 2 2 36522
+ca 1 1 83268
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 10
+bot[\s_+:,\.\;\/\\-] 46 94655 20120430231905 41
+crawl 25 158920 20120424032019 2
+googlebot 15 1215 20120429023907 15
+unknown 15 1215 20120430085021 15
+robot 11 91841 20120426134350 6
+msnbot 5 405 20120407065057 5
+no_user_agent 1 81 20120420121603 1
+discovery 1 81 20120401010210 1
+slurp 1 18271 20120428124556 0
+netcraft 1 18271 20120402071213 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+php 1748 26527580 0 0
+css 332 1489736 0 0
+png 157 51296 0 0
+html 422 4391871 0 0
+js 608 4437822 0 0
+jpg 73 2391563 0 0
+xml 1 1053 0 0
+jpeg 1 72796 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 86 0 6966
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 10
+winxp 634
+winlong 268
+winnt 1
+linuxubuntu 1
+linux 2
+win7 930
+winme 1
+macosx 1410
+win2003 2
+Unknown 93
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 30
+msie6.0 125
+firefox3.6.24 1
+safari5.1.3 81
+chrome18.0.1025.162 157
+firefox3.6.6 37
+firefox10.0.1 1
+safari5.0.6 78
+firefox7.0.1 2
+firefox12.0 42
+opera9.80 1
+safari5.0.2 190
+msie8.0 642
+firefox1.0 1
+mozilla 30
+chrome16.0.912.77 1
+safari5.1.2 40
+firefox3.5.8 2
+msie7.0 54
+safari5.1.5 120
+firefox3.6.18 4
+safari5.1 374
+firefox3.6.9 2
+firefox3.6.10 60
+msie9.0 508
+chrome11.0.696.71 3
+Unknown 63
+chrome18.0.1025.151 168
+firefox11.0 436
+chrome18.0.1025.152 41
+safari5.0.5 78
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Pinterest/0.1__http://pinterest.com/ 20120427194842
+WordPress/2.9.2;_http://walterknabefineart.com 20120430231905
+Mozilla/4.0_(compatible;) 20120425094336
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Pinterest/0.1__http://pinterest.com/ 20120427194842
+WordPress/2.9.2;_http://walterknabefineart.com 20120430231905
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 236 257
+From1 1 1
+From2 9 9
+From3 17 17
+From4 1908 3058
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 9 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://www.footballforum.com/nfl-gameday-forum/124040-super-bowl-poster.html 8 8
+http://promotests.com/magicsubmitter/ 5 5
+http://www.footballforum.com/newreply.php 2 2
+http://www.search-results.com/web 1 1
+http://172.19.30.9:15871/cgi-bin/blockOptions.cgi 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+walter+knabe 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+walter 1
+knabe 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+307 25 7980
+500 17 731
+404 17 19049
+301 5 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 2
+/mailto:info@modernmastersfab.com 1 http://promotests.com/magicsubmitter/
+/comments/feed/ 16 http://walterknabefineart.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 100
+161.150.2.55 95 112 1915669 20120425094407
+12.234.105.111 78 145 1536677 20120416153851
+71.46.88.42 68 112 1863957 20120414211846
+50.90.113.79 62 78 984200 20120406091415
+76.219.160.243 61 78 2255686 20120411222425
+84.170.39.204 61 78 1627385 20120401180023
+50.116.99.163 61 61 0 20120430231905
+14.201.10.146 59 76 1885250 20120419235102
+65.96.210.229 50 81 764287 20120406132244
+209.132.166.174 46 93 733603 20120414181532
+150.70.75.36 44 54 624339 20120422165704
+98.223.227.57 41 79 1635383 20120424121951
+108.222.133.139 38 55 1054180 20120414103155
+68.46.210.49 38 54 1024626 20120409185055
+99.8.19.7 37 55 879521 20120410210752
+216.252.59.77 37 60 461636 20120415075912
+75.21.193.201 35 59 668702 20120404223401
+74.70.127.249 34 51 738143 20120414202414
+38.123.0.194 33 50 793506 20120412133009
+205.178.91.222 32 48 843457 20120408002447
+50.90.36.151 32 49 767079 20120406210646
+140.182.145.246 31 50 758954 20120410133832
+98.220.111.82 28 45 537680 20120413053105
+98.157.154.250 28 45 397434 20120429092551
+150.70.172.203 28 36 273147 20120429063307
+173.51.54.160 1 1 83268 20120423013755
+70.43.78.178 22 38 248075 20120411083206
+201.184.97.209 25 42 352390 20120426074232
+69.58.178.56 1 1 18262 20120416201339
+50.90.60.89 22 37 247413 20120414215234
+98.222.80.112 26 43 409722 20120410045707
+50.90.172.116 24 40 339035 20120404195539
+49.145.71.35 22 37 247413 20120414194932
+85.25.255.185 1 1 18260 20120421084259
+188.143.232.144 12 12 25248 20120427023336
+123.163.251.77 1 1 83268 20120416095354
+75.1.50.234 27 48 432924 20120413121749
+99.113.250.195 24 40 307494 20120402203703
+74.52.245.146 1 1 18262 20120402062243
+78.159.102.127 4 4 9712 20120425131648
+50.90.52.176 24 41 324301 20120422165040
+66.84.177.138 26 42 445270 20120420100203
+95.145.16.247 24 41 483245 20120413093040
+207.38.20.153 1 1 7642 20120429092454
+12.97.199.165 24 41 366858 20120430135430
+85.17.213.242 2 2 36522 20120419084727
+209.132.175.174 23 39 266336 20120413211135
+64.202.160.161 23 38 265676 20120415045118
+173.255.243.251 1 1 18264 20120429042551
+184.73.148.54 2 2 12006 20120427194842
+188.138.113.146 1 1 18257 20120404000250
+24.107.202.89 24 41 305771 20120421081004
+96.242.26.159 24 41 339697 20120428204509
+97.61.167.98 22 26 202928 20120405105837
+24.192.99.81 24 41 483245 20120422104528
+69.126.162.111 24 40 377882 20120404080427
+95.215.2.52 3 3 7284 20120421074645
+99.130.200.159 23 38 265668 20120409183335
+173.226.40.19 24 41 380290 20120410135934
+66.114.137.40 2 2 166536 20120415203937
+64.202.161.41 2 2 36528 20120423074704
+207.38.20.170 1 1 7642 20120429092455
+149.166.100.83 23 39 260851 20120424131900
+78.46.128.119 2 2 25908 20120418221847
+194.78.208.147 22 38 248071 20120420063215
+78.158.11.226 5 5 40745 20120421102853
+98.14.35.195 22 38 248071 20120403214840
+62.116.174.188 1 1 18261 20120430235058
+199.187.122.98 1 1 18261 20120430085021
+74.125.189.18 1 1 83268 20120409174528
+49.145.68.238 22 37 247413 20120415025300
+192.197.82.203 1 1 83268 20120417114538
+76.111.211.73 2 2 166536 20120415210240
+150.70.172.104 1 1 5266 20120422165354
+150.70.64.198 4 5 80936 20120414103148
+68.58.135.253 25 41 323370 20120414164527
+81.153.59.190 22 37 247414 20120422095248
+208.53.187.254 1 1 18264 20120405031959
+75.205.77.32 1 1 83268 20120428223201
+24.103.120.26 26 42 422130 20120416133504
+75.114.188.242 24 40 339035 20120422212026
+150.70.172.103 14 16 333091 20120414103739
+66.172.15.45 1 1 18264 20120422024959
+85.179.49.110 26 44 390114 20120403154325
+184.91.145.54 22 37 247413 20120411211003
+66.161.161.226 22 37 247412 20120419173105
+207.38.20.156 1 1 18257 20120429092431
+72.94.249.37 1 1 18261 20120427132936
+68.120.69.53 28 47 488481 20120427194849
+50.90.33.224 5 5 0 20120418051015
+65.52.245.91 3 3 54786 20120403055153
+116.21.92.222 1 1 83268 20120423010548
+216.235.44.183 22 37 247412 20120401023814
+8.28.16.254 6 6 56053 20120425094406
+207.38.20.159 1 1 7557 20120429092533
+90.199.12.130 22 38 248071 20120423061940
+64.199.98.242 28 44 487249 20120410074105
+108.29.87.252 24 40 279113 20120425100844
+49.145.122.24 22 37 247413 20120415050330
+71.46.91.63 22 38 248071 20120420211213
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20120401 86 118 1874797 5
+20120402 27 43 325756 4
+20120403 75 116 899354 6
+20120404 87 143 1403876 7
+20120405 66 86 1052265 7
+20120406 107 155 1684493 5
+20120407 1 1 0 1
+20120408 35 51 843457 4
+20120409 63 94 1373562 5
+20120410 150 237 2915736 9
+20120411 107 155 2751174 5
+20120412 35 52 793506 3
+20120413 104 175 1720185 6
+20120414 301 478 5999336 14
+20120415 110 178 1555210 10
+20120416 110 193 2078598 8
+20120417 2 2 83268 2
+20120418 5 5 25908 4
+20120419 85 117 2153351 6
+20120420 73 121 943840 6
+20120421 33 50 367204 6
+20120422 121 194 1694876 9
+20120423 28 44 451135 6
+20120424 69 123 1901090 8
+20120425 128 161 2255691 6
+20120426 26 43 352390 2
+20120427 45 64 543996 6
+20120428 27 44 422965 4
+20120429 36 53 493318 8
+20120430 29 46 403380 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 5
+0s-30s 133
+15mn-30mn 2
+30s-2mn 26
+2mn-5mn 7
+30mn-1h 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 41
+/wp-content/themes/thematic/scripts/timthumb.php 1666 26484424 17 63
+/ 127 2319097 83 22
+/wp-cron.php 61 0 60 60
+/indy-500-2010/ 19 137735 0 2
+/amanda/ 19 118124 0 1
+/wp-login.php 19 42244 8 8
+/flag-i/ 17 124863 1 2
+/here-lies-my-heart/ 16 105455 0 0
+/winged-victory-for-cynthia/ 15 112141 0 0
+/ambre/ 15 90910 0 1
+/sincerity-illuminates/ 15 112779 2 3
+/a-very-overt-petition/ 15 109897 0 2
+/little-red/ 15 108159 0 0
+/sending-faith/ 14 101210 1 2
+/spirituel-declaration/ 13 96101 0 0
+/fete-ou-penurie/ 13 97084 0 1
+/aphrodite-red/ 12 90413 0 0
+/about/ 10 126499 0 3
+/jessica/ 9 65236 0 1
+/victory-in-scofield/ 9 63107 0 0
+/happy-family/ 9 68340 0 0
+/spiritual-awakening-ii-morgan/ 9 68830 0 1
+/deity/ 9 65928 0 0
+/confluence-ethereal/ 8 60511 0 0
+/hero-and-leander/ 8 60400 0 0
+/alex-in-cyberspace/feed/ 1 670 0 0
+/happy-family/feed/ 1 652 0 0
+/little-red/feed/ 1 646 0 0
+/feed/ 7 22710 5 5
+/ambre/feed/ 1 631 0 0
+/wp-includes/wlwmanifest.xml 1 1053 1 0
+/jessica/feed/ 1 637 0 0
+/deity/feed/ 1 631 0 0
+/xmlrpc.php 2 912 0 0
+/winged-victory-for-cynthia/feed/ 1 694 0 0
+/readme.html 1 7644 0 1
+/here-lies-my-heart/feed/ 1 670 0 0
+/victory-in-scofield/feed/ 1 673 0 0
+/amanda/feed/ 1 634 0 0
+/indy-500-2010/feed/ 1 655 0 0
+/alex-in-cyberspace/ 7 51505 0 0
+END_SIDER

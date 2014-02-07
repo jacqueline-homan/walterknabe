@@ -1,0 +1,19 @@
+<form action='<?= $html->url('/dpages/contact') ?>' method='post' class='editdata'>
+	<p>
+		<span class='label'>Your Name</span>
+		<span class='item'><input type='text' name='data[Contact][name]' /></span>
+	</p>
+	<p>
+		<span class='label'>Your Email</span>
+		<span class='item'><input type='text' name='data[Contact][email]' /></span>
+	</p>
+	<p>
+		<span class='label'>Your Message</span>
+		<span class='item'><textarea name='data[Contact][message]' class='smallta'></textarea>
+			<img src="../../../img/Margaux-purple.jpg" border="0" alt="" width="150" height="200" style="margin-left: 30px;" />
+		</span>
+	</p>
+	<p>
+		<span class='item'><input type='submit' value='Send Message' /></span>
+	</p>
+</form>

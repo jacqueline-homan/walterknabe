@@ -1,0 +1,30 @@
+<h2 class="pagetitle">Sub-Categories</h2>
+
+<p class="adminlink">
+	<?= $html->link('add sub-category','/adm/tags/add') ?> |
+	<?= $html->link('reorder','/adm/tags/reorder') ?>
+</p>
+
+<table class="datatable">
+	<? foreach($tags as $record) { ?>
+	<tr>
+		<th colspan="2">&nbsp;<br /><?= ucwords($record['Tagtype']['type']) ?></th>
+	</tr>
+	<? foreach($record['Tag'] as $tag) { ?>
+		<tr>
+			<td><?= $tag['tag'] ?></td>
+			<td class="adminlink">
+				<?= $html->link('edit','/adm/tags/edit/'.$tag['id']) ?> &nbsp;
+				<?= $html->link('delete','/adm/tags/delete/'.$tag['id'],null,'Are you sure?') ?>
+			</td>
+		</tr>
+	<? } ?>	
+	<? } ?>
+</table>
+
+<p class="adminlink">
+	<?= $html->link('add sub-category','/adm/tags/add') ?> |
+	<?= $html->link('reorder','/adm/tags/reorder') ?>
+</p>
+
+<? //pr($tags) ?>

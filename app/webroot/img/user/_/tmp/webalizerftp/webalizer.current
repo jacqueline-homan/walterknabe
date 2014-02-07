@@ -1,0 +1,172 @@
+# Webalizer V2.23-05 Incremental Data - 02/06/2014 13:01:42
+2014 2 6 13 1 42
+27 27 1 25 0 0 162322 1 1 1
+1 1 32 6 6
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+27 27 162322 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+26 26 160930 1
+1 1 1392 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+27
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/home2/walter/public_html/app/webroot/js/source/fancybox_loading.gif
+0 1 0 6567 0 0
+/home2/walter/public_html/app/config/database.php
+0 1 0 2478 0 0
+/home2/walter/public_html/app/webroot/js/source/helpers/jquery.fancybox-media.js
+0 1 0 5305 0 0
+/home2/walter/public_html/app/webroot/js/source/helpers/fancybox_buttons.png
+0 1 0 1080 0 0
+/home2/walter/public_html/app/webroot/js/source/helpers/jquery.fancybox-thumbs.css
+0 1 0 735 0 0
+/home2/walter/public_html/app/webroot/js/vendors.php
+0 1 0 1392 0 0
+/home2/walter/public_html/app/webroot/js/source/fancybox_loading@2x.gif
+0 1 0 13984 0 0
+/home2/walter/public_html/app/webroot/js/source/helpers/jquery.fancybox-thumbs.js
+0 1 0 3836 0 0
+/home2/walter/public_html/app/app_controller.php
+0 1 0 2949 0 0
+/home2/walter/public_html/app/webroot/js/source/blank.gif
+0 1 0 43 0 0
+/home2/walter/public_html/app/config/inflections.php
+0 1 0 2765 0 0
+/home2/walter/public_html/app/webroot/js/source/fancybox_overlay.png
+0 1 0 1003 0 0
+/home2/walter/public_html/app/webroot/js/source/jquery.fancybox.css
+0 1 8243122701812051820 4895 0 0
+/home2/walter/public_html/app/webroot/js/source/jquery.fancybox.pack.js
+0 1 0 23135 0 0
+/home2/walter/public_html/app/config/core.php
+0 1 0 4684 0 0
+/home2/walter/public_html/app/webroot/js/source/jquery.fancybox.js
+0 1 0 48706 0 0
+/home2/walter/public_html/app/config/acl.ini.php
+0 1 7311364680027549548 2417 0 0
+/home2/walter/public_html/app/webroot/js/source/fancybox_sprite@2x.png
+0 1 0 6553 0 0
+/home2/walter/public_html/app/webroot/js/source/helpers/jquery.fancybox-buttons.js
+0 1 0 3041 0 0
+/home2/walter/public_html/app/config/bootstrap.php
+0 1 0 4856 0 0
+/home2/walter/public_html/app/views/dpages/v.thtml
+0 1 12020 1925 0 0
+/home2/walter/public_html/app/webroot/js/source/helpers/jquery.fancybox-buttons.css
+0 1 0 2447 0 0
+/home2/walter/public_html/app/
+0 1 0 978 1 0
+/home2/walter/public_html/app/views/layouts/default.thtml
+0 3 0 15186 0 0
+/home2/walter/public_html/app/webroot/js/source/fancybox_sprite.png
+0 1 0 1362 0 0
+# End Of Table - urls
+# -sites- (monthly)
+66.168.21.104
+0 27 27 162322 1 1391689144
+/home2/walter/public_html/app/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+66.168.21.104
+0 27 27 162322 1 1391689144
+/home2/walter/public_html/app/
+# End Of Table - sites (daily)
+# -referrers- 
+# End Of Table - referrers
+# -agents- 
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+walter
+0 27 27 162322 2 1391689144
+# End Of Table - usernames

@@ -1,0 +1,175 @@
+body {
+	background-image:url('../../images/bg/bg0.png');
+	font-family: 'Muli', sans-serif;
+	font-size:62.5%;
+	margin:0;
+}
+
+/*================= HEADINGS =============================*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+	font-family:'Macondo Swash Caps',Helvetica, Arial, sans-serif;
+	color:#ad451f;
+
+}
+
+#cart_widget, #header-categories {
+	font-family: 'Macondo Swash Caps',Helvetica, Arial, sans-serif; 
+	font-style: normal;
+	font-weight:bold;
+}
+
+.feat_item_name a,
+.feat_item_name_tablets a,
+.feat_item_name span.price,
+.feat_item_name_2 a,
+.feat_item_name_2 span.price,
+.latest_item_name a,
+#home-menu ul li a,
+#menu-pages  ul li a,
+.home-add-to-cart a,
+#header-categories #product-categories li a ,
+#content nav,
+#content .navigation,
+.image-post-format p
+{ 
+	font-family: 'Macondo Swash Caps',Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	
+}
+
+#menu-pages-dropdown select, #home-menu-dropdown select,
+.s-mybutton span, .m-mybutton span, .l-mybutton span {
+	font-family:'Macondo Swash Caps',Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+#menu-pages-dropdown select, #home-menu-dropdown select {
+	color: #ad451f; 
+}
+
+
+.latest_item_name .price ,
+ul.products li .price,
+div.product p.price ,
+.single_variation span.price
+{
+	font-family:'Macondo Swash Caps',Helvetica, Arial, sans-serif;
+	color:#333;
+	text-shadow:1px 1px 0 #fff;
+	font-weight:normal;
+}
+
+
+input[type="file"]::-webkit-file-upload-button,
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"]
+{ 
+	font-family: 'Macondo Swash Caps',Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+
+.home-add-to-cart:hover,
+a.button, a.button:hover,
+button.button, button.button:hover,
+input.button, input.button:hover,
+#review_form #submit, #review_form #submit:hover
+{ 
+	font-family: 'Macondo Swash Caps',Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+
+
+.latest-product-item .sale, 
+ul.products li .onsale,
+div.product .onsale  
+{ 
+	font-family:'Macondo Swash Caps',Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+/*================= LINKS =============================*/
+	
+a {
+	color: #ad451f; 
+}
+
+
+#home-menu ul li:hover,
+#home-menu ul li a:hover,
+#menu-pages ul li:hover,
+#menu-pages ul li a:hover,
+#home-menu .sub-menu li,
+#menu-pages .sub-menu li,
+#header-categories ul li:hover,
+#cart_widget ul li:hover,
+#header-categories .product-categories li,
+#header-categories .product-categories li a
+{
+	background:#ad451f; 
+}
+
+/*================= BODY FONT OVERRIDES =============================*/
+
+#home-menu ul li a span, #menu-pages  ul li a span{ 
+	font-family: 'Muli', Helvetica, Arial, sans-serif;
+}
+
+#cart_widget ul.shoppingcart{
+	font-family:'Muli', Helvetica, Arial, sans-serif; 
+}
+		
+
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"]
+{ 
+	font-family: 'Muli', Helvetica, Arial, sans-serif;
+}
+
+/*=================== END OVERRIDABLE WITH SPECIFIC STYLES  ================================*/
+
+
+/*================||||||   LIGHT BROWN ++ONLY++ SETTINGS |||||| ==============================*/
+
+/* BUTTON STYLES */
+button:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input.wpsc_buy_button,
+.home-add-to-cart,
+a.button,
+button.button, 
+input.button, 
+#review_form #submit,
+a.button.alt, button.button.alt,
+input.button.alt,
+#review_form #submit.alt
+ {
+	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #33170d), color-stop(1%, #ad451f), color-stop(100%, #33170d));
+	background-image: -webkit-linear-gradient(#33170d, #ad451f 1px, #33170d);
+	background-image: -moz-linear-gradient(#33170d, #ad451f 1px, #33170d);
+	background-image: -o-linear-gradient(#33170d, #ad451f 1px, #33170d);
+	background-image: -ms-linear-gradient(#33170d, #ad451f 1px, #33170d);
+	background-image: linear-gradient(#33170d, #ad451f 1px, #33170d);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ad451f', endColorstr='#33170d');
+}

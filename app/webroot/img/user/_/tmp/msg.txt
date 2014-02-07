@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>HostGator Server Announcements (Gator1872)</title>
+		<link>http://msg.hostgator.com/1872/</link>
+		<description>Announcements about server downtime, upgrades, etc.</description>
+		<item>
+			<guid isPermalink="false">an328</guid>
+			<title>Change MX and DNS records </title>
+			<link>http://msg.hostgator.com/anns/1872/#an328</link>
+			<pubDate>Fri, 15 Feb 2013 14:17:10 CST</pubDate>
+			<description>
+				&lt;a href=&quot;https://support.hostgator.com/articles/cpanel/how-to-change-dns-zones-mx-cname-and-a-records&quot; target=&quot;_blank&quot;&gt;Updating your MX and DNS records may be easier then you think!&lt;/a&gt;&lt;br /&gt;
+			</description>
+		</item>
+		<item>
+			<guid isPermalink="false">an327</guid>
+			<title>Changing Primary Domain </title>
+			<link>http://msg.hostgator.com/anns/1872/#an327</link>
+			<pubDate>Fri, 15 Feb 2013 14:15:33 CST</pubDate>
+			<description>
+				&lt;a href=&quot;https://support.hostgator.com/articles/how-do-i-change-my-domain-name&quot; target=&quot;_blank&quot;&gt;Need help changing your primary domain?&lt;/a&gt;&lt;br /&gt;
+			</description>
+		</item>
+		<item>
+			<guid isPermalink="false">an326</guid>
+			<title>Path to temporary URL: </title>
+			<link>http://msg.hostgator.com/anns/1872/#an326</link>
+			<pubDate>Fri, 15 Feb 2013 14:14:47 CST</pubDate>
+			<description>
+				&lt;a href=&quot;https://support.hostgator.com/articles/hosting-guide/lets-get-started/temporary-url&quot; target=&quot;_blank&quot;&gt;Need to use a Temporary URL for your account?  This Knowledgebase Article shows how!&lt;/a&gt;&lt;br /&gt;
+			</description>
+		</item>
+		<item>
+			<guid isPermalink="false">an325</guid>
+			<title>Supported PHP Modules </title>
+			<link>http://msg.hostgator.com/anns/1872/#an325</link>
+			<pubDate>Fri, 15 Feb 2013 14:12:27 CST</pubDate>
+			<description>
+				&lt;a href=&quot;https://support.hostgator.com/articles/hosting-guide/hardware-software/php-modules&quot; target=&quot;_blank&quot;&gt;Ever wondered what PHP modules are supported on the server?&lt;/a&gt;&lt;br /&gt;
+			</description>
+		</item>
+		<item>
+			<guid isPermalink="false">an324</guid>
+			<title>Enabling PHP 5.3 </title>
+			<link>http://msg.hostgator.com/anns/1872/#an324</link>
+			<pubDate>Fri, 15 Feb 2013 14:11:20 CST</pubDate>
+			<description>
+				&lt;a href=&quot;https://support.hostgator.com/articles/hosting-guide/hardware-software/php-5-3&quot; target=&quot;_blank&quot;&gt;Need help enabling PHP5.3?&lt;/a&gt;&lt;br /&gt;
+			</description>
+		</item>
+	</channel>
+</rss>

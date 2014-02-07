@@ -1,0 +1,462 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201301 will be lost/reset.
+# Last config file used to build this data file was /home/walter/tmp/awstats/awstats.walterknabehandbags-com.walterknabe.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2031                
+POS_TIME 2709                
+POS_VISITOR 9891                
+POS_DAY 11766               
+POS_DOMAIN 3453                
+POS_LOGIN 3825                
+POS_ROBOT 3980                
+POS_WORMS 4446                
+POS_EMAILSENDER 4577                
+POS_EMAILRECEIVER 4720                
+POS_SESSION 12505               
+POS_SIDER 12706               
+POS_FILETYPES 4855                
+POS_DOWNLOADS 5083                
+POS_OS 5154                
+POS_BROWSER 5292                
+POS_SCREENSIZE 5800                
+POS_UNKNOWNREFERER 5874                
+POS_UNKNOWNREFERERBROWSER 6521                
+POS_ORIGIN 7081                
+POS_SEREFERRALS 7219                
+POS_PAGEREFS 7383                
+POS_SEARCHWORDS 7808                
+POS_KEYWORDS 8010                
+POS_MISC 2372                
+POS_ERRORS 8123                
+POS_CLUSTER 3681                
+POS_SIDER_404 8254                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20130201001052 18 2916 8464211075732
+FirstTime 20130101023125
+LastTime 20130131192327
+LastUpdate 20130201070147 18 0 17 0 0
+TotalVisits 154                 
+TotalUnique 45                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 46                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 15 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 21 31 1944085 25 33 65772
+1 4 4 79830 7 13 34391
+2 2 2 55626 9 19 54961
+3 1 1 27813 8 15 27070
+4 8 10 237840 11 17 51496
+5 2 2 55626 7 14 20348
+6 2 2 27813 8 14 23683
+7 14 14 0 9 17 51548
+8 24 76 987815 9 24 62615
+9 11 63 932189 8 18 52468
+10 35 145 2240969 16 50 500369
+11 22 138 1993504 10 42 245066
+12 10 10 27813 13 24 100230
+13 2 2 27813 11 23 86187
+14 2 2 27813 6 13 20348
+15 8 165 1962520 9 34 264956
+16 5 61 960947 15 29 181311
+17 1 1 27813 8 65 1040235
+18 26 174 2654969 8 23 104497
+19 35 46 583152 13 24 71114
+20 26 114 1678584 18 31 111444
+21 2 2 0 5 11 16961
+22 2 2 27813 7 15 23735
+23 1 1 0 8 18 23787
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+us 194 911 12351080
+fr 32 50 958522
+il 19 29 1916272
+cn 8 65 1086156
+ua 3 3 27813
+nl 3 3 27813
+lt 2 2 55626
+de 2 2 55626
+ca 1 1 27813
+ru 1 1 27813
+gb 1 1 27813
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+no_user_agent 175 707920 20130131194900 0
+googlebot 118 1017214 20130131122132 61
+bot[\s_+:,\.\;\/\\-] 72 140807 20130131082900 67
+robot 33 56432 20130131192326 31
+unknown 28 728 20130131043447 28
+spider 2 52 20130131235857 2
+[\s_+:,\.\;\/\\-]bot 2 52 20130116091453 2
+crawl 2 27839 20130111151449 1
+netcraft 1 27813 20130107134803 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 114 2543770 0 0
+php 110 3920 0 0
+png 320 2698751 0 0
+html 152 3034345 0 0
+xml 1 1052 0 0
+jpg 158 4263842 0 0
+js 205 4000435 0 0
+Unknown 3 0 0 0
+gif 5 16232 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 192 0 4992
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 9
+winxp 87
+linux 105
+winvista 2
+win7 197
+macosx 522
+bsdfreebsd 1
+win2003 11
+Unknown 142
+bsdopenbsd 1
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 32
+msie6.0 65
+firefox4.0 1
+firefox18.0 54
+chrome7.0.517.44 1
+lynx 2
+opera9.80 1
+safari6.0.1 160
+msie8.0 70
+iphone 54
+msie7.0 29
+firefox16.0 60
+Unknown 140
+chrome24.0.1312.52 54
+firefox11.0 29
+chrome23.0.1271.101 56
+firefox17.0 3
+firefox3.5.1 1
+firefox12.0 1
+safari5.1.7 54
+mozilla 1
+safari5.0.4 1
+firefox14.0.1 3
+msie10.0 2
+firefox5.0.1 1
+safari5.1 81
+firefox6.0 1
+firefox10.0.2 1
+chrome23.0.1271.97 54
+safari 75
+firefox3.6.8 1
+konqueror4.3 1
+firefox15.0.1 11
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+OppO_1.0_(_http://www.inboundscore.com_) 20130109004156
+Python-urllib/2.7 20130116015246
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20130112205631
+Mozila/5.0 20130123193417
+Python-urllib/2.6 20130109032255
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20130114154233
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20130128153008
+WordPress/3.4.2;_http://www.walterknabehandbags.com 20130131192327
+PHP/5.2.17p1 20130112184207
+OppO_1.0_(_http://www.inboundscore.com/_) 20130105015855
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+OppO_1.0_(_http://www.inboundscore.com_) 20130109004156
+Python-urllib/2.7 20130116015246
+Mozila/5.0 20130123193417
+Python-urllib/2.6 20130109032255
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20130114154233
+WordPress/3.4.2;_http://www.walterknabehandbags.com 20130131192327
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20130128153008
+PHP/5.2.17p1 20130112184207
+OppO_1.0_(_http://www.inboundscore.com/_) 20130105015855
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 191 201
+From1 0 0
+From2 5 5
+From3 7 18
+From4 63 844
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 4 4
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://abtasty.com 2 13
+http://www.indianadesigncenter.com/e/idc-holiday-open-house-walter-knabe-handbag-trunk-show/ 1 1
+http://mawords.com/walterknabehandbags.com 1 1
+https://m.facebook.com 1 1
+http://www.facebook.com 1 1
+http://sameid.net/domain/walterknabehandbags.com/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+walter+knabe+handbags 2
+walterknabehandbags.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 4
+walter 2
+handbags 2
+knabe 2
+walterknabehandbags.com 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 21 0
+206 36 465690
+406 3 678
+301 37 0
+404 41 781321
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 28
+/fancybox/fancy_shadow_s.png 2 -
+/additional-images-and-styles/fancybox/fancy_shadow_n.png 1 -
+/fancybox/fancy_shadow_sw.png 2 -
+/fancybox/fancy_shadow_w.png 2 -
+/additional-images-and-styles/fancybox/fancy_shadow_e.png 1 -
+/fancybox/fancy_nav_left.png 2 -
+/fancybox/fancy_loading.png 2 -
+/additional-images-and-styles/fancybox/fancy_shadow_w.png 1 -
+/fancybox/fancy_close.png 2 -
+/fancybox/fancy_shadow_e.png 2 -
+/additional-images-and-styles/fancybox/fancy_shadow_ne.png 1 -
+/additional-images-and-styles/fancybox/fancy_shadow_sw.png 1 -
+/additional-images-and-styles/fancybox/fancy_shadow_s.png 1 -
+/fancybox/fancy_nav_right.png 2 -
+/fancybox/fancy_shadow_n.png 2 -
+/fancybox/fancy_shadow_se.png 2 -
+/fancybox/fancy_shadow_nw.png 2 -
+/http:/www.walterknabehandbags.com/contact/ 1 http://walterknabehandbags.com/
+/about/fancybox/fancy_loading.png 1 -
+/ZelUM/robots.txt 1 -
+/about/fancybox/fancy_close.png 1 -
+/fancybox/fancy_shadow_ne.png 2 -
+/about/fancybox/fancy_nav_right.png 1 -
+/kauri_woo.2.1.2/images/skin-dark/border_raster_01.png 2 http://www.walterknabehandbags.com/shop/handbags/damask/
+/TNgYY/wp-content/uploads/2012/11/Handbag-flag-180x260.jpg 1 -
+/about/fancybox/fancy_nav_left.png 1 -
+/additional-images-and-styles/fancybox/fancy_shadow_nw.png 1 -
+/additional-images-and-styles/fancybox/fancy_shadow_se.png 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 46
+50.116.99.163 106 106 0 20130131192327
+76.238.170.73 20 160 2291512 20130127183248
+82.80.249.137 19 29 1916272 20130112001243
+178.33.142.48 19 26 471835 20130123193417
+50.90.39.171 10 81 1168024 20130130191353
+173.226.40.19 8 176 1966299 20130114154217
+38.100.21.67 7 9 210027 20130105044752
+107.23.206.3 7 7 194691 20130127104732
+125.88.73.97 5 62 1002717 20130103102237
+178.33.142.51 4 4 55626 20130110123730
+38.99.82.191 4 60 933134 20130130160543
+173.45.104.226 4 4 111252 20130112080449
+194.187.151.182 3 3 27813 20130109084458
+50.196.149.137 3 3 0 20130123111944
+216.244.81.119 3 3 64996 20130112184207
+98.100.21.82 3 56 960122 20130106104448
+173.45.73.18 2 2 55626 20130127130513
+50.90.120.212 2 54 932189 20130115091856
+178.33.142.58 2 2 27813 20130111105441
+65.52.111.37 2 20 461464 20130116202319
+87.98.254.80 2 2 27813 20130102183056
+174.232.14.83 2 54 932189 20130116151427
+206.246.177.34 2 54 932189 20130114154836
+95.211.163.36 2 2 27813 20130113114549
+108.234.26.38 2 54 932189 20130122112008
+69.171.228.112 0 1 14095 
+220.181.141.70 1 1 27813 20130103103101
+178.33.142.54 1 1 27813 20130116040207
+178.32.77.83 1 1 27813 20130117050223
+192.95.22.19 1 1 27813 20130125061055
+96.227.124.37 1 1 27813 20130116183257
+109.68.39.62 1 1 27813 20130109032255
+46.21.144.53 1 1 0 20130122061652
+109.172.77.26 1 1 27813 20130119050605
+74.116.71.60 1 1 27813 20130109004156
+95.130.9.100 2 13 291996 20130122181843
+5.9.107.198 1 1 27813 20130114190809
+204.8.156.142 1 1 27813 20130111205518
+74.116.71.18 2 2 52017 20130105015855
+69.171.242.119 1 1 27813 20130114154233
+184.73.21.14 1 1 27813 20130118160214
+5.9.140.209 1 1 27813 20130116015246
+61.131.23.74 1 1 27813 20130108174146
+178.33.142.52 1 1 27813 20130114151917
+78.158.11.226 2 2 55626 20130112205631
+202.207.160.28 1 1 27813 20130130111514
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20130101 3 3 27813 3
+20130102 5 5 27813 4
+20130103 10 67 1058343 6
+20130104 7 71 1005689 4
+20130105 13 15 289857 5
+20130106 7 60 960122 5
+20130107 9 61 960002 7
+20130108 5 5 27813 5
+20130109 8 8 83439 7
+20130110 6 6 27813 5
+20130111 7 7 55626 5
+20130112 29 39 2064707 8
+20130113 6 6 27813 4
+20130114 9 113 1044049 7
+20130115 6 58 932189 5
+20130116 11 81 1477092 9
+20130117 4 4 27813 4
+20130118 4 4 27813 4
+20130119 4 4 27813 4
+20130120 4 4 0 3
+20130121 4 4 27813 4
+20130122 8 71 1224185 6
+20130123 24 31 471835 6
+20130124 14 84 1133681 5
+20130125 3 3 27813 3
+20130126 3 3 0 3
+20130127 25 95 1380335 7
+20130128 2 3 14095 2
+20130129 4 4 0 4
+20130130 18 145 2128971 6
+20130131 4 4 0 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 1
+2mn-5mn 3
+30s-2mn 5
+15mn-30mn 1
+0s-30s 142
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 25
+/wp-cron.php 106 0 100 100
+/ 73 1789402 52 35
+/wp-content/themes/kauri_woo.2.1.2/admin/layouts/ 32 19456 0 13
+/about/ 6 145224 0 1
+/shop/ 5 132190 0 0
+/shop/handbags/flag/ 4 125532 0 0
+/shop/handbags/damask/ 4 125616 0 0
+/feed 3 0 2 2
+/additional-images-and-styles/ 3 92163 0 1
+/my-account/ 3 77322 0 1
+/cart/ 3 70722 0 0
+/xmlrpc.php 3 984 0 0
+/shop/handbags/diety/ 3 94413 0 0
+/as-seen-on-tv/ 2 60500 0 0
+/contact/ 2 48938 0 0
+/feed/ 2 6722 0 0
+/shop/product-category/handbags/ 2 53256 0 0
+/the-original-artwork/ 2 54732 0 0
+/checkout/order-received/ 2 47166 0 0
+/made-in-usa/ 1 27347 0 0
+/wp-includes/wlwmanifest.xml 1 1052 0 0
+/comments/feed/ 1 3652 0 0
+/author/walter/ 1 29960 0 1
+/wp-login.php 1 2936 0 0
+/c/announcements/ 1 30032 0 0
+END_SIDER

@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>www.walterknabe.com</title>
+<style type="text/css">
+<!--
+body {
+	font: 95% Verdana, Arial, Helvetica, sans-serif;
+	background-color: #C3C3C3;
+	margin: 0;
+	padding: 25px 0 0 0;
+	text-align: center;
+	color: #4A4A4A;
+}
+p {
+	text-align: center;
+}
+.oneColFixCtr #container {
+	width: 600px;
+	background: #eee;
+	margin: 0 auto;
+	border: 1px solid #000000;
+	text-align: left;
+	padding: 20px 20px 20px 20px;
+}
+.oneColFixCtr #mainContent {
+	border: 1px solid #ddd;
+	background: #fff;
+	padding: 10px 20px 30px 20px;
+}
+.oneColFixCtr #currentdate {
+	float: left;
+	font: 60% Verdana, Arial, Helvetica, sans-serif;
+}
+.oneColFixCtr #currenttime {
+	float: right;
+	font: 60% Verdana, Arial, Helvetica, sans-serif;
+}
+#domainurl {
+	font: 120% Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	padding: 10px 10px 10px 10px;
+	background-color: #3300FF;
+	color: white;
+}
+#footer {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	padding-top: 15px;
+	text-align: center;
+}
+a:link {
+	color: #3333CC;
+}
+a:visited {
+	color: #3333CC;
+}
+a:hover {
+	color: #000;
+}
+a:active {
+	color: #0099FF;
+}
+li {
+	list-style-type: none;
+	padding: 6px;
+}
+ -->
+</style>
+</head>
+
+<body class="oneColFixCtr">
+
+<div id="container">
+  <div id="mainContent">
+  <div id="domainurl"><!-- Domain URL -->www.walterknabe.com</div>
+  <p><!-- Client Desc --></p><br />
+<div id="currentdate">Current Date: <img src="/cgi-sys/Count.cgi?display=date|dd=A|ft=0|prgb=0;255;255|PAD=N|trgb=000000" align="bottom" alt="[date]" /></div>
+<div id="currenttime">Current Time ET: <img src="/cgi-sys/Count.cgi?display=clock|dd=A|ft=0|prgb=0;255;255|PAD=N|trgb=000000" align="bottom" alt="[time]" /></div>
+<p style="clear:both">Visitors Since April 21st, 2008 <img src="/cgi-sys/Count.cgi?df=walterknabe.com_Main|dd=A|ft=0|prgb=0;255;255|PAD=N|trgb=000000" align="top" alt="[visitors]" /></p>
+	<!-- end #mainContent --></div>
+<!-- end #container --></div>
+
+<div id="footer">
+<p>For Help Setting Up This Domain:</p>
+<ul>
+<li><a href="http://Service.FutureQuest.net/">Service Desk</a></li>
+<li><a href="http://www.aota.net/forums/">Community Message Forums</a></li>
+</ul>
+<p>walterknabe.com is on a <a href="http://www.FutureQuest.net" title="FutureQuest Professional Web Hosting Services">FutureQuest</a>!</p>
+
+<!-- end #footer --></div>
+</body>
+</html>

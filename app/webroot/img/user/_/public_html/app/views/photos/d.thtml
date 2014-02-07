@@ -1,0 +1,33 @@
+<p class="filter">
+	<a href="<?= $html->url('/patterns/g/'.$category) ?>" style="margin-left: 0;"><?= $category ?>:</a>
+	<? 
+	if($category == 'wallcovering') { $aSkips = array('4'); }
+	if($category == 'fabric') { $aSkips = array('5'); }
+	?>
+	<? foreach($tagtypes as $type) { ?>
+		<? if(!in_array($type['Tagtype']['id'],$aSkips)) { ?>
+			<a href="<?= $html->url('/patterns/sorted/'.$category.'/'.$type['Tagtype']['id']) ?>"><?= $type['Tagtype']['type'] ?></a> |
+		<? } ?>
+	<? } ?>
+	<a href="<?= $html->url('/custombases/g') ?>">custom options</a> |
+	<a href="<?= $html->url('/photos/d/'.$category) ?>">photo gallery</a>
+</p>
+
+
+<? if($checksession) { ?>	
+	<p class="adminlink">
+		<?= $html->link('Add Photo','/adm/photos/add/'.$category) ?>
+	</p>
+<? } ?>
+
+<p class="center">
+	<? if($neighbours['prev'] != '') { ?>
+		<?= $html->link($html->image('prev.gif',array('border'=>0)),'/photos/d/'.$category.'/'.$neighbours['prev']['Photo']['displayorder'],null,null,false) ?>
+	<? } ?>
+	<? if($neighbours['next'] != '') { ?>
+		<?= $html->link($html->image('next.gif',array('border'=>0)),'/photos/d/'.$category.'/'.$neighbours['next']['Photo']['displayorder'],null,null,false) ?>
+	<? } ?>
+	<br />&nbsp;<br />
+	<img src="<?= $html->url('/'.$page['Photo']['filepath']) ?>" />
+</p>
+

@@ -1,0 +1,20 @@
+<form action="<?= $html->url($formaction) ?>" method="post" class="editdata">
+	<p> 
+		<span class="label">Sub-Category</span>
+		<span class="item"><?= $html->input('Tag/tag') ?></span>
+		<?= $html->tagErrorMsg('Tag/tag', 'This field is required') ?>
+	</p> 
+	<p>
+		<span class="label">Under</span>
+		<span class="item">
+			<?= $html->selectTag('Tag/tagtype_id', $types, null, array(), null, false, false) ?>
+		</span>
+	</p>
+	<p>
+		<?= $html->hidden('Tag/id') ?>
+		<span class="item"><?= $html->submit('Save Changes') ?></span>
+	</p>
+</form>
+
+
+

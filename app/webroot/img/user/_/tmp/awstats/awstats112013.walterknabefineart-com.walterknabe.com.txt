@@ -1,0 +1,743 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201311 will be lost/reset.
+# Last config file used to build this data file was /home2/walter/tmp/awstats/awstats.walterknabefineart-com.walterknabe.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2031                
+POS_TIME 2713                
+POS_VISITOR 19121               
+POS_DAY 24827               
+POS_DOMAIN 3500                
+POS_LOGIN 4029                
+POS_ROBOT 4184                
+POS_WORMS 4713                
+POS_EMAILSENDER 4844                
+POS_EMAILRECEIVER 4987                
+POS_SESSION 25611               
+POS_SIDER 25819               
+POS_FILETYPES 5122                
+POS_DOWNLOADS 5322                
+POS_OS 5392                
+POS_BROWSER 5565                
+POS_SCREENSIZE 6259                
+POS_UNKNOWNREFERER 6333                
+POS_UNKNOWNREFERERBROWSER 6911                
+POS_ORIGIN 7237                
+POS_SEREFERRALS 7377                
+POS_PAGEREFS 7532                
+POS_SEARCHWORDS 7790                
+POS_KEYWORDS 7967                
+POS_MISC 2376                
+POS_ERRORS 8051                
+POS_CLUSTER 3885                
+POS_SIDER_404 8199                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131201062238 232 62185 7644321929477
+FirstTime 20131101055041
+LastTime 20131130214906
+LastUpdate 20131201221510 232 0 231 0 0
+TotalVisits 230                 
+TotalUnique 140                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 143                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 26 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 6 6 11905 4 13 42203
+1 17 17 48984 1 6 721
+2 6 15 149952 1 15 78758
+3 13 13 49880 1 4 6268
+4 8 8 135968 2 5 12528
+5 76 97 730512 2 8 13232
+6 85 127 1567688 4 9 18938
+7 94 113 1362322 9 15 94483
+8 14 16 143519 2 28 145381
+9 64 79 456373 28 48 115032
+10 31 31 193205 5 7 41221
+11 194 250 4115476 19 23 128218
+12 294 370 4189009 37 47 142515
+13 261 421 12950060 84 142 11377230
+14 77 114 831901 0 7 1483
+15 87 120 1216240 4 11 26073
+16 134 166 3279226 2 10 2228
+17 65 82 723658 19 67 777092
+18 79 111 2377330 6 15 63107
+19 145 216 1982052 3 24 74907
+20 115 164 2384408 3 25 92168
+21 163 241 1975898 2 10 1738
+22 78 122 1611411 7 21 32503
+23 2 2 22661 2 10 7728
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 22
+us 1711 2388 26516764
+il 128 188 12969277
+fr 83 99 1248004
+ua 48 58 589642
+de 33 48 353872
+zz 29 44 277485
+ru 15 15 85268
+by 10 10 78858
+tr 9 9 21852
+es 7 7 22004
+eu 7 7 57457
+lt 6 6 105573
+it 5 5 12140
+ca 5 5 12140
+my 2 2 4854
+kz 2 2 14872
+gb 2 2 45322
+nl 2 2 45321
+cn 1 1 6178
+in 1 1 22668
+co 1 1 7436
+cz 1 1 12651
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+no_user_agent 107 11432384 20131125075044 0
+bot[\s_+:,\.\;\/\\-] 40 48400 20131130063232 38
+googlebot 27 2187 20131130204048 27
+unknown 10 810 20131126160908 10
+msnbot 8 648 20131121142852 8
+msnbot\-media 4 324 20131129141805 4
+spider 3 243 20131125151528 3
+[\s_+:,\.\;\/\\-]bot 2 162 20131116175232 2
+robot 2 162 20131130215632 2
+crawl 2 22749 20131125193507 1
+netcraft 1 22668 20131110104601 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+css 232 982919 0 0
+php 1571 18073020 0 0
+png 82 22027 0 0
+html 537 5765119 0 0
+js 382 2745165 0 0
+jpg 92 14504261 0 0
+jpeg 5 417127 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 95 0 7695
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 13
+linuxandroid 44
+winlong 35
+winxp 114
+java 1
+win2000 2
+win98 1
+winvista 2
+linux 48
+win7 510
+winme 4
+macosx 1916
+win2003 1
+Unknown 223
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 43
+chrome6.0.427.0 1
+safari7.0 501
+msie6.0 37
+firefox5.0 1
+chrome21.0.1180.90 2
+firefox3.6 1
+chrome29.0.1547.76 49
+firefox26.0 116
+android 44
+chrome12.0.742.91 35
+firefox3.6.6 1
+chrome31.0.1650.57 137
+lynx 7
+firefox24.0 51
+opera9.80 2
+safari5.0.2 1
+netscape4.76 1
+msie8.0 1
+msie7.0 42
+safari5.1.5 1
+msie9.0 100
+chrome30.0.1599.101 48
+opera9.0 1
+Unknown 103
+chrome24.0.1312.52 1
+safari6.0 116
+safari5.1.7 99
+safari6.0.5 111
+firefox3.5.5 1
+firefox25.0 86
+mozilla 115
+safari5.1.2 115
+firefox22.0 50
+msie10.0 60
+firefox6.0 1
+chrome22.0.1229.94 1
+firefox3.6.12 10
+netscape6.01 1
+safari5.1.9 350
+firefox8.0.1 51
+safari6.1 404
+safari 44
+firefox15.0.1 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+Lynx/2.8.8dev.16_libwww-FM/2.14_SSL-MM/1.4.1_OpenSSL/1.0.1 20131120073840
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20131125080550
+Mozilla/5.0_(compatible) 20131130114352
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20131125075103
+Mozilla/6.0_(compatible) 20131130114353
+WordPress/2.9.2;_http://walterknabefineart.com 20131130153114
+Mozilla/4.0_(compatible;) 20131126061700
+Apple-PubSub/65.28 20131112075257
+0.861095982621 20131121222527
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20131125075103
+WordPress/2.9.2;_http://walterknabefineart.com 20131130153114
+Java/1.7.0_40 20131106045021
+Apple-PubSub/65.28 20131112075257
+0.861095982621 20131121222527
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 176 187
+From1 4 4
+From2 5 5
+From3 8 8
+From4 1915 2697
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://dljazz.info 5 5
+http://sameid.net/domain/walterknabefineart.com/ 2 2
+http://www.facebook.com/l.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+walterknabefineart.com 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+walterknabefineart.com 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 26 0
+307 52 16741
+500 38 727206
+406 28 6328
+301 28 0
+404 166 1000729
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 155
+/wp-content/themes/slide/style.css 1 -
+/wp-content/themes/cubed/functions/ 1 http://walterknabefineart.com/wp-content/themes/cubed/functions/
+/wp-content/themes/willbridge/style.css 1 -
+/wp-content/themes/minblr/themify/js/jquery.js 1 -
+/wp-content/themes/flat/style.css 1 -
+/admin.php 1 -
+/wp-content/themes/itheme2/themify/ 1 http://walterknabefineart.com/wp-content/themes/itheme2/themify/
+/wp-content/themes/blogfolio/style.css 1 -
+/wp-content/themes/qreator/style.css 1 -
+/wp-content/themes/suco/style.css 1 -
+/wp-content/themes/rayoflight-theme/style.css 1 -
+/wp-content/themes/responz/themify/ 1 http://walterknabefineart.com/wp-content/themes/responz/themify/
+/wp-includes/js/plupload/plupload.js 1 -
+//wp-content/themes/kernel-theme/js/scripts.js 1 -
+/wp-content/themes/flatshop/style.css 1 -
+/wp-content/themes/modularity-lite/style.css 1 http://walterknabefineart.com/wp-content/themes/modularity-lite/style.css
+/wp-content/themes/cubed_v1.2/functions/ 1 http://walterknabefineart.com/wp-content/themes/cubed_v1.2/functions/
+/wp-content/themes/twentyten/style.css 1 -
+/wp-content/themes/bizco/style.css 2 -
+/wp-content/themes/piccione-theme/style.css 1 -
+/wp-content/themes/kernel-theme/style.css 1 -
+/wp-content/themes/suco/themify/js/jquery.js 1 -
+/wp-content/themes/sidepane/themify/js/jquery.js 1 -
+/wp-content/themes/deep-blue/megaframe/megapanel/inc/upload.php 1 http://walterknabefineart.com/wp-content/themes/deep-blue/megaframe/megapanel/inc/upload.php
+/wp-content/plugins/mini-mail-dashboard-widget/wp-mini-mail.php 1 http://walterknabefineart.com/wp-content/plugins/mini-mail-dashboard-widget/wp-mini-mail.php
+/wp-content/themes/wigi/themify/js/jquery.js 1 -
+/wp-content/themes/blogfolio/themify/js/jquery.js 1 -
+/wp-content/themes/elemin/themify/ 1 http://walterknabefineart.com/wp-content/themes/elemin/themify/
+/wp-includes/js/customize-preview.js 1 -
+/wp-content/themes/grunge-wall/style.css 1 http://walterknabefineart.com/wp-content/themes/grunge-wall/style.css
+/wp-content/themes/folo/themify/js/jquery.js 1 -
+/wp-content/themes/funki/style.css 1 -
+/wp-content/themes/reganto-theme/style.css 1 -
+/wp-content/themes/allegro-theme/style.css 1 -
+/wp-content/themes/blogfolio/themify/ 1 http://walterknabefineart.com/wp-content/themes/blogfolio/themify/
+/dump.sql 1 -
+/wp-content/themes/pacifico/style.css 1 -
+/wp-content/themes/fullscreen/style.css 1 -
+/wp-content/themes/phototouch/style.css 1 -
+/wp-content/plugins/wp-super-cache/readme.txt 1 http://walterknabefineart.com/wp-content/plugins/wp-super-cache/readme.txt
+/wp-content/plugins/advanced-custom-fields/core/actions/export.php 1 http://walterknabefineart.com/wp-content/plugins/advanced-custom-fields/core/actions/export.php
+/wp-content/themes/shopo/style.css 1 -
+/wp-content/themes/nuance/functions/jwpanel/scripts/valums_uploader/php.php 1 -
+/wp-content/themes/tesigner/style.css 1 -
+/wp-includes/css/admin-bar.css 1 -
+/wp-content/themes/kernel-theme/functions/ 2 http://walterknabefineart.com/wp-content/themes/kernel-theme/functions/
+/wp-content/themes/bizco/themify/js/jquery.js 1 -
+/wp-content/themes/twentytwelve/rtl.php 1 http://walterknabefineart.com/wp-content/themes/twentytwelve/rtl.php
+/wp-content/themes/koi/themify/ 1 http://walterknabefineart.com/wp-content/themes/koi/themify/
+/wp-layout.css 1 -
+/wp-content/themes/lightspeed/framework/_scripts/valums_uploader/php.php 1 -
+/wp-content/themes/gadgetine_2.0.1/style.css 1 -
+/components/com_search/views/search/metadata.xml 1 -
+/wp-content/themes/rockstar-theme/style.css 1 -
+/wp-content/themes/pinword-theme/style.css 1 -
+/wp-content/themes/magnitudo/framework/_scripts/valums_uploader/php.php 1 -
+/wp-content/plugins/1-flash-gallery/upload.php 1 http://walterknabefineart.com/wp-content/plugins/1-flash-gallery/upload.php
+/wp-content/themes/grido/themify/ 1 http://walterknabefineart.com/wp-content/themes/grido/themify/
+/wp-content/themes/tisa/themify/js/jquery.js 1 -
+/wp-content/themes/legatus-theme/style.css 1 -
+/wp-content/themes/area53/framework/_scripts/valums_uploader/php.php 1 -
+/wp-content/plugins/likebtn-like-button/likebtn_like_button.php 1 http://walterknabefineart.com/wp-content/plugins/likebtn-like-button/likebtn_like_button.php
+/wp-content/plugins/zingiri-web-shop/fws/ajax/init.inc.php 1 http://walterknabefineart.com/wp-content/plugins/zingiri-web-shop/fws/ajax/init.inc.php
+/wp-content/themes/grido/themify/js/jquery.js 1 -
+/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php 1 http://walterknabefineart.com/wp-content/plugins/mm-forms-community/includes/doajaxfileupload.php
+/wp-content/themes/bloggie/themify/js/jquery.js 1 -
+/wp-content/themes/espresso/functions/jwpanel/scripts/valums_uploader/php.php 1 -
+/wp-content/themes/brilliant/style.css 1 -
+/wp-content/plugins/wp-property/third-party/uploadify/uploadify.php 1 http://walterknabefineart.com/wp-content/plugins/wp-property/third-party/uploadify/uploadify.php
+/wp-admin/js/wp-fullscreen.js 1 -
+/wp-content/themes/eptonic/functions/jwpanel/scripts/valums_uploader/php.php 1 -
+/wp-content/themes/simfo/themify/js/jquery.js 1 -
+/wp-includes/js/tinymce/plugins/wpeditimage/editor_plugin_src.js 2 -
+/wp-content/themes/thememin/themify/js/jquery.js 1 -
+/wp-content/themes/edmin/themify/js/jquery.js 1 -
+/wp-content/plugins/akismet/akismet1.php 1 http://walterknabefineart.com/wp-content/plugins/akismet/akismet1.php
+/wp-content/themes/blakesley/style.css 1 -
+/wp-content/themes/koi/themify/js/jquery.js 1 -
+/wp-content/themes/photobox/themify/js/jquery.js 1 -
+/wp-content/themes/rezo/themify/js/jquery.js 1 -
+/wp-content/themes/twentyeleven/style.css 1 -
+/wp-content/themes/twentyeleven/rtl.php 1 http://walterknabefineart.com/wp-content/themes/twentyeleven/rtl.php
+/wp-content/themes/thememin/style.css 1 -
+/wp-content/themes/gallery/functions/upload-handler.php 1 http://www.google.com/
+/wp-content/themes/saico/framework/_scripts/valums_uploader/php.php 1 -
+/wp-content/themes/blinc/framework/_scripts/valums_uploader/php.php 1 -
+/wp-content/plugins/hello.php 1 http://walterknabefineart.com/wp-content/plugins/hello.php
+/wp-content/themes/boldnews/themify/ 2 http://walterknabefineart.com/wp-content/themes/boldnews/themify/
+/wp-content/themes/bloggie/style.css 1 -
+/wp-plugins/akismet/readme.txt 1 -
+/wp-content/themes/project10-theme/style.css 1 -
+/wp-content/uploads/2013/10/ 1 http://walterknabefineart.com/wp-content/uploads/2013/10/
+/wp-content/themes/amplus/functions/ 1 http://walterknabefineart.com/wp-content/themes/amplus/functions/
+/wp-content/themes/koi/style.css 1 -
+/CFIDE/administrator/enter.cfm 1 -
+/wp-content/themes/itheme2/themify/js/jquery.js 1 -
+/wp-content/themes/basic/themify/ 1 http://walterknabefineart.com/wp-content/themes/basic/themify/
+/wp-content/themes/clockstone/theme/functions/upload.php 1 http://walterknabefineart.com/wp-content/themes/clockstone/theme/functions/upload.php
+/wp-content/plugins/count-per-day/notes.php 1 http://walterknabefineart.com/wp-content/plugins/count-per-day/notes.php
+/wp-content/themes/funki/themify/js/jquery.js 1 -
+/wp-content/themes/radial-theme/style.css 1 -
+/wp-content/plugins/adrotate/readme.txt 1 http://walterknabefineart.com/wp-content/plugins/adrotate/readme.txt
+/wp-content/plugins/comment-rating/readme.txt 1 http://walterknabefineart.com/wp-content/plugins/comment-rating/readme.txt
+/wp-content/themes/clockstone/style.css 1 -
+/wp-content/themes/pinboard/themify/ 1 http://walterknabefineart.com/wp-content/themes/pinboard/themify/
+/wp-content/themes/grido/style.css 1 -
+/wp-content/themes/postline/style.css 1 -
+/wp-content/themes/shepard/style.css 1 -
+/apple-touch-icon-120x120.png 2 -
+/wp-content/themes/trymee/style.css 1 -
+/wp-content/themes/pinboard/style.css 1 -
+/wp-content/themes/cleanple/style.css 1 -
+/wp-content/themes/edmin/style.css 1 -
+/wp-content/themes/bold/style.css 1 -
+/wp-content/themes/responz/themify/js/jquery.js 1 -
+/apple-touch-icon-120x120-precomposed.png 2 -
+/wp-content/themes/itheme8/style.css 1 -
+/wp-content/themes/basic/style.css 2 -
+/wp-content/themes/edmin/themify/ 1 http://walterknabefineart.com/wp-content/themes/edmin/themify/
+/wp-content/themes/expresso/style.css 1 -
+/wp-content/themes/newsy/themify/js/jquery.js 1 -
+/wp-content/plugins/thecartpress/checkout/CheckoutEditor.php 1 http://walterknabefineart.com/wp-content/plugins/thecartpress/checkout/CheckoutEditor.php
+/wp-content/themes/skinizer/framework/_scripts/valums_uploader/php.php 1 -
+/apple-touch-icon.png 2 -
+/wp-content/themes/elemin/style.css 1 -
+/wp-content/plugins/wpstorecart/php/upload.php 1 http://walterknabefineart.com/wp-content/plugins/wpstorecart/php/upload.php
+/winged-victory-for-cynthia/ 1 -
+/wp-content/themes/wumblr/themify/js/jquery.js 1 -
+/wp-content/themes/folo/style.css 1 -
+/wp-content/themes/folo/themify/ 1 http://walterknabefineart.com/wp-content/themes/folo/themify/
+/wp-content/themes/skyd/framework/_scripts/valums_uploader/php.php 1 -
+/wp-content/themes/kindness/style.css 1 -
+/wp-content/themes/minblr/style.css 1 -
+/wp-content/themes/responz/style.css 1 -
+/wp-content/themes/bloggie/themify/ 1 http://walterknabefineart.com/wp-content/themes/bloggie/themify/
+/wp-content/themes/oakland/style.css 1 -
+/wp-content/themes/bordeaux-theme/style.css 1 -
+/wp-content/themes/wumblr/themify/ 2 http://walterknabefineart.com/wp-content/themes/wumblr/themify/
+/apple-touch-icon-precomposed.png 2 -
+/wp-content/plugins/wp-mailinglist/vendors/uploadify/upload.php 1 http://walterknabefineart.com/wp-content/plugins/wp-mailinglist/vendors/uploadify/upload.php
+/wp-content/themes/dandelion/functions/ 1 http://walterknabefineart.com/wp-content/themes/dandelion/functions/
+/wp-content/themes/echolake/style.css 1 -
+/wp-includes/js/wp-ajax.js 1 -
+/wp-content/themes/basic/themify/js/jquery.js 1 -
+/wp-content/themes/ambleside/style.css 1 -
+/wp-content/themes/media-master/style.css 1 http://walterknabefineart.com/wp-content/themes/media-master/style.css
+/wp-content/themes/itheme2/style.css 2 http://walterknabefineart.com/wp-content/themes/itheme2/style.css
+/wp-content/themes/switchblade/framework/_scripts/valums_uploader/php.php 1 -
+/wp-content/uploads/2010/06/Sincerity-Illuminates-64.jpg 1 http://walterknabefineart.com/sincerity-illuminates/
+/wp-content/themes/tisa/style.css 1 -
+/wp-content/themes/coloris-theme/style.css 1 -
+/config.bak.php 1 http://www.google.com/
+/wp-content/themes/domaining-theme/style.css 1 http://walterknabefineart.com/wp-content/themes/domaining-theme/style.css
+/wp-content/themes/elemin/themify/js/jquery.js 1 -
+/wp-content/themes/tints-blog-10/style.css 1 http://walterknabefineart.com/wp-content/themes/tints-blog-10/style.css
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 143
+69.120.125.135 328 374 2410084 20131112075257
+64.132.83.130 176 218 2173308 20131111143115
+71.141.102.55 92 108 2663374 20131130161633
+62.219.8.229 89 132 10927527 20131115130503
+50.90.93.240 75 98 968958 20131113115127
+71.46.68.80 72 116 1576603 20131105225352
+192.254.234.195 68 68 0 20131130153114
+174.252.183.41 60 78 1652900 20131119181031
+99.91.204.160 52 85 815923 20131126082051
+86.200.231.211 51 67 1025622 20131117063049
+12.97.199.130 43 60 1687249 20131111120642
+209.173.7.216 41 71 1034213 20131112152442
+76.238.170.73 40 58 1415275 20131104203035
+192.114.71.13 39 56 2041750 20131130114353
+108.79.215.55 37 53 518477 20131122143911
+107.10.253.7 35 51 475651 20131103213501
+173.167.185.53 35 99 585019 20131114131714
+166.147.104.167 34 51 599824 20131111211131
+98.226.75.87 34 50 472718 20131128200515
+64.134.144.242 34 50 451619 20131129131451
+76.112.132.214 34 50 570532 20131104163713
+166.147.104.146 33 49 464271 20131113190546
+166.147.104.174 33 49 441493 20131115133302
+50.151.212.41 33 49 505586 20131104125236
+98.233.42.110 32 49 335960 20131101055057
+166.147.104.144 2 15 93001 20131115140008
+37.215.238.29 1 1 6844 20131103115137
+195.248.163.245 1 1 6178 20131103114458
+109.200.230.237 1 1 6850 20131103120132
+172.56.6.58 29 44 277485 20131119133049
+37.54.20.202 1 1 6178 20131103115805
+60.49.184.165 2 2 4854 20131103195022
+176.9.233.141 1 1 22654 20131116060403
+195.182.194.124 1 1 6178 20131103115628
+216.145.11.94 1 1 1274 20131128091853
+188.143.235.81 1 1 22661 20131121021627
+193.169.188.107 1 1 22661 20131124052624
+107.220.21.39 31 48 405832 20131113152305
+91.200.13.36 3 3 66009 20131126110723
+109.86.154.28 1 1 6178 20131103115958
+95.133.188.116 1 1 8400 20131103115833
+173.252.73.118 1 1 7564 20131125075038
+37.57.25.225 3 3 2739 20131113024035
+69.171.237.9 1 1 7564 20131125075101
+192.241.138.9 1 1 22658 20131109054104
+50.17.135.249 0 1 0 
+31.148.246.176 1 1 12651 20131109031411
+176.112.38.38 1 1 7436 20131103120714
+91.210.151.114 1 1 6178 20131103115928
+213.239.220.81 29 44 277482 20131102113907
+212.66.63.16 1 1 7436 20131103120606
+178.172.232.135 1 1 6858 20131103114331
+193.43.252.252 5 5 113300 20131110045041
+49.156.159.40 1 1 22668 20131120073840
+178.124.109.106 1 1 12649 20131103120531
+91.224.68.130 1 1 6862 20131103120336
+78.188.14.220 5 5 12140 20131101062915
+89.252.17.62 1 1 6178 20131103115328
+77.121.169.132 1 1 6178 20131103114658
+109.2.86.217 6 6 14568 20131126030554
+31.43.113.241 1 1 6178 20131103115158
+98.253.197.219 14 29 493162 20131125075243
+91.207.60.25 1 1 22658 20131107212621
+46.98.239.234 1 1 6178 20131103115857
+95.58.10.59 1 1 7436 20131103120909
+178.255.87.242 1 1 22661 20131111160122
+166.147.104.158 2 2 93001 20131113201052
+94.23.233.204 21 21 195674 20131112171557
+190.90.209.14 1 1 7436 20131103120937
+77.120.28.133 1 1 6178 20131103115358
+92.46.151.222 1 1 7436 20131103120739
+76.238.170.47 29 44 277483 20131130214906
+99.63.36.179 32 48 393928 20131121200210
+46.98.223.61 1 1 6178 20131103120228
+66.249.82.101 1 1 22661 20131102142141
+193.105.210.68 1 1 22661 20131124030255
+94.228.220.68 1 1 22662 20131118171634
+8.28.16.254 3 3 20391 20131126061700
+178.219.92.65 1 1 6178 20131103120357
+132.239.10.64 1 1 22668 20131121222527
+69.171.237.8 1 1 62392 20131125075102
+71.80.215.172 29 44 277483 20131112095406
+46.201.226.92 1 1 6178 20131103114630
+54.242.250.73 1 1 11558 20131109000632
+178.120.92.203 1 1 12649 20131103114233
+83.239.117.148 10 10 24280 20131118221645
+178.172.225.190 1 1 6178 20131103114201
+93.92.217.228 1 1 22668 20131106045021
+69.171.235.118 1 1 62392 20131125075043
+54.201.105.253 3 3 67968 20131122122354
+94.179.70.61 1 1 6178 20131103120158
+174.228.65.60 18 30 199687 20131120064342
+178.213.108.56 1 1 6178 20131103115104
+173.252.73.112 1 1 62392 20131125075042
+96.227.124.38 1 1 22658 20131106213740
+193.252.213.52 5 5 12140 20131116170812
+46.175.186.77 1 1 7436 20131103120839
+178.125.84.25 1 1 8289 20131103120640
+74.14.237.15 5 5 12140 20131130084313
+70.198.67.75 29 44 277483 20131116124138
+46.211.81.122 1 1 6862 20131103115605
+46.229.170.197 1 1 22659 20131117013744
+178.122.39.225 1 1 6178 20131103115459
+216.145.14.142 1 1 1274 20131102122308
+86.57.191.90 1 1 6178 20131103120028
+94.240.171.122 1 1 6178 20131103114358
+50.90.143.149 31 46 322799 20131126073544
+80.77.95.46 1 1 22661 20131105192853
+37.57.51.166 1 1 8297 20131103120805
+185.29.8.142 1 1 22659 20131119164006
+83.35.209.138 1 1 7436 20131103121010
+69.171.235.115 2 2 124784 20131125075103
+95.241.106.161 5 5 12140 20131112010702
+62.122.72.156 1 1 22658 20131115020051
+85.25.110.133 1 1 22658 20131120053036
+78.158.11.226 6 6 105573 20131125080550
+93.72.137.79 2 2 14407 20131103120504
+202.109.178.205 1 1 6178 20131103114300
+195.162.81.115 1 1 6178 20131103114942
+185.6.93.31 5 5 12140 20131104131706
+91.228.53.101 1 1 22661 20131102232646
+31.202.252.23 1 1 6178 20131103114429
+159.224.207.214 1 1 8272 20131103115304
+213.60.51.127 6 6 14568 20131121153916
+91.201.125.91 0 1 8429 
+78.188.201.139 4 4 9712 20131108150912
+93.77.17.137 1 1 8221 20131103115436
+194.12.74.214 1 1 5795 20131119090509
+212.66.48.26 1 1 6178 20131103114910
+81.1.129.72 1 1 6178 20131103115527
+91.201.124.52 0 9 104286 
+71.54.19.111 29 44 277483 20131115180606
+37.213.169.100 1 1 6857 20131103114841
+37.57.246.58 1 1 6178 20131103115231
+64.246.161.190 1 1 1274 20131115083851
+166.147.104.171 21 36 940129 20131113185857
+91.209.51.245 1 1 8323 20131103115004
+93.84.31.217 1 1 6178 20131103115028
+144.76.42.76 1 1 8417 20131130075123
+85.234.126.1 1 1 2045 20131129071910
+173.252.73.116 1 1 62392 20131125075041
+173.252.73.119 1 1 62392 20131125075042
+46.211.48.85 1 1 6178 20131103120259
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20131101 45 76 648888 7
+20131102 35 50 324078 7
+20131103 90 106 830003 54
+20131104 115 165 2503533 7
+20131105 106 167 2747219 5
+20131106 5 5 52123 5
+20131107 3 3 22658 3
+20131108 7 7 32370 4
+20131109 49 65 708927 7
+20131110 69 84 562604 5
+20131111 463 553 5222668 13
+20131112 134 166 1454112 9
+20131113 120 175 2138180 9
+20131114 37 101 585019 3
+20131115 159 255 11874519 10
+20131116 37 53 320706 5
+20131117 54 70 1048281 4
+20131118 8 8 34802 4
+20131119 94 127 1958839 7
+20131120 22 34 245013 5
+20131121 43 59 453825 7
+20131122 42 58 586445 4
+20131123 1 1 0 1
+20131124 45 68 607576 5
+20131125 66 104 1474479 15
+20131126 14 16 141951 7
+20131127 1 1 0 1
+20131128 38 54 473992 5
+20131129 38 54 453664 5
+20131130 168 216 5003164 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 3
+2mn-5mn 5
+30s-2mn 20
+15mn-30mn 1
+0s-30s 195
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 68
+/wp-content/themes/thematic/scripts/timthumb.php 1448 17940248 9 35
+/ 156 2944385 103 71
+/wp-cron.php 68 0 68 68
+/wp-login.php 55 132772 13 13
+/comments/feed/ 27 5096 8 10
+/indy-500-2010/ 19 141297 7 8
+/here-lies-my-heart/ 17 126625 2 0
+/spring-enchantment/ 17 126601 4 2
+/liberation/ 13 91264 2 4
+/flag-ii/ 12 87425 0 0
+/barricades-of-heaven/ 11 82434 0 0
+/tori-diamond-dust/ 10 75965 0 0
+/amanda/ 10 74427 1 0
+/evocation/ 10 70975 0 0
+/spiritual-awakening-ii-morgan/ 10 75103 0 0
+/heartfelt-valentine/ 10 76794 0 0
+/hero-and-leander/ 10 75551 0 0
+/little-red/ 10 75271 0 0
+/about/ 9 113860 3 3
+/sincerity-illuminates/ 9 68815 0 0
+/fete-ou-penurie/ 8 61012 0 0
+/a-very-overt-petition/ 8 56972 0 0
+/the-red-cape/ 8 60217 0 1
+/deity/ 8 60525 0 1
+/dreams-from-a-castle/ 7 53527 0 0
+/barricades-of-heaven/barricades-of-heaven/ 3 25401 0 0
+/about/indy500mainart/ 1 8229 0 1
+/feed/ 3 33957 0 0
+/author/walter/ 1 21369 0 0
+/tori-diamond-dust/tori-i-diamond-dust/ 2 16835 0 0
+/here-lies-my-heart/knabe_here_lies_my_heart/ 2 16918 0 0
+/deity/dietyscreenprint27/ 2 16513 0 0
+/flag-ii/flag-2/ 3 24325 0 0
+/shelter-from-the-storm-2/ 6 44280 0 0
+/indy-500-2010/indy500mainart-3/ 3 24913 1 1
+/sanctuaire/sanctuaire/ 3 24935 0 0
+/wp-content/uploads/2013/11/ 2 694 2 2
+/victory-in-scofield/ 6 45538 0 0
+/little-red/little_red/ 2 16384 0 0
+/liberation/liberation/ 2 16398 0 0
+/heartfelt-valentine/heartfelt-valentine/ 3 25305 0 0
+/victory-in-scofield/victoryinscofieldred/ 2 16910 0 0
+/evocation/evocation/ 3 24524 0 0
+/a-very-overt-petition/averyovertpetition54/ 2 16943 0 0
+/fete-ou-penurie/feteoupenurie64/ 3 24995 0 0
+/shelter-from-the-storm-2/shelter-from-the-storm-3/ 2 17094 0 0
+/confluence-ethereal/cap-3/ 4 33306 1 2
+/the-sea-and-the-sky/ 7 49852 0 1
+/spirituel-declaration/ 6 45898 0 0
+/author/silversquare/ 2 11599 1 1
+/spiritual-awakening-ii-morgan/spiritual_awakening_ii/ 3 25851 0 1
+/ambre/ 4 29812 0 0
+/c/uncategorized/ 3 62168 0 0
+/the-sea-and-the-sky/the-sea-and-the-sky-screenprint/ 3 25866 0 0
+/dreams-from-a-castle/dreams-from-a-castle/ 3 25388 0 0
+/confluence-ethereal/ 7 52976 0 0
+/spring-enchantment/spring-enchantment/ 3 25236 0 0
+/sending-faith/cap-6/ 4 32917 1 1
+/sending-faith/ 5 37808 1 0
+/amanda/amanda/ 2 16189 0 0
+/sanctuaire/ 6 45183 0 0
+/author/rachel/ 1 26506 0 0
+/ambre/ambre-aphrodite/ 2 16442 0 0
+/hero-and-leander/cap-5/ 4 33112 1 1
+/spirituel-declaration/cap-8/ 3 25213 1 1
+/the-red-cape/the-red-cape/ 3 24750 0 0
+/indy-500-2010/indy500mainart-2/ 1 8289 1 1
+/alex-in-cyberspace/ 6 44157 0 1
+END_SIDER

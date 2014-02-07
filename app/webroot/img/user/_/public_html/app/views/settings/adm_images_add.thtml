@@ -1,0 +1,12 @@
+<h2 class="pagetitle">Upload New Image</h2>
+
+<form action="<?= $html->url('/adm/settings/images_add') ?>" method="post" class="editdata" enctype="multipart/form-data">
+	<p>
+		<span class="label">Locate image:</span>
+		<span class="item"><input type="file" name="imagesource" /></span>
+	</p>
+	<p>
+		<span class="item"><?= $html->submit('Upload') ?></span>
+	</p>
+</form>
+

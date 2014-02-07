@@ -1,0 +1,1374 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201402 will be lost/reset.
+# Last config file used to build this data file was /home2/walter/tmp/awstats/awstats.walterknabe.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 2008                
+POS_TIME 2692                
+POS_VISITOR 13508               
+POS_DAY 31658               
+POS_DOMAIN 3533                
+POS_LOGIN 4170                
+POS_ROBOT 4325                
+POS_WORMS 4873                
+POS_EMAILSENDER 5004                
+POS_EMAILRECEIVER 5147                
+POS_SESSION 31886               
+POS_SIDER 32095               
+POS_FILETYPES 5282                
+POS_DOWNLOADS 5538                
+POS_OS 5586                
+POS_BROWSER 5808                
+POS_SCREENSIZE 6850                
+POS_UNKNOWNREFERER 6924                
+POS_UNKNOWNREFERERBROWSER 8195                
+POS_ORIGIN 8770                
+POS_SEREFERRALS 8916                
+POS_PAGEREFS 9113                
+POS_SEARCHWORDS 12416               
+POS_KEYWORDS 12740               
+POS_MISC 2355                
+POS_ERRORS 12941               
+POS_CLUSTER 4026                
+POS_SIDER_404 13094               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140206225933 807 169328 11930502730767
+FirstTime 20140201001312
+LastTime 20140206223351
+LastUpdate 20140206225934 807 0 807 0 0
+TotalVisits 290                 
+TotalUnique 159                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 644                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 69 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 23 25 151679 34 66 175458
+1 5 10 384746 64 93 751091
+2 42 161 6153934 111 139 1306293
+3 39 44 889529 42 59 457565
+4 4 7 393435 41 65 468577
+5 15 22 149344 43 70 226326
+6 38 48 348343 37 59 297467
+7 92 109 813133 35 40 70473
+8 92 483 13674914 29 57 122542
+9 36 253 3347224 28 40 223346
+10 72 720 8794837 34 62 332724
+11 75 587 13342540 30 55 162184
+12 97 662 8290838 41 80 273570
+13 86 340 14330227 31 82 330047
+14 46 292 6187101 20 81 671297
+15 31 201 3711875 19 59 558355
+16 55 370 7969607 24 69 175682
+17 64 87 891442 47 81 286069
+18 29 49 362511 29 57 103499
+19 40 263 3121293 24 48 190326
+20 13 49 1044006 34 65 167693
+21 16 102 998092 23 57 128155
+22 30 148 4823088 38 54 251794
+23 33 37 321387 12 23 69938
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 32
+us 885 4825 97047543
+ua 125 125 373649
+ru 20 20 58293
+fr 14 16 47263
+cn 7 13 931574
+vn 6 6 17783
+ro 3 3 14464
+in 2 14 703812
+sa 2 2 6279
+at 2 2 15111
+cz 2 2 6199
+de 2 3 6804
+eu 1 1 2964
+co 1 1 2964
+za 1 1 0
+il 0 1 3840
+jp 0 1 3840
+ph 0 2 87078
+tw 0 3 10056
+mx 0 3 11520
+au 0 3 130617
+dk 0 1 43539
+ch 0 2 4752
+sg 0 1 3204
+mf 0 1 3840
+gb 0 3 130617
+pk 0 1 43539
+ca 0 6 17255
+zz 0 1 43539
+nz 0 1 43539
+se 0 4 675808
+ai 0 1 3840
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+googlebot 282 1482708 20140206225057 0
+checker 139 415486 20140206223332 0
+msnbot\-media 123 1206894 20140206170539 0
+bot[\s_+:,\.\;\/\\-] 118 1250614 20140206211242 0
+spider 50 473746 20140206170353 0
+slurp 24 112196 20140206224117 0
+[\s_+:,\.\;\/\\-]bot 16 361914 20140206212019 0
+robot 9 33566 20140206201006 0
+crawl 6 11856 20140206001844 0
+no_user_agent 4 12096 20140206113626 0
+msnbot 1 3134 20140201061356 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+css 97 625812 0 0
+png 18 3021768 0 0
+html 332 1001334 0 0
+tif 24 76959 0 0
+xml 1 817 0 0
+jpg 2848 73288863 0 0
+js 103 16148277 0 0
+Unknown 709 3382182 0 0
+gif 930 2920552 0 0
+com 7 28561 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 17
+linuxandroid 25
+blackberry 1
+winlong 288
+winxp 622
+win2000 3
+winvista 182
+winunknown 1
+win95 9
+wince 3
+win2003 2
+java 5
+winnt 19
+linux 262
+win7 1403
+macosx 2005
+winme 12
+Unknown 227
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 66
+msie6.0 178
+firefox26.0 431
+sonyericsson 1
+firefox18.0 1
+safari5.0 1
+safari5.0.6 1
+chrome31.0.1650.63 1
+alcatel 1
+safari7.0.1 5
+chrome23.0.1271.95 5
+firefox3.6.15 11
+msie8.0 206
+msie7.0 38
+chrome27.0.1453 161
+opera9.0 3
+chrome18.0.1025.45 1
+firefox21.0 38
+safari6.0 13
+firefox12.0 6
+chrome32.0.1700.107 594
+safari6.0.5 195
+firefox25.0 2
+safari6.0.4 14
+mozilla 930
+chrome32.0.1700.77 1
+chrome32.0.1700.76 3
+firefox14.0.1 10
+safari10.2.0.1743 2
+safari5.1.9 228
+safari6.1.1 391
+firefox19.0 2
+firefox10.0.2 1
+safari6.1 5
+safari 78
+safari7.0 279
+firefox3.0.7 54
+firefox4.0.1 1
+android 20
+opera9.00 6
+msie3.02 3
+opera9.80 1
+iphone 175
+chrome32.0.1700.102 404
+firefox16.0 9
+msie2.0 6
+msie5.0 6
+msie9.0 183
+Unknown 66
+firefox27.0 10
+firefox11.0 1
+blackberry 1
+firefox17.0 3
+safari10.1.0.4699 1
+samsung 3
+chrome27.0.1453.110 46
+msie5.5 3
+safari4.1.1 44
+safari5.1.7 2
+firefox22.0 2
+msie10.0 158
+safari5.1 3
+firefox2.0.0.16 3
+chrome31.0.1650.16 1
+chrome27.0.1453.116 2
+safari1.0 1
+chrome21.0.1180.0 14
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 17
+Pinterest/0.1__http://pinterest.com/ 20140204071352
+Mozilla/5.0_(compatible;_SiteExplorer/1.0b;__http://siteexplorer.info/) 20140202023323
+Mozilla/5.0_(compatible;_coccoc/1.0;__http://help.coccoc.com/) 20140206082712
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20140205155004
+Owler 20140206184145
+Google/2.5.1.13455_CFNetwork/672.0.8_Darwin/14.0.0 20140204223020
+Mozilla/5.0_(compatible;_Add_Catalog/2.1;) 20140206084054
+Mozilla/5.0_(BB10;_Kbd)_AppleWebKit/537.10__(KHTML,_like_Gecko)_Version/10.1.0.4699_Mobile_Safari/537.10_ 20140205103859
+Mozilla/4.0_(compatible;_Blog_Search;) 20140206001340
+Mozilla/5.0_(BB10;_Kbd)_AppleWebKit/537.35__(KHTML,_like_Gecko)_Version/10.2.0.1743_Mobile_Safari/537.35_ 20140204100909
+Moozilla 20140205111146
+Go_1.1_package_http 20140206223351
+FeedBurner/1.0_(http://www.FeedBurner.com) 20140206180921
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20140205155003
+Mozilla/5.0_(compatible;_Ezooms/1.0;_help@moz.com) 20140206221522
+Mozilla/4.0_(compatible;) 20140206065038
+Mozilla/5.0_(webOS/1.4.5;_U;_en-US)_AppleWebKit/532.2_(KHTML,_like_Gecko)_Version/1.0_Safari/532.2_Pixi/1.0 20140205103601
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 10
+Moozilla 20140205111146
+Pinterest/0.1__http://pinterest.com/ 20140204071352
+Java/1.7.0_51 20140205231534
+Go_1.1_package_http 20140206223351
+Java/1.6.0_31 20140204002023
+FeedBurner/1.0_(http://www.FeedBurner.com) 20140206180921
+facebookexternalhit/1.1_(_http://www.facebook.com/externalhit_uatext.php) 20140205155003
+facebookexternalhit/1.0_(_http://www.facebook.com/externalhit_uatext.php) 20140205155004
+Owler 20140206184145
+Google/2.5.1.13455_CFNetwork/672.0.8_Darwin/14.0.0 20140204223020
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 427 1084
+From1 0 0
+From2 34 57
+From3 151 182
+From4 461 3746
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+google 22 41
+baidu 5 5
+bing 4 7
+yandex 2 2
+yahoo 1 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 75
+http://www.sax-sex.com.ua 6 6
+http://www.bookmaker-bet.com 6 6
+http://www.artparquet.ru 6 6
+http://cookingmeat.ru 6 6
+http://brendbutik.ru 3 3
+http://znakomstvaonlain.ru 3 3
+http://pro-solution.su 3 3
+http://onlinefilmz.net 3 3
+http://coldfilm.ru 3 3
+http://drevrus.biz 3 3
+http://kochanelli.com 3 3
+http://randecan.com 3 3
+http://posevkultur.biz 3 3
+http://smalnep.net 3 3
+http://mesto-x.com 3 3
+http://oklogistic.ru 3 3
+http://aviapanda.ru 3 3
+http://strana-solnca.ru 3 3
+http://www.moneyclone.ru 3 3
+http://my-bc.ru 3 3
+http://muztops.ru 3 3
+http://lenoreno.com 3 3
+http://megavolt.net.ua 3 3
+http://www.astrakhans.ru 3 3
+http://4ua.com.ua 3 3
+http://blog.coolerdesign.com/author/brianna/ 0 2
+http://hermesw2.webmail.21cn.net/webmail/readMail.do 1 1
+http://[192.254.234.201]:80/blog/studio-update/knabe-ottoman/feed/ 1 1
+http://viesearch.com/z2dj/walter-knabe-handbags 1 1
+http://[192.254.234.201]:80/blog/newport-yacht-exhibit/newport-yacht-7/feed/ 1 1
+http://www.designalliancela.com/product.html 1 1
+http://[192.254.234.201]:80/blog/studio-update/the-mystic-prints-2/feed/ 2 2
+http://[192.254.234.201]:80/blog/newport-yacht-exhibit/newport-yacht-exhibit-2/feed/ 1 1
+http://webmail.c.earthlink.net/wam/preview.jsp 0 1
+http://ballcapsandneckties.blogspot.com/2009_04_01_archive.html 0 3
+http://prank.su/load 2 2
+http://mail.aol.com/38331-111/aol-6/en-us/mail/DisplayMessage.aspx 0 1
+http://domainsigma.com/whois/walterknabe.com 1 1
+http://[192.254.234.201]:80/blog/super-bowl-host-committee-official-poster/feed/ 1 1
+http://mail.lucindasinteriors.com/edgedesk/cgi-bin/inbox.exe 1 2
+http://mail.aol.com/38331-111/aol-6/en-us/Suite.aspx 0 6
+http://www.indianadesigncenter.com/p/walter-knabe-studio/ 1 1
+http://mail.econestinteriordesignstudio.com/wm2/driver 0 1
+http://webmail.indy.rr.com/do/mail/message/view 0 1
+http://webmail.earthlink.net/wam/msg.jsp 0 3
+http://webmail.emailsrvr.com/a/webmail.php 0 1
+http://[192.254.234.201]:80/blog/newport-yacht-exhibit/feed/ 1 1
+http://seksotur.ru 3 3
+http://mail.adjaye.com/webmail/index2.html 0 2
+http://hobild.net 3 3
+http://stop-drugs.net 3 3
+http://wetfilms.ru 3 3
+http://videochaty.ru 3 3
+http://blog.coolerdesign.com/page/2/ 0 2
+http://web.mail.comcast.net/zimbra/mail 0 1
+http://gad1.hiw.com:8080/gdesktop/viewEMailInBody.do 0 1
+http://[192.254.234.201]:80/blog/studio-update/knabe-chair2/feed/ 2 2
+http://sport-kosa.ru 3 3
+http://www.swisstrade.ru 3 3
+http://pornogig.com 3 3
+http://sisiynas.ru 3 3
+http://mail.aol.com/webmail/tablet 0 1
+http://gfaq.ru/forum 2 2
+http://[192.254.234.201]:80/blog/newport-yacht-exhibit/newport-yacht-exhibit-3-2/feed/ 2 2
+http://www.alhea.com/Alhea-Site/ego2/search/web 2 2
+http://egvar.net 3 3
+http://magazintiande.ru 3 3
+http://strana-solnca.ru 3 3
+http://lespans.com/brocade-patterns/ 0 1
+http://mail.aol.com/38331-111/aol-6/en-us/displaymessage.aspx 0 1
+http://[192.254.234.201]:80/blog/studio-update/studio-painting-area-for-blog-3/feed/ 1 1
+http://myemail.constantcontact.com/July-newsletter---New-studio-items-and-a-great-summer-recipe-.html 0 1
+http://webmail.mariobolivar.com/a/webmail.php 0 1
+http://www.midwesttrucktrailer.com 1 1
+http://animebox.com.ua 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 7
+walterknabe 5
+images+of+walter+knabe+wallpaper 1
+walter+knabe+checks 1
+walter+knabe+art 1
+knabe+mattress+las+vegas 1
+walter+knabe 1
+van+alen+green+vs+kittery+point+green 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 17
+knabe 5
+walterknabe 5
+walter 4
+green 2
+kittery 1
+checks 1
+alen 1
+wallpaper 1
+of 1
+las 1
+mattress 1
+images 1
+art 1
+point 1
+vs 1
+vegas 1
+van 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 47 853332
+302 246 32
+206 7 686432
+406 15 3390
+404 314 865427
+301 91 27648
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 4
+/index.htm 2 http://www.walterknabe.com/
+/robots.txt 308 -
+/apple-touch-icon.png 3 -
+/tkovpjtzx.html 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 644
+199.187.122.91 78 78 296041 20140205070726
+208.115.113.83 71 71 277539 20140206221522 20140206221521 /patterns/d/73
+208.115.111.66 66 66 272971 20140206192839
+64.132.83.130 64 273 5665088 20140206151130
+76.238.170.47 51 133 1986555 20140205202311
+63.254.228.2 40 223 5857638 20140206084253
+99.8.201.69 33 88 4472865 20140205131337
+134.249.49.231 27 27 81078 20140206123058
+178.137.90.83 27 27 80027 20140206031139
+96.246.47.53 27 137 3846806 20140205143249
+68.58.134.22 27 141 3996721 20140204111013
+24.123.28.51 26 141 4983514 20140204021547
+178.137.94.155 24 24 72188 20140206144153
+63.253.212.114 23 64 4218885 20140203084616
+76.238.170.175 22 107 4557726 20140205164731
+76.240.195.9 21 53 3840970 20140205132135
+69.245.131.156 19 44 3777759 20140205112407
+37.115.112.240 18 18 53350 20140205213648
+198.211.104.210 17 19 443126 20140203223536
+50.195.224.193 17 88 1055197 20140204091852
+62.210.215.117 12 12 36620 20140206223351 20140206223351 /
+188.143.232.111 12 12 34582 20140203223942
+69.58.178.59 11 11 51013 20140205233233
+98.109.4.103 11 47 674449 20140205191551
+98.214.105.143 10 138 1174085 20140205121228
+108.5.227.218 0 1 3840 
+67.81.117.177 0 2 6216 
+166.205.55.45 0 1 3840 
+82.193.99.33 6 6 17783 20140205163637
+208.75.122.202 0 1 3840 
+74.125.19.208 1 1 2964 20140201170933
+24.184.201.60 0 2 7680 
+58.165.72.236 0 1 43539 
+69.39.139.202 0 1 3840 
+70.193.194.39 0 1 3840 
+188.138.84.212 1 1 0 20140204230806
+134.249.76.173 9 9 26674 20140205114051
+64.131.172.240 0 1 2376 
+108.201.24.11 0 1 948 
+50.140.143.225 0 1 3840 
+38.112.12.134 1 9 272694 20140205103251
+50.90.104.167 0 2 7680 
+88.64.19.23 0 1 3840 
+71.158.141.130 0 1 3840 
+50.129.223.10 0 1 3840 
+98.220.173.141 0 1 3840 
+24.223.173.83 0 1 3840 
+173.70.127.182 0 1 3840 
+198.228.201.160 0 1 3840 
+76.115.39.39 0 1 3840 
+75.27.13.247 0 1 3840 
+74.125.40.21 2 2 6279 20140206180921
+208.75.122.210 0 1 3840 
+50.59.48.2 0 1 3840 
+174.241.64.29 0 1 3840 
+108.46.182.33 0 1 3840 
+204.14.249.151 0 1 3840 
+24.115.3.64 0 1 3840 
+54.224.194.243 1 1 2832 20140203085441
+50.138.207.8 0 1 3840 
+12.104.10.11 0 1 3840 
+61.135.190.220 1 1 2964 20140202074447
+187.175.46.53 0 1 3840 
+66.162.122.135 1 59 526960 20140205112543
+74.70.32.154 0 1 3840 
+174.236.192.111 0 2 6216 
+67.244.94.130 0 1 3840 
+173.68.18.130 9 10 223045 20140206064309
+99.137.54.84 0 1 3840 
+162.201.37.132 0 1 3840 
+24.44.207.204 0 2 7680 
+71.190.44.161 0 1 3840 
+68.174.123.75 0 1 3840 
+108.27.84.99 0 1 3840 
+166.147.120.148 0 1 3840 
+67.87.242.69 0 1 3840 
+70.198.64.254 3 14 861612 20140206145204
+68.60.35.48 0 1 3840 
+99.63.36.179 0 1 3840 
+98.226.167.1 0 1 3840 
+173.61.131.174 0 1 3840 
+98.226.162.96 0 1 3840 
+70.208.68.191 0 1 3840 
+100.2.123.179 0 1 3840 
+70.198.129.136 0 1 3840 
+208.93.104.7 2 2 3781 20140204002023
+166.137.209.36 0 1 3840 
+198.199.66.138 8 9 220080 20140205170319
+75.27.14.181 0 1 3840 
+166.147.104.172 0 1 3840 
+67.78.6.158 2 10 529655 20140205140733
+69.117.20.125 0 1 3840 
+68.198.110.239 8 47 944538 20140205103432
+99.6.160.155 0 1 3840 
+68.58.1.219 0 1 3840 
+71.187.28.74 0 1 3840 
+74.125.19.80 1 1 2964 20140202175144
+65.55.217.214 0 3 1071908 
+70.192.68.115 0 1 3840 
+166.147.104.162 0 1 3840 
+67.82.210.68 0 1 3840 
+172.254.37.89 0 1 3840 
+166.205.68.32 0 1 3840 
+108.250.18.125 0 2 7680 
+70.198.70.14 0 1 3840 
+74.101.80.158 0 2 7680 
+108.182.108.18 0 1 0 
+166.205.68.25 0 1 3840 
+98.221.220.71 0 1 3840 
+166.137.101.151 0 1 3840 
+77.37.178.139 1 1 2964 20140201053121
+100.2.253.159 0 4 12432 
+184.193.115.116 0 2 7680 
+75.112.233.147 0 1 3840 
+98.221.35.22 0 2 6216 
+199.30.25.165 0 1 3840 
+107.218.54.18 0 1 3840 
+66.249.85.175 4 66 1227542 20140204223012
+66.87.90.84 0 1 3840 
+208.102.81.93 0 1 3840 
+209.43.9.98 0 1 3840 
+173.88.255.161 0 1 3840 
+71.249.233.40 0 1 3840 
+140.182.6.252 0 1 3840 
+162.39.105.2 0 1 3840 
+24.45.245.71 0 1 3840 
+50.195.133.125 0 1 3840 
+182.178.39.104 0 1 43539 
+63.250.75.42 6 152 1808431 20140205104448
+99.132.182.46 0 1 3840 
+98.28.129.160 0 1 3840 
+124.169.155.156 0 1 43539 
+74.219.94.202 0 1 3840 
+54.197.73.196 3 5 199303 20140205181329
+198.199.71.16 9 10 223043 20140202034607
+68.58.140.133 0 1 3840 
+108.170.108.194 0 1 3840 
+173.49.210.106 0 2 7680 
+86.205.60.123 0 2 7680 
+107.22.31.227 1 1 2961 20140201032618
+70.210.71.10 0 1 3840 
+74.89.132.42 0 3 10056 
+98.253.197.127 0 1 3840 
+50.90.33.189 0 1 3840 
+67.86.4.152 0 1 3840 
+198.228.228.168 0 1 3840 
+50.131.180.135 0 1 3840 
+198.228.201.156 0 1 3840 
+74.125.40.17 1 1 2964 20140201174253
+96.233.42.197 0 1 3840 
+76.181.249.70 0 1 947 
+114.47.150.80 0 1 3840 
+69.115.19.241 0 1 3840 
+109.120.157.179 4 4 11855 20140206084054
+65.31.50.253 0 3 625891 
+67.243.57.89 0 1 3840 
+99.21.56.239 0 1 3840 
+74.89.186.89 0 1 3840 
+50.90.16.93 3 62 805218 20140204161550
+24.53.137.220 0 1 947 
+184.3.128.191 0 1 3840 
+108.53.103.19 0 1 3840 
+72.89.243.56 0 3 11520 
+213.110.133.221 2 2 5928 20140206001340
+99.162.52.251 0 1 3840 
+71.46.79.164 6 99 1325740 20140201190405
+166.205.68.17 0 1 3840 
+108.85.241.159 0 1 3840 
+70.215.29.248 0 1 3840 
+67.83.109.244 0 2 7680 
+184.99.234.214 0 3 11520 
+76.98.192.53 0 1 3840 
+75.30.80.38 0 2 7680 
+98.253.142.240 0 1 3840 
+123.30.175.89 2 2 5928 20140204115919
+54.224.131.254 2 2 6374 20140201075415
+76.251.231.191 0 2 6216 
+157.56.19.89 0 1 3840 
+180.194.239.210 0 1 43539 
+24.1.133.192 0 2 7680 
+68.144.166.157 0 1 947 
+89.107.187.113 1 1 2964 20140201150604
+166.147.104.30 1 8 549510 20140205104408
+208.75.122.224 0 1 3840 
+68.192.80.78 0 1 3840 
+50.170.175.254 0 1 261911 
+166.147.104.155 0 1 3840 
+50.90.101.239 0 1 3840 
+67.243.61.33 0 1 3840 
+50.90.35.131 0 1 3840 
+69.113.230.243 0 1 3840 
+98.116.242.207 0 1 3840 
+68.203.76.46 0 1 3840 
+99.6.1.1 0 1 3840 
+65.55.143.27 0 1 3840 
+173.77.159.41 0 1 3840 
+64.235.150.221 2 2 7358 20140205103220
+98.15.207.111 0 1 3840 
+99.63.46.230 0 1 3840 
+50.17.135.249 1 1 0 20140206084358
+68.174.172.223 0 1 3840 
+50.74.218.130 0 1 3840 
+69.35.202.122 2 10 476217 20140205120518
+172.250.1.197 0 1 3840 
+208.75.122.203 0 1 2376 
+174.241.64.129 0 1 3840 
+173.252.101.112 0 2 6440 
+23.23.222.104 1 1 2964 20140204104700
+2.108.90.186 0 1 43539 
+166.147.120.150 0 1 3840 
+108.240.248.43 0 2 337904 
+173.21.41.140 0 1 3840 
+68.198.97.61 0 2 6216 
+23.246.92.131 0 1 3840 
+173.70.124.226 0 1 3840 
+50.74.8.125 0 1 0 
+166.205.68.19 0 1 3840 
+198.228.200.41 0 2 7680 
+71.233.163.117 0 2 6216 
+54.226.172.161 1 1 3149 20140201055511
+208.75.122.218 0 2 7680 
+66.249.84.147 0 4 15360 
+162.235.45.231 1 2 6803 20140203121402
+173.187.212.187 0 1 167105 
+64.235.154.194 2 2 7358 20140205103223
+66.87.77.23 0 2 337904 
+97.248.72.182 0 1 3840 
+99.6.2.66 0 1 3840 
+129.107.155.191 0 1 3840 
+149.160.229.167 0 1 3840 
+50.90.94.30 0 1 3840 
+70.208.66.94 0 1 3840 
+24.7.245.7 0 1 3840 
+74.101.8.66 0 1 3840 
+173.252.101.118 0 3 9660 
+70.208.112.154 0 1 3840 
+71.127.226.126 0 1 0 
+71.46.95.120 0 1 3840 
+208.74.239.165 2 14 554548 20140206082844
+68.58.2.170 1 9 258711 20140206075512
+173.54.22.43 0 1 3840 
+66.108.57.125 0 1 3840 
+166.147.104.177 0 1 3840 
+155.72.28.11 0 2 4752 
+61.135.190.102 1 3 203918 20140206204917
+24.45.134.243 0 1 3840 
+207.250.135.18 8 70 924653 20140203153231
+70.197.65.98 0 1 3840 
+68.175.103.196 0 1 3840 
+166.147.123.34 0 1 3840 
+202.207.160.28 1 1 2964 20140205003457
+98.220.180.112 0 4 15360 
+76.219.165.173 0 1 3840 
+99.6.166.56 0 1 3840 
+68.38.203.74 1 11 559566 20140205113632
+205.178.126.22 2 11 828134 20140205221657
+208.75.122.201 0 2 6216 
+74.73.120.47 0 1 3840 
+98.222.82.70 0 3 11520 
+96.246.61.84 0 1 3840 
+24.12.139.2 0 1 3840 
+108.27.200.40 0 1 3840 
+23.240.19.165 0 1 3840 
+50.90.72.139 0 2 6216 
+50.90.91.94 0 1 3840 
+123.30.175.125 1 1 2964 20140201153502
+174.241.224.194 0 1 3840 
+24.123.18.70 1 1 2964 20140202105419
+64.235.154.71 2 2 7358 20140205103410
+50.90.229.184 0 1 3840 
+68.41.118.211 0 1 3840 
+50.90.7.42 0 1 3840 
+71.88.45.102 0 1 3840 
+74.125.19.209 1 1 2964 20140203171717
+96.242.12.149 0 1 3840 
+74.101.158.23 0 1 3840 
+68.58.64.46 0 1 3840 
+166.147.104.164 4 66 894832 20140201090609
+208.75.122.219 0 2 7680 
+70.198.64.174 0 1 3840 
+174.251.3.163 0 1 3840 
+64.235.154.69 2 2 7358 20140205103305
+67.52.54.2 0 2 7680 
+209.40.95.254 0 1 54801 
+198.228.200.171 0 1 3840 
+70.208.196.18 0 1 3840 
+98.221.232.32 3 63 942081 20140205123108
+206.246.131.209 0 1 3840 
+72.227.236.155 0 1 3840 
+189.161.64.125 0 1 3840 
+70.39.176.44 0 2 0 
+99.101.191.165 0 1 948 
+99.59.130.60 0 1 3840 
+212.254.224.129 0 2 4752 
+76.187.200.168 0 1 3840 
+99.44.214.79 0 2 7680 
+99.63.38.143 0 1 3840 
+70.192.83.187 2 35 494197 20140205114616
+184.39.244.191 0 1 947 
+67.237.28.54 0 1 3840 
+69.117.22.176 0 2 6216 
+24.185.248.244 0 2 6216 
+173.65.63.215 0 2 6216 
+216.220.114.155 0 2 6216 
+107.77.64.94 0 1 3840 
+70.198.67.50 0 1 3840 
+67.81.99.80 0 1 3840 
+24.39.143.106 0 1 3840 
+69.121.235.137 0 1 3840 
+173.218.103.232 0 1 43539 
+98.253.142.79 0 1 3840 
+98.221.29.66 1 59 530489 20140205121136
+68.174.96.44 0 1 3840 
+24.47.252.148 0 1 3840 
+50.90.126.165 2 61 801745 20140202142343
+108.30.150.224 0 1 3840 
+199.30.25.31 0 7 466451 
+69.206.165.34 0 1 3840 
+166.147.104.19 0 1 3840 
+108.227.237.114 0 1 3840 
+198.52.198.42 1 1 2964 20140202045655
+166.147.104.171 0 1 3840 
+166.147.104.161 0 1 3840 
+205.234.80.21 0 1 3840 
+64.206.48.90 1 8 549510 20140203094540
+174.236.97.208 0 2 6216 
+37.139.52.23 3 3 8892 20140204002528
+206.71.232.98 0 1 3840 
+70.215.4.1 0 1 3840 
+100.1.128.119 0 1 3840 
+99.13.232.211 3 62 580234 20140205112449
+70.19.29.145 0 1 3840 
+1.174.110.97 0 2 6216 
+68.196.21.34 0 1 3840 
+67.177.106.238 0 1 3840 
+69.117.69.39 0 1 3840 
+98.193.6.66 0 1 3840 
+68.192.82.198 0 1 3840 
+66.249.88.175 3 135 1135930 20140204223018
+174.236.102.185 0 1 3840 
+83.133.125.202 1 1 2964 20140201080526
+50.90.158.107 0 1 3840 
+98.220.179.38 0 1 3840 
+173.252.112.112 0 1 3220 
+86.172.113.54 0 3 130617 
+103.244.123.27 0 1 43539 
+198.228.200.27 0 1 3840 
+166.147.104.175 1 58 523120 20140206090259
+97.78.217.154 0 1 3840 
+99.182.253.218 0 1 3840 
+166.147.104.146 0 1 3840 
+66.87.114.132 0 1 3840 
+184.1.159.145 0 1 3840 
+72.89.74.177 0 1 3840 
+61.135.190.223 0 1 177468 
+208.54.36.218 1 11 275923 20140201211057
+199.30.25.138 0 1 3840 
+50.136.26.248 0 1 3840 
+159.182.1.4 9 109 1776717 20140204141029
+65.55.183.185 0 1 3840 
+61.135.190.100 1 2 180432 20140205092913
+54.197.134.56 0 1 43539 
+37.187.26.110 2 2 15111 20140205014307
+173.252.101.114 0 1 3220 
+108.182.60.66 0 1 2376 
+65.55.185.238 0 1 3840 
+98.220.142.5 0 1 3840 
+70.194.72.37 0 1 3840 
+5.166.147.1 1 1 2964 20140204165052
+166.147.120.147 0 2 6216 
+108.6.32.183 2 17 426738 20140205165651
+76.117.132.162 0 1 43539 
+61.135.190.219 1 2 180432 20140204100241
+70.166.117.43 0 1 3840 
+74.125.40.20 1 1 2964 20140204172716
+208.75.122.254 0 35 125616 
+174.241.240.157 1 2 5340 20140205073301
+192.96.204.42 1 1 0 20140203114926
+173.161.73.9 0 1 3840 
+107.20.23.82 1 1 2963 20140201072155
+71.46.57.67 0 1 3840 
+5.248.208.87 1 1 3315 20140206181819
+76.126.61.95 0 1 947 
+108.88.220.38 1 64 258369 20140205210542
+117.200.55.167 0 1 43539 
+46.105.59.74 1 1 0 20140203001728
+222.152.16.171 0 1 43539 
+108.198.132.118 0 1 3840 
+91.121.20.199 1 1 2963 20140202125047
+70.192.72.31 0 2 6216 
+208.103.61.163 0 1 3840 
+99.132.183.182 0 1 3840 
+50.90.146.25 0 1 3840 
+123.30.175.123 1 1 2964 20140206082712
+38.123.0.222 1 8 469415 20140205112027
+198.50.195.215 2 2 6172 20140205170605
+96.22.17.42 0 1 948 
+207.181.249.36 0 1 3840 
+71.125.3.88 0 2 6263 
+68.199.178.46 0 1 3840 
+76.251.231.61 0 1 3840 
+98.204.70.216 0 1 3840 
+14.203.46.131 0 1 43539 
+198.255.181.250 0 1 3840 
+108.199.244.143 0 1 948 
+69.212.243.0 0 1 3840 
+61.135.190.224 1 1 2964 20140202203855
+166.147.104.165 0 1 3840 
+50.74.237.162 0 1 3840 
+67.167.250.241 0 1 3840 
+98.221.14.48 0 1 3840 
+107.220.21.24 0 1 3840 
+68.174.164.39 0 1 3840 
+209.131.39.64 0 1 53671 
+129.107.159.110 0 1 3840 
+208.75.122.214 0 1 3840 
+24.1.181.86 0 1 3840 
+66.87.76.129 0 1 3840 
+172.56.8.208 0 1 43539 
+92.249.127.111 9 9 26676 20140205104620
+69.114.47.29 0 1 3840 
+76.240.196.251 0 1 3840 
+69.124.215.86 0 2 7680 
+70.240.42.6 0 1 3840 
+98.226.161.231 2 15 419058 20140205111810
+98.193.1.176 0 2 7680 
+187.185.220.2 0 1 3840 
+108.41.95.35 0 1 3840 
+98.116.18.226 0 1 3840 
+76.251.228.160 0 1 3840 
+199.30.24.169 0 7 466451 
+74.125.40.16 2 2 5927 20140202171914
+208.43.251.180 3 3 10602 20140202023323
+75.24.126.45 0 1 3840 
+71.177.184.59 8 8 42613 20140204233941
+108.196.92.126 1 3 187802 20140204233317
+75.46.64.110 0 1 3840 
+23.22.148.83 1 1 0 20140206084616
+70.198.68.255 0 1 3840 
+84.228.188.208 0 1 3840 
+72.37.141.34 0 1 3840 
+166.147.123.46 1 9 553350 20140205153814
+199.68.207.25 0 1 3840 
+173.58.135.166 0 1 3840 
+99.9.48.43 0 1 3840 
+199.30.25.164 0 4 283303 
+68.197.238.57 0 1 3840 
+76.251.232.185 0 1 3840 
+64.235.151.196 2 2 7358 20140205103206
+71.163.108.216 3 17 773938 20140205103359
+67.84.26.48 0 1 3840 
+98.222.152.255 0 1 3840 
+76.29.111.57 0 1 3840 
+24.0.241.84 0 1 3840 
+204.74.14.26 0 1 3840 
+69.69.172.190 0 1 3840 
+68.58.134.17 0 1 3840 
+68.173.110.252 0 1 3840 
+166.147.104.170 0 1 3840 
+198.228.200.161 0 1 3840 
+68.58.58.91 0 2 7680 
+166.147.104.166 0 1 3840 
+108.163.233.157 1 1 2964 20140202045725
+99.132.181.85 0 1 3840 
+208.75.122.206 0 1 3840 
+50.90.101.1 0 1 3840 
+74.125.176.80 1 1 2964 20140204175903
+108.86.130.173 0 1 3840 
+98.226.77.220 0 2 7680 
+67.163.2.71 0 2 7680 
+192.165.213.236 0 2 337904 
+69.246.203.81 0 2 7680 
+69.119.108.54 0 1 3840 
+66.244.103.32 0 1 0 
+108.218.169.58 0 1 3840 
+192.165.213.238 0 2 337904 
+131.204.85.104 0 1 948 
+70.208.65.247 0 1 3840 
+96.250.46.149 0 1 3840 
+98.222.216.241 1 10 497795 20140206201709
+122.248.174.2 0 1 3840 
+54.224.92.116 1 1 2831 20140203065654
+166.137.101.152 0 1 3840 
+174.254.192.205 0 1 3840 
+174.129.185.129 2 2 6360 20140203054508
+67.175.194.160 0 1 3840 
+100.2.153.2 2 14 634643 20140205110752
+68.54.68.216 0 2 7680 
+54.226.238.34 1 1 2844 20140202041413
+198.140.195.171 0 1 3840 
+99.38.160.210 0 1 3840 
+67.80.185.127 0 1 3840 
+108.14.6.148 0 1 3840 
+50.90.105.18 1 11 275923 20140205103346
+71.201.16.111 0 1 3840 
+208.184.81.101 2 2 9580 20140205192807
+99.95.69.7 0 1 3840 
+76.200.236.137 0 1 3840 
+74.125.40.23 2 2 6279 20140206173826
+70.192.71.4 0 1 3840 
+70.193.206.127 0 1 3840 
+71.197.47.51 0 1 3840 
+50.100.193.11 0 1 3840 
+50.162.250.94 0 1 3840 
+76.127.189.129 0 1 3840 
+50.195.150.233 0 1 3840 
+70.198.69.25 0 1 3840 
+174.44.141.45 0 1 3840 
+107.220.21.39 4 38 852269 20140205130812
+107.204.101.163 0 11 1752171 
+174.96.56.182 0 1 3840 
+23.31.131.41 1 58 523120 20140203161842
+71.46.95.119 4 19 1002035 20140204142301
+1.22.251.205 2 10 529656 20140203080153
+74.125.176.82 1 1 2964 20140203174750
+64.12.116.145 0 1 3840 
+31.133.13.244 2 2 6199 20140203234812
+108.182.75.69 0 1 3840 
+166.147.104.160 0 2 7680 
+69.162.16.12 0 1 3840 
+96.246.70.223 0 3 10056 
+174.241.225.178 0 1 3840 
+99.95.135.21 0 2 7680 
+12.235.94.26 0 3 11520 
+70.199.132.119 0 1 3840 
+75.46.68.125 0 1 3840 
+98.221.50.82 0 1 3840 
+96.242.58.46 0 1 3840 
+74.125.19.82 1 1 2963 20140203181752
+65.55.217.207 0 1 43539 
+108.208.160.7 0 1 3840 
+184.74.192.4 0 1 3840 
+69.248.17.247 0 1 3840 
+66.249.93.198 0 1 3840 
+68.58.58.197 0 1 3840 
+70.192.77.234 0 1 3840 
+208.105.68.134 0 1 3840 
+70.107.235.202 0 6 20112 
+64.61.171.34 0 1 3840 
+174.241.96.160 0 1 3840 
+70.198.129.13 0 1 3840 
+96.251.72.227 0 1 3840 
+123.30.175.88 1 1 2963 20140205111907
+99.22.22.109 0 1 3840 
+108.221.208.135 0 1 3840 
+199.30.25.159 0 2 184838 
+167.187.100.202 0 1 0 
+166.147.120.177 0 2 6216 
+99.63.47.39 0 1 3840 
+191.235.137.27 1 1 2964 20140201032911
+71.0.110.217 0 3 10056 
+69.114.23.216 1 64 258370 20140205105829
+182.237.129.46 0 2 87078 
+98.109.188.173 0 1 3840 
+50.90.51.216 1 11 271811 20140205114357
+67.84.103.86 0 1 3840 
+74.92.213.85 3 64 1160464 20140204111653
+61.135.190.104 0 1 177468 
+123.30.175.87 1 1 2964 20140202143106
+174.76.140.74 2 3 7768 20140205231534
+66.168.21.104 3 20 355409 20140206122411
+70.209.74.236 0 1 3840 
+184.72.145.46 2 2 5927 20140203055101
+66.108.152.192 0 1 2376 
+173.2.34.86 7 93 899630 20140205103632
+198.228.216.25 0 2 7680 
+69.117.72.179 3 38 572261 20140205121134
+71.46.74.210 0 1 3840 
+99.22.22.197 0 1 3840 
+68.46.43.5 0 2 7680 
+75.27.28.33 0 1 3840 
+174.224.129.172 0 1 3840 
+208.91.195.49 0 1 3840 
+202.83.250.78 0 1 3204 
+173.63.2.218 0 1 3840 
+67.84.211.46 0 1 3840 
+71.183.84.119 0 1 3840 
+108.29.35.38 0 1 947 
+50.243.103.49 0 1 3245 
+98.109.177.228 0 2 6216 
+24.123.216.224 0 2 6216 
+23.23.43.122 5 5 0 20140205113211
+108.29.211.88 0 1 3840 
+208.0.121.248 0 1 3840 
+108.182.83.206 0 1 3840 
+173.111.74.64 0 1 3840 
+174.228.197.57 0 1 3840 
+69.120.3.152 0 1 3840 
+71.167.167.78 0 1 3840 
+173.243.176.44 0 1 3840 
+98.109.33.147 0 1 3840 
+173.252.112.119 0 1 3220 
+68.196.141.105 0 2 6216 
+206.246.136.158 1 12 279763 20140205103830
+50.90.99.32 0 1 3840 
+24.8.173.93 0 1 3840 
+68.8.221.44 1 1 3314 20140206163041
+184.152.25.113 0 1 3840 
+75.91.76.248 9 137 1496832 20140202125628
+99.63.44.50 0 1 3840 
+99.132.181.64 0 1 3840 
+113.102.190.187 1 1 2964 20140203012947
+24.47.100.220 0 1 3840 
+174.236.73.28 0 1 3840 
+121.243.149.210 0 1 43539 
+216.174.124.217 0 1 3840 
+198.228.201.177 0 1 3840 
+68.173.57.1 0 1 3840 
+99.138.53.205 0 1 3840 
+23.20.253.61 1 1 2923 20140203032358
+108.223.75.82 0 1 3840 
+24.13.0.205 0 1 3840 
+198.228.200.30 0 1 3840 
+99.10.220.27 0 1 3840 
+67.85.239.106 0 1 3840 
+198.228.201.145 0 1 3840 
+75.76.135.90 8 56 1015414 20140206150202
+24.161.8.136 0 1 3840 
+67.189.176.65 0 1 3840 
+69.141.217.28 0 1 3840 
+72.224.216.164 0 1 3840 
+157.56.172.30 0 1 3840 
+54.251.129.106 1 1 0 20140206184145
+195.242.218.133 3 3 9945 20140206175412
+50.90.89.204 5 76 806820 20140204190316
+68.174.161.217 0 1 3840 
+97.78.205.14 0 1 3840 
+66.249.83.93 0 9 34560 
+83.103.189.110 3 3 14464 20140203231229
+208.43.243.244 1 1 2963 20140201001312
+99.104.158.126 0 1 3840 
+166.147.123.27 0 1 3840 
+99.61.175.55 0 1 3840 
+72.89.74.211 0 1 3840 
+72.49.115.131 0 1 3840 
+99.9.48.129 0 1 3840 
+8.18.111.244 0 1 3840 
+207.250.131.194 1 8 469415 20140205130136
+173.226.40.59 2 11 828135 20140203134230
+96.242.245.72 0 1 3840 
+166.137.12.17 0 1 3840 
+24.215.191.61 0 1 3840 
+76.240.203.64 0 1 3840 
+50.19.52.36 1 1 10428 20140204071352
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 6
+20140201 129 381 4395020 40
+20140202 78 303 4085357 33
+20140203 188 511 11069488 51
+20140204 153 978 22877580 43
+20140205 398 2351 46198358 80
+20140206 127 545 11869322 43
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 8
+2mn-5mn 10
+15mn-30mn 2
+30s-2mn 25
+0s-30s 236
+30mn-1h 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 223
+/ 276 801520 143 128
+/patterns/g/wallcovering 69 723914 17 13
+/dpages/v/1 39 172065 13 13
+/dpages/v/10 34 275249 9 11
+/patterns/g/fabric 29 205176 5 1
+/dpages/v/5 25 85646 5 9
+/img/patterns/Tahitian_Dreams_web_photo_88.thumb.tif 24 76959 0 6
+/photos/all 24 69380 4 2
+/presscovers 23 77927 1 4
+/photos/all/12 12 32460 1 2
+/dpages/v/6 11 30503 0 3
+/photos/all/16 10 30088 2 1
+/patterns/d/165 10 35551 0 0
+/photos/all/21 9 27035 0 1
+/photos/all/9 9 27936 0 1
+/photos/all/19 9 27404 0 1
+/photos/all/14 9 27285 0 0
+/photos/all/23 9 26648 1 1
+/photos/all/28 9 26802 0 0
+/patterns/d/136 9 33752 0 0
+/photos/all/8 8 24143 0 1
+/patterns/d/127 8 30059 0 0
+/photos/all/25 8 23663 0 0
+/photos/all/24 8 23623 0 0
+/photos/all/7 8 24208 0 0
+/patterns/sorted/1/2 2 9449 1 1
+/photos/d/media 1 4498 0 1
+/patterns/d/37 1 3142 1 1
+/KWYWX/custombases/pick/ 1 3204 0 1
+/photos/d/wallcovering/12 4 13260 2 1
+/photos/d/fabric/3 2 6540 1 0
+/my-account/change-password/ 2 6440 1 1
+/custompatterncolors/ 1 3362 0 0
+/photos/all/ 1 2891 0 0
+/custombases/g 7 88260 4 4
+/presspages/d/17 4 11340 1 1
+/patterns/d/139 3 10257 0 0
+/contact/ 2 6416 1 0
+/KMmTU/patterns/d/ 1 3203 0 0
+/shop/product-category/handbags/ 1 3196 0 0
+/patterns/d/32 1 3130 1 1
+/patterns/d/164 6 22910 0 0
+/patterns/d/171 2 6358 0 0
+/patterns/sorted/function.in-array 1 5333 1 1
+/adm/patterns/edit/127 2 16470 0 0
+/patterns/d/75 3 9732 1 1
+/presspages/d/22 3 8531 1 1
+/patterns/d/151 2 6352 0 0
+/adm/patterns/edit/166 2 16564 0 0
+/patterns/d/ 1 4819 1 0
+/dpages/v/4 4 19044 2 1
+/patterns/d/142 1 3166 0 0
+/adm/patterns/edit/134 2 16422 0 0
+/patterns/sorted/2/2 1 4725 1 0
+/patterns/sorted/5 1 5221 0 0
+/patterns/d/141 2 6248 0 0
+/patterns/sorted/4 3 15662 0 1
+/patterns/d/24 1 4503 0 0
+/photos/d/wallcovering/9 4 13603 0 2
+/patterns/d/61 1 3133 1 0
+/patterns/sorted/kaylan@hughes.com/ 1 5333 1 1
+/patterns/d/145 1 3168 0 0
+/photos/d/wallcovering/5 2 6623 0 0
+/patterns/d/119 1 3169 0 0
+/patterns/d/73 1 3490 0 0
+/photos/d/wallcovering/7 2 6626 0 0
+/login 2 5934 0 0
+/photos/d/wallcovering/3 3 9897 0 1
+/checkout/pay/ 1 3212 0 0
+/patterns/sorted/fabric/2 3 12027 0 1
+/patterns/sorted/kaylan@hughes.com/4 1 4720 0 0
+/XeXbY/custombases/pick/ 1 3553 1 0
+/patterns/d/148 1 3169 0 0
+/photos/all/15 8 24086 0 0
+/patterns/sorted/wallcovering/ 1 4443 0 1
+/patterns/d/85 2 6264 1 0
+/patterns/d/169 1 3178 0 0
+/photos/d/wallcovering/8 2 6652 0 0
+/patterns/sorted/function.in-array/5 2 9427 0 1
+/c/announcements/feed/ 1 3535 0 1
+/adm/patterns/edit/168 2 16534 0 0
+/patterns/sorted/wallcovering/1 2 19010 0 1
+/photos/d/wallcovering 3 9681 0 0
+/photos/d/wallcovering/14 2 6486 0 1
+/patterns/sorted/fabric/ 1 4073 0 0
+/photos/d/function.in-array 1 4582 0 1
+/patterns/sorted/2 3 15663 0 1
+/my-account/ 2 6440 1 1
+/patterns/sorted/4/1 1 4689 0 1
+/photos/all/17 8 24391 0 0
+/patterns/d/77 1 4854 1 0
+/adm/patterns/edit/136 3 24877 0 0
+/patterns/d/69 1 3138 1 0
+/patterns/sorted/wallcovering/5 4 13892 0 2
+/shop/scarves/ancient-icons/ 1 3196 1 1
+/patterns/sorted/5/2 1 4725 0 0
+/patterns/g/2 1 4557 1 0
+/presspages/d/21 4 11324 1 2
+/shop/handbags/flag/ 2 6392 1 1
+/patterns/sorted/2/ 1 5221 1 0
+/adm/patterns/edit/165 2 16505 0 0
+/photos/all/4 2 5782 1 1
+/settings/login 2 6115 0 0
+/patterns/d/30 4 12596 2 3
+/patterns/d/28 1 4503 0 0
+/patterns/sorted/kaylan@hughes.com/2 2 9673 1 0
+/patterns/d/25 1 4503 0 0
+/patterns/sorted/1/ 1 5221 0 0
+/patterns/d/134 7 25616 0 0
+/photos/d/2 1 4470 0 0
+/patterns/sorted/2/4 1 4608 0 0
+/QMXcV/custombases/pick/ 1 3203 0 0
+/patterns/sorted/andrea@savelinc.com/2 2 9702 2 1
+/patterns/d/122 1 3191 0 0
+/patterns/sorted/1/4 1 4608 1 1
+/patterns/d/87 1 3130 1 0
+/photos/d/4 1 4470 1 1
+/checkout/order-received/ 1 3212 0 0
+/adm/photos/index/wallcovering 1 6016 0 0
+/sitemap.xml 1 817 1 0
+/patterns/d/14 4 12679 0 0
+/my-account/lost-password/ 1 3220 1 0
+/patterns/g/media 1 4585 1 0
+/photos/d/fabric 2 6374 0 0
+/additional-images-and-styles/ 1 3292 1 1
+/photos/d/fabric/4 2 6382 0 1
+/shop/handbags/damask/feed/ 1 3547 1 0
+/photos/d/wallcovering/1 1 3227 0 0
+/photos/d/wallcovering/4 2 6617 0 0
+/patterns/sorted/5/4 1 4608 1 1
+/new/ 1 3192 1 0
+/photos/ 1 3297 0 1
+/patterns/sorted/fabric/4 4 15543 2 0
+/patterns/d/42 3 9444 1 1
+/photos/all/29 8 23383 1 4
+/dpages/v/bgarros@arnitex.com 1 2717 0 0
+/patterns/sorted/5/function.in-array 1 5242 1 0
+/patterns/sorted/kaylan@hughes.com/5 2 9428 0 0
+/author/walter/ 1 3204 0 1
+/patterns/d/31 1 3167 1 0
+/patterns/d/170 1 3178 0 0
+/dpages/v/5+%5BPLM=0%5D%5BN%5D+GET+http://www.walterknabe.com/dpages/v/5+%5B0,3694,3572%5D+-%3E+%5BN%5D+POST+http://www.walterknabe.com/dpages/contact+%5BR=302%5D%5B2960,0,256%5D 1 3426 1 0
+/adm/patterns/edit/133 2 16468 0 0
+/patterns/g/function.in-array 2 9338 1 0
+/patterns/sorted/media/5 1 4630 1 0
+/patterns/d/126 1 4503 0 0
+/patterns/sorted/5/5 1 4602 1 0
+/patterns/d/40 2 6284 2 2
+/patterns/d/9 2 6378 0 1
+/patterns/d/function.in-array 2 9006 2 1
+/photos/d/kaylan@hughes.com 1 4582 0 0
+/made-in-usa/ 1 3224 0 0
+/patterns/sorted/4/5 1 4602 0 0
+/patterns/d/112 1 3532 0 0
+/patterns/sorted/function.in-array/1 2 9602 0 1
+/patterns/d/143 1 3168 0 0
+/patterns/sorted/1 1 5221 0 0
+/patterns/d/62 1 3485 1 1
+/custompatterns/ 1 3337 0 0
+/photos/d/andrea@savelinc.com 2 9192 1 0
+/photos/d/wallcovering/13 3 9954 0 0
+/patterns/d/64 1 3135 0 0
+/the-original-artwork/ 3 9780 2 2
+/patterns/d/144 1 3174 0 0
+/my-account/edit-address/ 2 6440 1 1
+/patterns/sorted/andrea@savelinc.com/function.in-array 1 5017 1 0
+/shop/handbags/damask/ 2 6392 1 1
+/patterns/g/ 1 5025 0 0
+/patterns/d/124 2 6729 0 0
+/photos/d/fabric/2 3 9823 1 2
+/patterns/sorted/ 2 11388 0 2
+/photos/all/11 7 20691 0 0
+/patterns/d/84 2 6264 0 0
+/c/announcements/ 1 3184 1 1
+/patterns/d/98 1 3141 0 0
+/patterns/g/4 1 4557 1 1
+/patterns/d/133 8 30659 0 1
+/patterns/d/137 1 3124 0 0
+/about/ 1 3200 1 1
+/patterns/d/72 2 6294 1 0
+/custombases/ 1 3322 1 1
+/patterns/d/168 5 19747 0 0
+/patterns/d/107 1 3147 0 1
+/dpages/v/kaylan@hughes.com 1 2718 0 1
+/patterns/d/46 3 9408 2 1
+/patterns/sorted/2/function.in-array 1 4891 1 0
+/patterns/d/146 2 6687 0 0
+/photos/all/26 8 23791 0 0
+/patterns/d/166 6 23099 0 0
+/patterns/sorted/fabric/1 3 11900 0 0
+/patterns/d/125 1 3173 0 0
+/patterns/d/48 1 3142 1 1
+/patterns/g/kaylan@hughes.com 1 4669 1 1
+/dpages/v/ 1 3173 1 0
+/photos/d/ 1 4498 0 0
+/patterns/sorted/media/1 2 9433 1 1
+/patterns/d/172 1 3176 0 0
+/patterns/d/140 1 3134 0 0
+/patterns/d/117 2 6326 0 0
+/patterns/d/27 1 4503 0 0
+/patterns/d/57 2 6268 1 0
+/patterns/d/26 1 4503 0 0
+/patterns/sorted/wallcovering/2 2 20442 0 0
+/shop/handbags/diety/ 2 6392 1 1
+/patterns/d/29 2 6256 1 1
+/adm/patterns/edit/164 2 16520 0 0
+/as-seen-on-tv/ 1 3232 0 0
+/patterns/d/51 1 3130 0 1
+/patterns/d/39 1 3135 0 1
+/patterns/sorted/kaylan@hughes.com/1 2 9602 1 1
+/my-account/view-order/ 2 6791 1 1
+/presscovers/ 3 10119 0 0
+/patterns/d/123 2 6382 0 0
+/patterns/d/114 1 3161 0 0
+/patterns/sorted/media/function.in-array 1 4918 0 0
+/patterns/d/70 3 9408 0 0
+/patterns/d/44 2 6251 1 0
+/presspages/d/24 3 8496 1 1
+/patterns/d/60 1 3129 0 0
+/patterns/g/bgarros@arnitex.com 1 4683 0 1
+/patterns/sorted/5/1 1 4689 0 1
+/patterns/d/121 1 3161 0 0
+/patterns/sorted/andrea@savelinc.com/4 2 9819 0 2
+END_SIDER

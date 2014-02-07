@@ -1,0 +1,14 @@
+<form action="<?= $html->url($formaction) ?>" method="post" class="editdata">
+	<p> 
+		<span class="label">Category</span>
+		<span class="item"><?= $html->input('Tagtype/type') ?></span>
+		<?= $html->tagErrorMsg('Tagtype/type', 'This field is required') ?>
+	</p> 
+	<p>
+		<?= $html->hidden('Tagtype/id') ?>
+		<span class="item"><?= $html->submit('Save Changes') ?></span>
+	</p>
+</form>
+
+
+

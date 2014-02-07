@@ -1,0 +1,13 @@
+<h2 class="pagetitle"><?= $page['Dpage']['pagetitle'] ?></h2>
+<? if($checksession) { ?>
+	<p class="adminlink">
+		[ <?= $html->link('Edit Page','/adm/dpages/edit/'.$page['Dpage']['id']) ?> |
+		<?= $html->link('Delete Page','/adm/dpages/delete/'.$page['Dpage']['id'],null,'Are you sure?') ?> ]
+	</p>
+<? } ?>
+
+<?= contactForm($page['Dpage']['content'],$this) ?>
+
+<? if(is_numeric($page['Parent']['id'])) { ?>
+	<p><?= $html->link('<< back to '.$page['Parent']['linktext'],'/dpages/v/'.$page['Parent']['id']) ?></p>
+<? } ?>

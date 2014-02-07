@@ -1,0 +1,17 @@
+<p class="adminlink">
+	<?= $html->link('add pattern','/adm/custompatterns/add/') ?> |
+	<?= $html->link('reorder patterns','/adm/custompatterns/reorder/') ?>	
+</p>
+
+<div class="thumbs adminlink">
+	<? foreach($page as $pattern) { ?>
+		<div class="interior">
+		<img src="<?= $html->url('/'.$pattern['Custompattern']['thumbpath']) ?>" /><br />
+		<?= $pattern['Custompattern']['name'] ?><br />
+		<?= $html->link('colors','/adm/custompatterncolors/index/'.$pattern['Custompattern']['id']) ?> |
+		<?= $html->link('edit','/adm/custompatterns/edit/'.$pattern['Custompattern']['id']) ?> |
+		<?= $html->link('delete','/adm/custompatterns/delete/'.$pattern['Custompattern']['id']) ?>
+		</div>
+	<? } ?>
+</div>
+
